@@ -37,8 +37,8 @@ def write_middle_section(text, output_file):
 	return
 
 
-# ri 
-def ri(input_filename):
+# ri_top: formats the top section of the file 
+def ri_top(input_filename):
 	with open(input_filename) as f_read:
 		# print f_read.read()
 		tag = "title"
@@ -52,7 +52,8 @@ def ri(input_filename):
 		write_top_section_in_file(header, crumbtile_date, output_file)
 	return True
 
-def ri_2(input_filename):
+# ri_mid: formats the middle section of the file 
+def ri_mid(input_filename):
 	with open(input_filename) as f_read:
 		file_data = f_read.read()
 		tag = "pre>"
@@ -74,9 +75,9 @@ def main():
 		for filename in files:
 			if ".md" in filename and "index" not in filename:
 				print os.path.join(root, filename)
-				top_section = ri(os.path.join(root, filename))
+				top_section = ri_top(os.path.join(root, filename))
 				if top_section:
-					middle_section = ri_2(os.path.join(root, filename))
+					middle_section = ri_mid(os.path.join(root, filename))
 	pass
 
 # Calling main function 
