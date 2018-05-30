@@ -30,16 +30,26 @@ def write_top_section_in_file(header, crumbtile_date, output_file):
 	return
 
 
-# main 
-
-with open("august-9-1993.md") as f_read:
+# ri 
+def ri(input_filename):
+	with open(input_filename) as f_read:
 	# print f_read.read()
-	tag = "title"
-	header = str(scrape_header(tag, f_read.readline()))
-	crumbtile_date = str(scrape_crumbtile(header))
-	output_file = "august-9-1993_out.md"
-	write_top_section_in_file(header, crumbtile_date, output_file)
-	
+		tag = "title"
+		header = str(scrape_header(tag, f_read.readline()))
+		crumbtile_date = str(scrape_crumbtile(header))
+		temp = input_filename.split(".")
+		output_file = temp[0] + "_out." + temp[1]
+		write_top_section_in_file(header, crumbtile_date, output_file)
+	return
+
+
+
+def main():
+	ri("august-9-1993.md")
+	pass
+
+# Calling main function 
+main()	
 
 
 
