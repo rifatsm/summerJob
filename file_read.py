@@ -61,27 +61,44 @@ def ri_mid(input_filename):
 		temp = input_filename.split(".")
 		output_file = temp[0] + "_out." + temp[1]
 		write_middle_section(data_text, output_file)
-	return
+	return True
 
-def main():
-	cur_dir = "/Users/rifatsm/Extension Test/minutes"
-	# print os.listdir(cur_dir) # lists the directories in the current directory
-	os_walk = os.walk(cur_dir)
-	md_list = []
-	i=0
-	regex = re.compile(".*(.md)")
+def ri_index(input_filename):
+	with open(input_filename) as f_read:
+		file_data = f_read.read()
+		# link_list = re.search(r'(<li><a href=) .* (</a>)', file_data)
+		link_list = re.findall(r'(<li><a href=)([^<]*)', file_data)
+		data_text = ""
+		if link_list:
+			for link in link_list:
+				data_text = data_text + link[0]+link[1]+"</a>" + "\n"
+		# print data_text
 
-	for root, dirs, files in os.walk(cur_dir):
+		temp = input_filename.split(".")
+		output_file = temp[0] + "_out." + temp[1]
+		write_middle_section(data_text, output_file)
+	return True
+
+def main(directory):
+	for root, dirs, files in os.walk(directory):
 		for filename in files:
+			root_and_filename = os.path.join(root, filename)
 			if ".md" in filename and "index" not in filename:
-				print os.path.join(root, filename)
-				top_section = ri_top(os.path.join(root, filename))
+				print root_and_filename
+				top_section = ri_top(root_and_filename)
 				if top_section:
-					middle_section = ri_mid(os.path.join(root, filename))
+					middle_section = ri_mid(root_and_filename)
+			if "index.md" in filename:
+				print "**************************"
+				print root_and_filename
+				top_section = ri_top(root_and_filename)
+				if top_section:
+					index_files = ri_index(root_and_filename) 
 	pass
 
 # Calling main function 
-main()	
+main("/Users/rifatsm/Extension Test/minutes")
+# ri_index("index.md")	
 
 
 
