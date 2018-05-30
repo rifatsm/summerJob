@@ -1,6 +1,6 @@
 May 30, 2018
 
-- Creating a script to scrape the necessary data from previous files, format it, and then write into the new files
+- (done) Creating a script to scrape the necessary data from previous files, format it, and then write into the new files
  = Useful resources:
   - Copy the contents of one file to another: https://www.sanfoundry.com/python-program-copy-contents-file-another/
   - Documentation of Python file operactions: https://docs.python.org/2/tutorial/inputoutput.html
@@ -9,3 +9,7 @@ May 30, 2018
   - Regular Expression (RegEx) in Python: https://docs.python.org/3/howto/regex.html
    - https://www.tutorialspoint.com/python/python_reg_expressions.htm
   - Searching for a string in a list: http://www.cademuir.eu/blog/2011/10/20/python-searching-for-a-string-within-a-list-list-comprehension/
+
+ = Resources from Soumik regarding RegEx:
+  - For learning purpose: http://www.regular-expressions.info/
+  - For testing and playing purpose: https://pythex.org/
