@@ -1,0 +1,9 @@
+May 30, 2018
+
+- Creating a script to scrape the necessary data from previous files, format it, and then write into the new files
+ = Useful resources:
+  - Copy the contents of one file to another: https://www.sanfoundry.com/python-program-copy-contents-file-another/
+  - Documentation of Python file operactions: https://docs.python.org/2/tutorial/inputoutput.html
+  - Checking a substring pattern in a string: https://stackoverflow.com/questions/3437059/does-python-have-a-string-contains-substring-method
+  - Python substring: https://stackoverflow.com/questions/663171/is-there-a-way-to-substring-a-string-in-python
+  - Regular Expression (RegEx) in Python: https://docs.python.org/3/howto/regex.html

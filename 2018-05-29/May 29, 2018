@@ -1,0 +1,35 @@
+Tasks May 29, 2018
+
+- (done) Sublime Text - older version available - update requires administrative pass - update done 
+- (done) Sign in to code.vt.edu
+- (done) Set up Jekyll 
+	- (done) pull git repo: 
+	 - Go to code.vt.edu, then Virginia Tech, then sign in, then it-services/jekyll-test
+	- https://jekyllrb.com/ - install jekyll - requires administrative permission
+		- we had to remove homebrew, which was installed and accessed only by Fahad
+		- then we installed homebrew again 
+		- with brew, we updated ruby 
+		- then we used the latest ruby to install gem
+- Getting familiar with Jekyll
+ - http://jekyll-test.vtlibcloud.com/
+ - Navigation tabs 
+ 	- University Libraries (works)
+ 	- Policies 
+ 	 	- 1, 2, and 4 links don't work as of now
+ 		- 3 - Gifts and Donations - works
+ 	- Research and Learning 
+ 		- 3 of the links work, but blank pages
+ 	- Collections 
+ 		- 8 of the links work, but blank pages
+ 	- More
+ 		- 3 of the links work, but 2 of them are blank pages
+ 		- About page displays a static page
+- Documenting Set up process of Jekyll
+	- ReadMe file 
+	- Wiki page in Code.vt.edu
+- (done) Creating a script file for changing file extension
+ - https://gomputor.wordpress.com/2008/09/29/change-the-extension-of-multiple-files-in-a-chosen-directory-with-python/
+- (done) Renaming files 
+ - https://gist.github.com/igniteflow/1226919
+
+
