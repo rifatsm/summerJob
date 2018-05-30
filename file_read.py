@@ -1,6 +1,6 @@
 ## Copy the contents of one file to another
 
-import re
+import os, re 
 
 def scrape_header(tag, line):
 	if tag in line:
@@ -29,23 +29,54 @@ def write_top_section_in_file(header, crumbtile_date, output_file):
 		f_write.write("\n")
 	return
 
+def write_middle_section(text, output_file):
+	with open(output_file, "a+") as f_write:
+		f_write.write("\n")
+		f_write.write("\n")
+		f_write.write(text)
+	return
+
 
 # ri 
 def ri(input_filename):
 	with open(input_filename) as f_read:
-	# print f_read.read()
+		# print f_read.read()
 		tag = "title"
 		header = str(scrape_header(tag, f_read.readline()))
-		crumbtile_date = str(scrape_crumbtile(header))
+		if " - " in header:
+			crumbtile_date = str(scrape_crumbtile(header))
+		else:
+			return False
 		temp = input_filename.split(".")
 		output_file = temp[0] + "_out." + temp[1]
 		write_top_section_in_file(header, crumbtile_date, output_file)
+	return True
+
+def ri_2(input_filename):
+	with open(input_filename) as f_read:
+		file_data = f_read.read()
+		tag = "pre>"
+		data_text = file_data.split(tag)[1][:-2]
+		temp = input_filename.split(".")
+		output_file = temp[0] + "_out." + temp[1]
+		write_middle_section(data_text, output_file)
 	return
 
-
-
 def main():
-	ri("august-9-1993.md")
+	cur_dir = "/Users/rifatsm/Extension Test/minutes"
+	# print os.listdir(cur_dir) # lists the directories in the current directory
+	os_walk = os.walk(cur_dir)
+	md_list = []
+	i=0
+	regex = re.compile(".*(.md)")
+
+	for root, dirs, files in os.walk(cur_dir):
+		for filename in files:
+			if ".md" in filename and "index" not in filename:
+				print os.path.join(root, filename)
+				top_section = ri(os.path.join(root, filename))
+				if top_section:
+					middle_section = ri_2(os.path.join(root, filename))
 	pass
 
 # Calling main function 
