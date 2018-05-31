@@ -21,4 +21,6 @@ def change_file_ext(cur_dir, old_ext, new_ext, sub_dirs=False):
 # change_file_ext('/Users/rifatsm/Extension Test', '.html', '.md', True)
 
 # Actual Link:
-change_file_ext('/Users/rifatsm/jekyll-test/services/archives/minutes', '.html', '.md', True)
+# change_file_ext('/Users/rifatsm/jekyll-test/services/archives/minutes', '.html', '.md', True)
+# change_file_ext('/Users/rifatsm/jekyll-test/services/archives/minutes', '.md', '.html', True)
+change_file_ext('/Users/rifatsm/jekyll-test/services/archives/minutes/bcm', '.html', '.md', True)

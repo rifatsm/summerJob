@@ -48,7 +48,8 @@ def ri_top(input_filename):
 		else:
 			return False
 		temp = input_filename.split(".")
-		output_file = temp[0] + "_out." + temp[1]
+		output_file = temp[0] + ".md" #+ temp[1]
+		# output_file = input_filename
 		write_top_section_in_file(header, crumbtile_date, output_file)
 	return True
 
@@ -59,7 +60,8 @@ def ri_mid(input_filename):
 		tag = "pre>"
 		data_text = file_data.split(tag)[1][:-2]
 		temp = input_filename.split(".")
-		output_file = temp[0] + "_out." + temp[1]
+		output_file = temp[0] + ".md" # + temp[1]
+		# output_file = input_filename
 		write_middle_section(data_text, output_file)
 	return True
 
@@ -71,38 +73,46 @@ def ri_index(input_filename):
 		data_text = ""
 		if link_list:
 			for link in link_list:
-				data_text = data_text + link[0]+link[1]+"</a>" + "\n"
+				temp_link = link[1]
+				temp_link = temp_link.replace("++","-")
+				temp_link = temp_link.replace("+","-")
+				temp_link = temp_link[0] + temp_link[1].lower() + temp_link[2:]
+				data_text = data_text + link[0]+temp_link+"</a>" + "\n"
 		# print data_text
 
 		temp = input_filename.split(".")
-		output_file = temp[0] + "_out." + temp[1]
+		output_file = temp[0] + ".md" # + temp[1]
+		# output_file = input_filename
 		write_middle_section(data_text, output_file)
 	return True
 
 def add_line_break(input_filename):
 	with open(input_filename) as f_read:
 		file_data = f_read.read()
+
 		# print file_data[106:]
 		# print file_data[:107]
-		modified_data = file_data[108:].replace("\n\n", "<br>\n")
-		# print modified_data
+
+		# #############################
+		modified_data = file_data[108:].replace("\n\n \n\n", "<br>\n")
 		temp = input_filename.split(".")
 		output_file = temp[0] + "_2." + temp[1]
 		with open(output_file, "w") as f_write:
 			f_write.write(file_data[:107])
 			f_write.write(modified_data)
+		# #############################
 	return True
 
 def main(directory):
 	for root, dirs, files in os.walk(directory):
 		for filename in files:
 			root_and_filename = os.path.join(root, filename)
-			if ".md" in filename and "index" not in filename:
+			if ".html" in filename and "index" not in filename:
 				print root_and_filename
 				top_section = ri_top(root_and_filename)
 				if top_section:
 					middle_section = ri_mid(root_and_filename)
-			if "index.md" in filename:
+			if "index.html" in filename:
 				print "**************************"
 				print root_and_filename
 				top_section = ri_top(root_and_filename)
@@ -111,9 +121,14 @@ def main(directory):
 	pass
 
 # Calling main function 
+# Testing location 
 # main("/Users/rifatsm/Extension Test/minutes")
-add_line_break("august-9-1993_out.md")
-# ri_index("index.md")	
+
+# Actual location 
+main("/Users/rifatsm/jekyll-test/services/archives/minutes")
+
+# add_line_break("august-9-1993_out.md")
+# ri_index("index.html")	 
 
 
 
