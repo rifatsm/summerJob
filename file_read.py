@@ -79,6 +79,20 @@ def ri_index(input_filename):
 		write_middle_section(data_text, output_file)
 	return True
 
+def add_line_break(input_filename):
+	with open(input_filename) as f_read:
+		file_data = f_read.read()
+		# print file_data[106:]
+		# print file_data[:107]
+		modified_data = file_data[108:].replace("\n\n", "<br>\n")
+		# print modified_data
+		temp = input_filename.split(".")
+		output_file = temp[0] + "_2." + temp[1]
+		with open(output_file, "w") as f_write:
+			f_write.write(file_data[:107])
+			f_write.write(modified_data)
+	return True
+
 def main(directory):
 	for root, dirs, files in os.walk(directory):
 		for filename in files:
@@ -97,7 +111,8 @@ def main(directory):
 	pass
 
 # Calling main function 
-main("/Users/rifatsm/Extension Test/minutes")
+# main("/Users/rifatsm/Extension Test/minutes")
+add_line_break("august-9-1993_out.md")
 # ri_index("index.md")	
 
 

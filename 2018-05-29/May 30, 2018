@@ -10,6 +10,8 @@ May 30, 2018
    - https://www.tutorialspoint.com/python/python_reg_expressions.htm
   - Searching for a string in a list: http://www.cademuir.eu/blog/2011/10/20/python-searching-for-a-string-within-a-list-list-comprehension/
 
+- Adding <br> at every end of line 
+
  = Resources from Soumik regarding RegEx:
   - For learning purpose: http://www.regular-expressions.info/
   - For testing and playing purpose: https://pythex.org/
