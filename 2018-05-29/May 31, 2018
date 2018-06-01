@@ -2,8 +2,8 @@ May 31, 2018
 
 - The following files contain items that hinder the build of jekyll. These files should be kept separate before running the `jekyll serve` command
 	- services/archives/minutes/fsm/1994/-reinventing-tech---past-senate-president-s-address.md (optional)
-	- services/archives/minutes/fsm/1991/september-10-1991.md
-	- services/archives/minutes/fcb/1991/february-22-1991.md
+	- (solved) services/archives/minutes/fsm/1991/september-10-1991.md
+	- (solved) services/archives/minutes/fcb/1991/february-22-1991.md
 
 - The files under the directory `services/archives/minutes/spc` (spc -> Space Allocations) needs to reformatted and aligned to work 
 

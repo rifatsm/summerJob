@@ -3,7 +3,7 @@ June 01, 2018
 - (done) Created a python script to automatically format many of the unsupported files. 
 - (done) Successfully applied the script on many of the unsupported files
 - (done) Manually format the remaining anomalous files
-- () Manually format the erroneous files
+- (done) Manually format the erroneous files
 - (done) Create a script to automatically reduce the breakpoints in the the files.
 - (done) Remove the special ampersand character `&amp` 
 - () Format the tables in the unsupported files
