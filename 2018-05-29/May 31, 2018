@@ -19,10 +19,11 @@ May 31, 2018
 
 = Useful Resources
  - Linux command to remove/delete with pattern: https://askubuntu.com/questions/43709/how-do-i-remove-all-files-that-match-a-pattern
+ 	-$ find . -name '*.orig' -delete
+
  - 
 
 
  # Tasks:
   - Manually format 3 exceptional files
   - Create a script to format the upper `Minute` portion of the files
-  

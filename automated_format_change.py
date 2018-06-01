@@ -86,6 +86,7 @@ def ri_index(input_filename):
 		write_middle_section(data_text, output_file)
 	return True
 
+# deprecated 
 def add_line_break(input_filename):
 	with open(input_filename) as f_read:
 		file_data = f_read.read()
@@ -101,6 +102,46 @@ def add_line_break(input_filename):
 			f_write.write(file_data[:107])
 			f_write.write(modified_data)
 		# #############################
+	return True
+
+def auto_design_change(input_filename):
+	with open(input_filename) as f_read:
+		file_data = f_read.read()
+		data_text = file_data.split("\n---\n")
+		if "Present:" in data_text[1]:
+			end_text = data_text[1].split("Present:")
+			modified_data = data_text[0] + "\n---\n\n" + "<p><strong>" + end_text[0][5:].replace("  ","").replace("\n\n","<br>") + "<br></strong></p>" + "<br>" + "Present:" + end_text[1]
+		elif "PRESENT:" in data_text[1]:
+			end_text = data_text[1].split("PRESENT:")
+			modified_data = data_text[0] + "\n---\n\n" + "<p><strong>" + end_text[0][5:].replace("  ","").replace("\n\n","<br>") + "<br></strong></p>" + "<br>" + "PRESENT:" + end_text[1]
+			# print data_text[1]
+			# print data_text
+			# print end_text
+		else:
+			print "@@@@ " +  input_filename
+			return False
+		
+		# print modified_data
+		# temp = input_filename.split(".")
+		# output_file = temp[0] + "_auto." + temp[1]
+		# with open(output_file, "w") as f_write:
+		with open(input_filename, "w") as f_write:
+			f_write.write(modified_data)
+	return True
+
+# Files where paragraph starts with `Minutes` and ends with `Attending`
+def unsupported_files_design_change(input_filename):
+	with open(input_filename) as f_read:
+		file_data = f_read.read()
+		data_text = file_data.split("\n---\n")
+		if "Attending:" in data_text[1]:
+			end_text = data_text[1].split("Attending:")
+			modified_data = data_text[0] + "\n---\n\n" + "<p><strong>" + end_text[0][5:].replace("  ","").replace("\n\n","<br>") + "<br></strong></p>" + "<br>" + "Attending:" + end_text[1]
+		else:
+			print "$$$$ " + input_filename
+			return False
+		with open(input_filename, "w") as f_write:
+			f_write.write(modified_data)
 	return True
 
 def main(directory):
@@ -120,12 +161,52 @@ def main(directory):
 					index_files = ri_index(root_and_filename) 
 	pass
 
+def main_for_auto_design_change(directory):
+	count = 0
+	failed_file_list = []
+	for root, dirs, files in os.walk(directory):
+		for filename in files:
+			root_and_filename = os.path.join(root, filename)
+			if ".md" in filename and "index" not in filename:
+				print root_and_filename
+				result = auto_design_change(root_and_filename)
+				if not result:
+					count = count + 1
+					failed_file_list.append(root_and_filename)
+	with open("/Users/rifatsm/jekyll-test/services/archives/failed_file_list.txt", "w") as f_write:
+		f_write.write("failed count: " + str(count) + "\n")
+		f_write.write("failed file list: \n")
+		for file in failed_file_list:
+			f_write.write(str(file))
+			f_write.write("\n")
+	print "failed count: " + str(count)
+	print "failed file list: " + str(failed_file_list)
+	pass
+
 # Calling main function 
 # Testing location 
 # main("/Users/rifatsm/Extension Test/minutes")
 
 # Actual location 
-main("/Users/rifatsm/jekyll-test/services/archives/minutes")
+# main("/Users/rifatsm/jekyll-test/services/archives/minutes")
+# Auto Design Change Main
+# main_for_auto_design_change("/Users/rifatsm/Extension Test/auto_design_change_data/minutes")
+# main_for_auto_design_change("/Users/rifatsm/jekyll-test/services/archives/minutes")
+
+# unsupported_files_design_change("/Users/rifatsm/jekyll-test/services/archives/minutes/cnc/1991/february-27-1991.md")
+# unsupported_files_design_change("/Users/rifatsm/jekyll-test/services/archives/minutes/cnc/1991/january-30-1991.md")
+# unsupported_files_design_change("/Users/rifatsm/jekyll-test/services/archives/minutes/cnc/1991/march-27-1991.md")
+# unsupported_files_design_change("/Users/rifatsm/jekyll-test/services/archives/minutes/cnc/1991/may-29-1991.md")
+# unsupported_files_design_change("/Users/rifatsm/jekyll-test/services/archives/minutes/cnc/1991/november-20-1991.md")
+# unsupported_files_design_change("/Users/rifatsm/jekyll-test/services/archives/minutes/cnc/1991/october-30-1991.md")
+# unsupported_files_design_change("/Users/rifatsm/jekyll-test/services/archives/minutes/cnc/1991/september-25-1991.md")
+
+
+# unsupported_files_design_change("/Users/rifatsm/jekyll-test/services/archives/minutes/cnc/1992/april-29-1992.md")
+# unsupported_files_design_change("/Users/rifatsm/jekyll-test/services/archives/minutes/cnc/1992/february-26-1992.md")
+# unsupported_files_design_change("/Users/rifatsm/jekyll-test/services/archives/minutes/cnc/1992/january-29-1992.md")
+
+# auto_design_change("august-9-1993.md")
 
 # add_line_break("august-9-1993_out.md")
 # ri_index("index.html")	 
