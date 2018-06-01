@@ -144,6 +144,34 @@ def unsupported_files_design_change(input_filename):
 			f_write.write(modified_data)
 	return True
 
+# A script for automatically reduce the number of breakpoints in the files. 
+def reduce_break_points(input_filename):
+	with open(input_filename) as f_read:
+		file_data = f_read.read()
+		modified_data = file_data.replace("<br> <br>", "<br> ")
+		modified_data = modified_data.replace("<br>  <br>", "<br> ")
+		modified_data = modified_data.replace("<br> <br>", "<br>")
+
+		# temp = input_filename.split(".")
+		# output_file = temp[0] + "_out." + temp[1]
+		with open(input_filename, "w") as f_write:
+			f_write.write(modified_data)
+	return True
+
+
+# Replace ampersand character
+def replace_ampersand_char(input_filename):
+	with open(input_filename) as f_read:
+		file_data = f_read.read()
+		if "&amp;" in file_data:
+			modified_data = file_data.replace("&amp;", "&")
+			print input_filename
+		else: 
+			modified_data = file_data
+		with open(input_filename, "w") as f_write:
+			f_write.write(modified_data)
+	return True
+
 def main(directory):
 	for root, dirs, files in os.walk(directory):
 		for filename in files:
@@ -183,6 +211,37 @@ def main_for_auto_design_change(directory):
 	print "failed file list: " + str(failed_file_list)
 	pass
 
+def main_for_reduce_breakpoints(directory):
+	for root, dirs, files in os.walk(directory):
+		for filename in files:
+			root_and_filename = os.path.join(root, filename)
+			if ".md" in filename and "index" not in filename:
+				# print root_and_filename
+				result = reduce_break_points(root_and_filename)
+				if not result:
+					print root_and_filename
+	pass
+
+
+def main_for_replace_ampersand(directory):
+	for root, dirs, files in os.walk(directory):
+		for filename in files:
+			root_and_filename = os.path.join(root, filename)
+			if ".md" in filename and "index" not in filename:
+				# print root_and_filename
+				result = replace_ampersand_char(root_and_filename)
+				if not result:
+					print "### " + root_and_filename
+	pass
+
+def files_count(directory):
+	count = 0
+	for root, dirs, files in os.walk(directory):
+		for filename in files:
+			count = count + 1 
+	print count 
+			
+	pass
 # Calling main function 
 # Testing location 
 # main("/Users/rifatsm/Extension Test/minutes")
@@ -192,19 +251,13 @@ def main_for_auto_design_change(directory):
 # Auto Design Change Main
 # main_for_auto_design_change("/Users/rifatsm/Extension Test/auto_design_change_data/minutes")
 # main_for_auto_design_change("/Users/rifatsm/jekyll-test/services/archives/minutes")
-
-# unsupported_files_design_change("/Users/rifatsm/jekyll-test/services/archives/minutes/cnc/1991/february-27-1991.md")
-# unsupported_files_design_change("/Users/rifatsm/jekyll-test/services/archives/minutes/cnc/1991/january-30-1991.md")
-# unsupported_files_design_change("/Users/rifatsm/jekyll-test/services/archives/minutes/cnc/1991/march-27-1991.md")
-# unsupported_files_design_change("/Users/rifatsm/jekyll-test/services/archives/minutes/cnc/1991/may-29-1991.md")
-# unsupported_files_design_change("/Users/rifatsm/jekyll-test/services/archives/minutes/cnc/1991/november-20-1991.md")
-# unsupported_files_design_change("/Users/rifatsm/jekyll-test/services/archives/minutes/cnc/1991/october-30-1991.md")
-# unsupported_files_design_change("/Users/rifatsm/jekyll-test/services/archives/minutes/cnc/1991/september-25-1991.md")
+# main_for_replace_ampersand("/Users/rifatsm/jekyll-test/services/archives/minutes")
+# files_count("/Users/rifatsm/jekyll-test/services/archives/minutes")
 
 
-# unsupported_files_design_change("/Users/rifatsm/jekyll-test/services/archives/minutes/cnc/1992/april-29-1992.md")
-# unsupported_files_design_change("/Users/rifatsm/jekyll-test/services/archives/minutes/cnc/1992/february-26-1992.md")
-# unsupported_files_design_change("/Users/rifatsm/jekyll-test/services/archives/minutes/cnc/1992/january-29-1992.md")
+# reduce_break_points("august-9-1993.md")
+
+
 
 # auto_design_change("august-9-1993.md")
 
