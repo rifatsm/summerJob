@@ -1,0 +1,13 @@
+June 04, 2018
+
+- (done) Format the tables in the unsupported files
+- Started with the `collection` section 
+- Files formatted
+	- american-civil-war
+		- index.html
+		- Billings.html
+
+= Useful Resources:
+ - Multiple lines mass edit in Sublime Text Editor: https://stackoverflow.com/questions/22099813/sublime-text-2-multiple-line-edit
+ - Resolving merge conflicts manually: https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/
+ - Perform search in all the files in a directory in Sublime Text: https://stackoverflow.com/questions/20519040/search-in-all-files-in-a-project-in-sublime-text-3/20519244

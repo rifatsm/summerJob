@@ -8,7 +8,7 @@ June 01, 2018
 - (done) Remove the special ampersand character `&amp` 
 - () Format the tables in the unsupported files
 
-# An interesting note; I counted the total files in the `minute` directory today. As it turns out, there are 713 files in that directory to be exact!!! This would have been a very very looooong tedious work if it were not for the automated scripts. 
+# An interesting note; I counted the total files in the `minute` directory today. As it turns out, there are over 715 files in that directory!!! This would have been a very very looooong tedious work if it were not for the automated scripts. 
 
 = Useful Resources:
  - Formatting Text with Markdown: https://support.zendesk.com/hc/en-us/articles/203691016-Formatting-text-with-Markdown
