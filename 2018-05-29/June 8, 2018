@@ -1,0 +1,17 @@
+June 8, 2018
+
+ - All the culinary files are formatted 
+ - initiate merge request
+
+
+## New Repo:
+ - source repo: scholar-ejournal-meta
+ 	- take the meta data in the header
+ - destination repo: scholar-restyling/ejournal
+ 	- include "DC" "schema" in the link and meta tag
+ 	- exclude title, stylesheet, script, "<meta http-equiv..."
+
+
+## Tasks:
+ - cloned the new two repo
+ - 

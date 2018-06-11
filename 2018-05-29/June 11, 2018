@@ -1,0 +1,9 @@
+June 11, 2018
+
+	- Developing a script to list the meta data from the files in one directory and include them to the files in another directory
+		- content list is created by reading a file 
+		- filename is checked to find the same filename in another directory
+		- content list is formatted into content string to fit inside the destination file 
+		- content string is inserted inside the destination file 
+		- Checking is applied to see if content string already exists inside the destination file or not. Now we can run the simulation as much we want without worrying about multiple copies of the content string 
+		
