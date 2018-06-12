@@ -1,0 +1,21 @@
+June 12, 2018
+
+On-going from June 11, 2018
+
+Previously done:
+	- Developing a script to list the meta data from the files in one directory and include them to the files in another directory
+		- content list is created by reading a file 
+		- filename is checked to find the same filename in another directory
+		- content list is formatted into content string to fit inside the destination file 
+		- content string is inserted inside the destination file 
+		- Checking is applied to see if content string already exists inside the destination file or not. Now we can run the simulation as much we want without worrying about multiple copies of the content string 
+
+Done today:
+		- Developed script to include new meta content in a file 
+		- Checking applied to the .html files for the existence of `head_content`
+		- Checking applied while inserting meta content in a .html file 
+		- Successfully ran the script across the whole source dataset on the testing destination dataset
+		- URGENT: Just matching the filename generates problem. We need to match the directory as well. 
+
+ = Useful Resources:
+ 	- Python substring not in string: https://stackoverflow.com/questions/3437059/does-python-have-a-string-contains-substring-method
