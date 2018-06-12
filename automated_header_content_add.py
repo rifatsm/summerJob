@@ -170,8 +170,6 @@ def automated_header_content_generate(directory1, directory2):
 								
 				# if count > 2:	# Regulating condition 
 				# 	break
-	print "total matched files: " + str(count)
-	print "total missed files: " + str(missing_files_count)
 
 	pass	
 
@@ -179,5 +177,5 @@ def automated_header_content_generate(directory1, directory2):
 # file_count("/Users/rifatsm/scholar-ejournal-meta") # Count 4653 .html files
 # file_count("/Users/rifatsm/ejournals_test_set") # Count 5309 .html files
 # automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta/ALAN/fall94","/Users/rifatsm/ejournals_test_set/ALAN/fall94");
-# automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); # Main data sample. The source is actual location. The destination is testing location 
-calculating_missing_files("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); 
+automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); # Main data sample. The source is actual location. The destination is testing location 
+# calculating_missing_files("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); 

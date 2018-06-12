@@ -18,6 +18,8 @@ Done today:
 		- ERROR: Just matching the filename generates problem. We need to match the directory path as well. 
 		- Displaying the count of source files now 
 		- Implemented a function to determine missing files in the destination folder compared to the source folder 
+		- Solved the Error. 
+		- Ran the script across the whole source dataset on the testing destination dataset; could not find any errors this time. Execution log generated.
 
  = Useful Resources:
  	- Python substring not in string: https://stackoverflow.com/questions/3437059/does-python-have-a-string-contains-substring-method
