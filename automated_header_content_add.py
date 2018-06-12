@@ -36,10 +36,6 @@ def store_meta_content_in_file(content_list):
 	return True
 
 
-def check_if_unique_content(content):
-
-	return True
-
 def list_to_string_with_newline(content_list):
 	content_string = "\n\n<!--@rifatsm -- content insert -->\n\n"
 	for content in content_list:
@@ -64,11 +60,14 @@ def insert_content(output_root_and_filename, content_string):
 		f_write.write(new_file_data)
 	return True
 
-def filename_match(filename, directory):
-	for root, dirs, files in os.walk(directory):
+def filename_match(source_path, destination_directory): # We need to change this file matching. We need to consider the filepath along with filename. Multiple files with the same name exists. 
+	for root, dirs, files in os.walk(destination_directory):
 		for f in files:
-			if f == filename:
-				return os.path.join(root, f)
+			destination_full_path = os.path.join(root, f)
+			destination_path = destination_full_path.split(destination_directory)[1]
+			# print "destination_path: "+destination_path
+			if destination_path == source_path:
+				return destination_full_path
 	return "N/A"
 
 def header_content_read(input_filename):
@@ -113,31 +112,66 @@ def file_count(directory):
 				print "#" +str(count) + " input_filename: " + root_and_filename
 	pass	
 
-
-
-def automated_header_content_generate(directory1, directory2):
+def calculating_missing_files(directory1, directory2):
 	count = 0
+	missing_files_count = 0
 	for root, dirs, files in os.walk(directory1):
 		for filename in files:
 			root_and_filename = os.path.join(root, filename)
 			if ".html" in filename:
-				print "input_filename: " + root_and_filename
-				output_root_and_filename = filename_match(filename, directory2)
+				count = count + 1
+				source_filepath = root_and_filename.split(directory1)[1]
+				print "#" + str(count) + " source_filepath: " + source_filepath
+				output_root_and_filename = filename_match(source_filepath, directory2)
+				destination_path = ""
+				if directory2 in output_root_and_filename:
+					destination_path = output_root_and_filename.split(directory2)[1]
+				else:
+					destination_path = output_root_and_filename
+					missing_files_count = missing_files_count + 1
+				print "destination_path: "+destination_path
+	print "total matched files: " + str(count)
+	print "total missed files: " + str(missing_files_count)
+
+	pass	
+
+
+def automated_header_content_generate(directory1, directory2):
+	count = 0
+	missing_files_count = 0
+	for root, dirs, files in os.walk(directory1):
+		for filename in files:
+			root_and_filename = os.path.join(root, filename)
+			if ".html" in filename:
+				count = count + 1
+				source_filepath = root_and_filename.split(directory1)[1]
+				print "#" + str(count) + " source_filepath: " + source_filepath
+				output_root_and_filename = filename_match(source_filepath, directory2)
+				destination_path = ""
+				if directory2 in output_root_and_filename:
+					destination_path = output_root_and_filename.split(directory2)[1]
+				else:
+					destination_path = output_root_and_filename
+					missing_files_count = missing_files_count + 1
+				print "destination_path: "+destination_path
+				
 				if output_root_and_filename == "N/A":
 					print "Destination file not found"
 					continue
 				else:
-					print output_root_and_filename
+					print "Output_filename: " + output_root_and_filename
 				content_list = header_content_read(root_and_filename)
 				# print content_list
 				content_string = list_to_string_with_newline(content_list)
 				# print content_string
+
 				insert_content(output_root_and_filename, content_string)
 				store_meta_content_in_file(content_list)
-				count = count + 1
-				
-				if count > 20:	# Regulating condition 
-					break
+								
+				# if count > 2:	# Regulating condition 
+				# 	break
+	print "total matched files: " + str(count)
+	print "total missed files: " + str(missing_files_count)
 
 	pass	
 
@@ -145,4 +179,5 @@ def automated_header_content_generate(directory1, directory2):
 # file_count("/Users/rifatsm/scholar-ejournal-meta") # Count 4653 .html files
 # file_count("/Users/rifatsm/ejournals_test_set") # Count 5309 .html files
 # automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta/ALAN/fall94","/Users/rifatsm/ejournals_test_set/ALAN/fall94");
-automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); # Main data sample. The source is actual location. The destination is testing location 
+# automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); # Main data sample. The source is actual location. The destination is testing location 
+calculating_missing_files("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); 
