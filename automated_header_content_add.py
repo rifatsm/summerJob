@@ -1,6 +1,6 @@
 import os
 
-
+# This function is for storing the unique contents in a file for future analysis
 def store_meta_content_in_file(content_list):
 	filename = "/Users/rifatsm/Tasks/ejournals_meta_content.txt"
 	file_data = ""
@@ -35,13 +35,14 @@ def store_meta_content_in_file(content_list):
 		
 	return True
 
-
+# This function is for converting content list to content string with newline
 def list_to_string_with_newline(content_list):
 	content_string = "\n\n<!--@rifatsm -- content insert -->\n\n"
 	for content in content_list:
 		content_string = content_string + content + "\n"
 	return content_string
 
+# This function is for inserting the content in the destination file header
 def insert_content(output_root_and_filename, content_string):
 	new_file_data = ""
 	with open(output_root_and_filename) as f_destination:
@@ -60,7 +61,8 @@ def insert_content(output_root_and_filename, content_string):
 		f_write.write(new_file_data)
 	return True
 
-def filename_match(source_path, destination_directory): # We need to change this file matching. We need to consider the filepath along with filename. Multiple files with the same name exists. 
+# This function is for matching the source file name (with parent folder) with destination file name (with parent folder)
+def filename_match(source_path, destination_directory): # (done) We need to change this file matching. We need to consider the filepath along with filename. Multiple files with the same name exists. 
 	for root, dirs, files in os.walk(destination_directory):
 		for f in files:
 			destination_full_path = os.path.join(root, f)
@@ -70,6 +72,7 @@ def filename_match(source_path, destination_directory): # We need to change this
 				return destination_full_path
 	return "N/A"
 
+# This function is for reading the header meta content in a single source file  
 def header_content_read(input_filename):
 	meta_content_pattern = ("DC", "schema")
 	# comment_pattern = ("<!--", "-->") # Excluding commented links might give raise to bugs. As for now, we are including them
@@ -101,6 +104,7 @@ def header_content_read(input_filename):
 		# print content_list
 	return content_list
 
+# This function is for counting the total number of files in the source location
 def file_count(directory):
 	count = 0
 	for root, dirs, files in os.walk(directory):
@@ -111,6 +115,7 @@ def file_count(directory):
 				print "#" +str(count) + " input_filename: " + root_and_filename
 	pass	
 
+# This function is for calculating missing files, i.e. files that are present in source location but not in destination location
 def calculating_missing_files(directory1, directory2):
 	count = 0
 	missing_files_count = 0
@@ -134,7 +139,7 @@ def calculating_missing_files(directory1, directory2):
 
 	pass	
 
-
+# This function is for automatically copying meta content in the header section of the source files to the destination files
 def automated_header_content_generate(directory1, directory2):
 	count = 0
 	missing_files_count = 0
@@ -172,6 +177,7 @@ def automated_header_content_generate(directory1, directory2):
 
 	pass	
 
+# This function is to read the coins_content from a single source file 
 def coins_z3988_content_read(input_filename):
 	meta_content_pattern = "class=\"Z3988\""
 	with open(input_filename) as f_read:
@@ -181,9 +187,9 @@ def coins_z3988_content_read(input_filename):
 			data_text = file_data.split("<body>")[1]
 			if meta_content_pattern in data_text:
 				# print "COinS exists in " + input_filename 
-				temp_text = data_text.split("<span class=\"Z3988\"")[1]
+				temp_text = data_text.split("class=\"Z3988\"")[1]
 				temp_text = temp_text.split("</span>")[0]
-				coins_content = "<span class=\"Z3988\"" + temp_text + "</span>"
+				coins_content = "class=\"Z3988\"" + temp_text + "</span>"
 				# print coins_content
 				return coins_content
 			else:
@@ -192,6 +198,30 @@ def coins_z3988_content_read(input_filename):
 			return "N/B"
 	return "File Error"
 
+
+# This function calculates the total number of COinS content in a single source file 
+def coins_z3988_content_read_total_count(input_filename):
+	meta_content_pattern = "class=\"Z3988\""
+	length = 0
+	with open(input_filename) as f_read:
+		file_data = f_read.read()
+		data_text = ""
+		if "<body>" in file_data:
+			data_text = file_data.split("<body>")[1]
+			if meta_content_pattern in data_text:
+				# print "COinS exists in " + input_filename 
+				length = len(data_text.split("class=\"Z3988\""))
+				if length > 1:
+					print "length: " + str(length)
+				# print coins_content
+				return True
+			else:
+				return "N/A"
+		else:
+			return "N/B"
+	return "File Error"
+
+# This function is for inserting COinS content at the start of the body of the destination files
 def insert_coins_z3988_content(output_root_and_filename, coins_content):
 	data_text = []
 	ri_comment = "<!-- @ri coins Z3988 content added -------------- -->"
@@ -211,6 +241,37 @@ def insert_coins_z3988_content(output_root_and_filename, coins_content):
 		f_write.write(modified_text) 
 	return True
 
+# This function is for calculating the number of occurance of COinS pattern in all the files in the source
+def automated_coins_z3988_content_total_length_calculation(directory1, directory2):
+	count = 0
+	missing_files_count = 0
+	coins_content_err_msg = ("N/A", "N/B", "File Error")
+	for root, dirs, files in os.walk(directory1):
+		for filename in files:
+			root_and_filename = os.path.join(root, filename)
+			if ".html" in filename:
+				count = count + 1
+				source_filepath = root_and_filename.split(directory1)[1]
+				print "#" + str(count) + " source_filepath: " + source_filepath
+				output_root_and_filename = filename_match(source_filepath, directory2)
+				destination_path = ""
+				if directory2 in output_root_and_filename:
+					destination_path = output_root_and_filename.split(directory2)[1]
+				else:
+					destination_path = output_root_and_filename
+					missing_files_count = missing_files_count + 1
+				print "destination_path: "+destination_path
+				
+				if output_root_and_filename == "N/A":
+					print "Destination file not found"
+					continue
+				else:
+					print "Output_filename: " + output_root_and_filename
+				coins_z3988_content = coins_z3988_content_read_total_count(root_and_filename)
+				
+	pass	
+
+# This function is for automatically copying COinS content from source files to destination files. 
 def automated_coins_z3988_content_generate(directory1, directory2):
 	count = 0
 	missing_files_count = 0
@@ -242,17 +303,15 @@ def automated_coins_z3988_content_generate(directory1, directory2):
 					print "Error: " + coins_z3988_content
 				else:
 					insert_coins_z3988_content(output_root_and_filename, coins_z3988_content)
-								
-				# if count > 2:	# Regulating condition 
-				# 	break
 
 	pass	
-
 
 # file_count("/Users/rifatsm/scholar-ejournal-meta") # Count 4653 .html files
 # file_count("/Users/rifatsm/ejournals_test_set") # Count 5309 .html files
 # automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta/ALAN/fall94","/Users/rifatsm/ejournals_test_set/ALAN/fall94");
-automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/ALAN/winter96","/Users/rifatsm/ejournals_test_set/ALAN/winter96");
+# automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/ALAN/winter96","/Users/rifatsm/ejournals_test_set/ALAN/winter96");
 # automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); # Main data sample. The source is actual location. The destination is testing location 
+# automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); # Main data sample. The source is actual location. The destination is testing location 
+automated_coins_z3988_content_total_length_calculation("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); 
 # calculating_missing_files("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); 
 # coins_z3988_content_read("/Users/rifatsm/scholar-ejournal-meta/ALAN/spring99/kaiser.html")
