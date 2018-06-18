@@ -1,0 +1,4 @@
+June 14, 2018
+
+- Create a script to fetch the COinS meta content from the source file and insert them into the destination file 
+	- Checking source files for COinS meta content 
