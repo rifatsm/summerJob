@@ -178,25 +178,69 @@ def automated_header_content_generate(directory1, directory2):
 	pass	
 
 # This function is to read the coins_content from a single source file 
+# Previous version - deprecated
+# def coins_z3988_content_read(input_filename):
+# 	meta_content_pattern = "class=\"Z3988\""
+# 	with open(input_filename) as f_read:
+# 		file_data = f_read.read()
+# 		data_text = ""
+# 		modified_text = ""
+# 		if "<body>" in file_data:
+# 			data_text = file_data.split("<body>")[1]
+# 			if meta_content_pattern in data_text:
+# 				# print "COinS exists in " + input_filename 
+# 				modified_text = data_text.split(meta_content_pattern)[1]
+# 				temp_list = modified_text.split("</span>")
+# 				coins_content = "<span " + "class=\"Z3988\"" + temp_list[0] + "</span>\n"
+# 				while (meta_content_pattern in temp_list[1]):
+# 					modified_text = temp_list[1].split(meta_content_pattern)[1]
+# 					temp_list = modified_text.split("</span>")
+# 					coins_content = coins_content + "<span " + meta_content_pattern + temp_list[0] + "</span>\n"
+# 				# print coins_content
+# 				return coins_content
+# 			else:
+# 				return "N/A"
+# 		else:
+# 			return "N/B"
+# 	return "File Error"
+
+
+# This function is to read the coins_content from a single source file 
 def coins_z3988_content_read(input_filename):
 	meta_content_pattern = "class=\"Z3988\""
 	with open(input_filename) as f_read:
 		file_data = f_read.read()
-		data_text = ""
+		content_list = []
+		line_list = []
+		count = 0
 		if "<body>" in file_data:
 			data_text = file_data.split("<body>")[1]
-			if meta_content_pattern in data_text:
-				# print "COinS exists in " + input_filename 
-				temp_text = data_text.split("class=\"Z3988\"")[1]
-				temp_text = temp_text.split("</span>")[0]
-				coins_content = "class=\"Z3988\"" + temp_text + "</span>"
-				# print coins_content
-				return coins_content
-			else:
-				return "N/A"
 		else:
-			return "N/B"
-	return "File Error"
+			return content_list
+		newline = "\n"
+		# if newline in data_text.split(newline):
+		# 	line_list = data_text.split(newline)
+		for line in data_text.split(newline):
+			count = count + 1
+			if "<span " in line:
+				print "Starting \"<span\" tag exits!"
+			if "</span>" in line: # The ending tag is usually not on the same line 
+			 	print "Ending \"</span>\" tag exits!"
+			# if "</span>" in data_text.split(newline)[count]:
+			# 	print "Ending \"</span>\" tag exists in the next line!" 
+			if meta_content_pattern in line:
+				print "#" + str(count) + " line: " + line
+				if "</span>" in data_text.split(newline)[count]:
+					print "Ending \"</span>\" tag exists in the next line!"
+					line = line + " </span>"
+				content_list.append(line) 
+		
+		print "content_list: "
+		print content_list
+		return content_list
+			
+
+
 
 
 # This function calculates the total number of COinS content in a single source file 
@@ -233,7 +277,7 @@ def insert_coins_z3988_content(output_root_and_filename, coins_content):
 			return False
 		if "<body>" in file_data:
 			data_text = file_data.split("<body>")
-			modified_text = data_text[0] + "<body>" + "\n" + ri_comment + "\n" + coins_content + data_text[1]
+			modified_text = data_text[0] + "<body>" + "\n" + ri_comment + "\n" + coins_content +  data_text[1]
 		else:
 			print "Error: No <body> found!"
 			modified_text = file_data
@@ -309,9 +353,11 @@ def automated_coins_z3988_content_generate(directory1, directory2):
 # file_count("/Users/rifatsm/scholar-ejournal-meta") # Count 4653 .html files
 # file_count("/Users/rifatsm/ejournals_test_set") # Count 5309 .html files
 # automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta/ALAN/fall94","/Users/rifatsm/ejournals_test_set/ALAN/fall94");
-# automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/ALAN/winter96","/Users/rifatsm/ejournals_test_set/ALAN/winter96");
+
+# automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/JTE/v22n1","/Users/rifatsm/ejournals_test_set/JTE/v22n1");
+
 # automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); # Main data sample. The source is actual location. The destination is testing location 
 # automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); # Main data sample. The source is actual location. The destination is testing location 
-automated_coins_z3988_content_total_length_calculation("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); 
+# automated_coins_z3988_content_total_length_calculation("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); 
 # calculating_missing_files("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); 
-# coins_z3988_content_read("/Users/rifatsm/scholar-ejournal-meta/ALAN/spring99/kaiser.html")
+coins_z3988_content_read("/Users/rifatsm/scholar-ejournal-meta/JTE/v22n1/index.html")
