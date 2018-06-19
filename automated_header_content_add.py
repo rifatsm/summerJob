@@ -36,10 +36,10 @@ def store_meta_content_in_file(content_list):
 	return True
 
 # This function is for converting content list to content string with newline
-def list_to_string_with_newline(content_list):
-	content_string = "\n\n<!--@rifatsm -- content insert -->\n\n"
+def list_to_string_with_newline(watermark_ri, content_list):
+	content_string = watermark_ri
 	for content in content_list:
-		content_string = content_string + content + "\n"
+		content_string = "\n\n" + content_string + "\n\n" + content + "\n"
 	return content_string
 
 # This function is for inserting the content in the destination file header
@@ -166,7 +166,8 @@ def automated_header_content_generate(directory1, directory2):
 					print "Output_filename: " + output_root_and_filename
 				content_list = header_content_read(root_and_filename)
 				# print content_list
-				content_string = list_to_string_with_newline(content_list)
+				watermark_ri = "<!--@rifatsm -- content insert -->"
+				content_string = list_to_string_with_newline(watermark_ri, content_list)
 				# print content_string
 
 				insert_content(output_root_and_filename, content_string)
@@ -218,25 +219,22 @@ def coins_z3988_content_read(input_filename):
 		else:
 			return content_list
 		newline = "\n"
-		# if newline in data_text.split(newline):
-		# 	line_list = data_text.split(newline)
 		for line in data_text.split(newline):
 			count = count + 1
-			if "<span " in line:
-				print "Starting \"<span\" tag exits!"
-			if "</span>" in line: # The ending tag is usually not on the same line 
-			 	print "Ending \"</span>\" tag exits!"
+			# if "<span " in line:
+			# 	print "Starting \"<span\" tag exits!"
+			# if "</span>" in line: # The ending tag is usually not on the same line 
+			#  	print "Ending \"</span>\" tag exits!"
 			# if "</span>" in data_text.split(newline)[count]:
 			# 	print "Ending \"</span>\" tag exists in the next line!" 
 			if meta_content_pattern in line:
-				print "#" + str(count) + " line: " + line
-				if "</span>" in data_text.split(newline)[count]:
-					print "Ending \"</span>\" tag exists in the next line!"
+				# print "#" + str(count) + " line: " + line
+				if "</span>" not in line:
 					line = line + " </span>"
 				content_list.append(line) 
 		
-		print "content_list: "
-		print content_list
+		# print "content_list: "
+		# print content_list
 		return content_list
 			
 
@@ -268,7 +266,6 @@ def coins_z3988_content_read_total_count(input_filename):
 # This function is for inserting COinS content at the start of the body of the destination files
 def insert_coins_z3988_content(output_root_and_filename, coins_content):
 	data_text = []
-	ri_comment = "<!-- @ri coins Z3988 content added -------------- -->"
 	modified_text = ""
 	with open(output_root_and_filename) as f_read:
 		file_data = f_read.read()
@@ -277,7 +274,7 @@ def insert_coins_z3988_content(output_root_and_filename, coins_content):
 			return False
 		if "<body>" in file_data:
 			data_text = file_data.split("<body>")
-			modified_text = data_text[0] + "<body>" + "\n" + ri_comment + "\n" + coins_content +  data_text[1]
+			modified_text = data_text[0] + "<body>" + "\n" + coins_content +  data_text[1]
 		else:
 			print "Error: No <body> found!"
 			modified_text = file_data
@@ -343,10 +340,12 @@ def automated_coins_z3988_content_generate(directory1, directory2):
 					print "Output_filename: " + output_root_and_filename
 				coins_z3988_content = coins_z3988_content_read(root_and_filename)
 				# print coins_z3988_content_list
-				if any( s in coins_z3988_content for s in coins_content_err_msg):
-					print "Error: " + coins_z3988_content
+				if not coins_z3988_content:
+					print "Error: COinS list empty"
 				else:
-					insert_coins_z3988_content(output_root_and_filename, coins_z3988_content)
+					watermark_ri = "<!-- @ri coins Z3988 content added -------------- -->"
+					coins_content_string = list_to_string_with_newline(watermark_ri, coins_z3988_content)
+					insert_coins_z3988_content(output_root_and_filename, coins_content_string)
 
 	pass	
 
@@ -354,10 +353,10 @@ def automated_coins_z3988_content_generate(directory1, directory2):
 # file_count("/Users/rifatsm/ejournals_test_set") # Count 5309 .html files
 # automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta/ALAN/fall94","/Users/rifatsm/ejournals_test_set/ALAN/fall94");
 
-# automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/JTE/v22n1","/Users/rifatsm/ejournals_test_set/JTE/v22n1");
+automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/JTE/v22n1","/Users/rifatsm/ejournals_test_set/JTE/v22n1");
 
 # automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); # Main data sample. The source is actual location. The destination is testing location 
 # automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); # Main data sample. The source is actual location. The destination is testing location 
 # automated_coins_z3988_content_total_length_calculation("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); 
 # calculating_missing_files("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); 
-coins_z3988_content_read("/Users/rifatsm/scholar-ejournal-meta/JTE/v22n1/index.html")
+# coins_z3988_content_read("/Users/rifatsm/scholar-ejournal-meta/JTE/v22n1/index.html")
