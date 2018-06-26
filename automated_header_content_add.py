@@ -36,14 +36,14 @@ def store_meta_content_in_file(content_list):
 	return True
 
 # This function is for converting content list to content string with newline
-def list_to_string_with_newline(watermark_ri, content_list):
+def list_to_string_with_newline(watermark_ri, content_list, metadata_type):
 	content_string = watermark_ri
 	if len(content_list) == 0:
-		print "There is no COinS metadata in the file"
+		print "There is no "+ metadata_type+ " metadata in the file"
 	if len(content_list) == 1:
-		print "There is only 1 (one) COinS metadata in the file"
+		print "There is only 1 (one) "+ metadata_type+ " metadata in the file"
 	if len(content_list) > 1:
-		print "There is more than one COinS metadata in the file. Total COinS metadata: " + str(len(content_list))
+		print "There is more than one "+ metadata_type+ " metadata in the file. Total "+ metadata_type+ " metadata: " + str(len(content_list))
 	for content in content_list:
 		content_string = "\n\n" + content_string + "\n\n" + content + "\n"
 	return content_string
@@ -116,7 +116,7 @@ def file_count(directory):
 	for root, dirs, files in os.walk(directory):
 		for filename in files:
 			root_and_filename = os.path.join(root, filename)
-			if ".html" in filename:
+			if ".html" or ".htm" in filename:
 				count = count + 1
 				print "#" +str(count) + " input_filename: " + root_and_filename
 	pass	
@@ -128,7 +128,7 @@ def calculating_missing_files(directory1, directory2):
 	for root, dirs, files in os.walk(directory1):
 		for filename in files:
 			root_and_filename = os.path.join(root, filename)
-			if ".html" in filename:
+			if ".html" or ".htm" in filename:
 				count = count + 1
 				source_filepath = root_and_filename.split(directory1)[1]
 				print "#" + str(count) + " source_filepath: " + source_filepath
@@ -152,7 +152,7 @@ def automated_header_content_generate(directory1, directory2):
 	for root, dirs, files in os.walk(directory1):
 		for filename in files:
 			root_and_filename = os.path.join(root, filename)
-			if ".html" in filename:
+			if ".html" or ".htm" in filename:
 				count = count + 1
 				source_filepath = root_and_filename.split(directory1)[1]
 				print "#" + str(count) + " source_filepath: " + source_filepath
@@ -173,7 +173,7 @@ def automated_header_content_generate(directory1, directory2):
 				content_list = header_content_read(root_and_filename)
 				# print content_list
 				watermark_ri = "<!--@rifatsm -- content insert -->"
-				content_string = list_to_string_with_newline(watermark_ri, content_list)
+				content_string = list_to_string_with_newline(watermark_ri, content_list, "Dublin Core")
 				# print content_string
 
 				insert_content(output_root_and_filename, content_string)
@@ -319,7 +319,7 @@ def automated_coins_z3988_content_total_length_calculation(directory1, directory
 	for root, dirs, files in os.walk(directory1):
 		for filename in files:
 			root_and_filename = os.path.join(root, filename)
-			if ".html" in filename:
+			if ".html" or ".htm" in filename:
 				count = count + 1
 				source_filepath = root_and_filename.split(directory1)[1]
 				print "#" + str(count) + " source_filepath: " + source_filepath
@@ -349,7 +349,7 @@ def automated_coins_z3988_content_generate(directory1, directory2):
 	for root, dirs, files in os.walk(directory1):
 		for filename in files:
 			root_and_filename = os.path.join(root, filename)
-			if ".html" in filename:
+			if ".html" or ".htm" in filename:
 				count = count + 1
 				source_filepath = root_and_filename.split(directory1)[1]
 				print "#" + str(count) + " source_filepath: " + source_filepath
@@ -374,20 +374,22 @@ def automated_coins_z3988_content_generate(directory1, directory2):
 				else:
 					coins_z3988_content_checked = check_for_available_coins_z3988_content(output_root_and_filename, coins_z3988_content)
 					watermark_ri = "<!-- @ri coins Z3988 content added -------------- -->"
-					coins_content_string = list_to_string_with_newline(watermark_ri, coins_z3988_content_checked)
+					coins_content_string = list_to_string_with_newline(watermark_ri, coins_z3988_content_checked, "COinS")
 					insert_coins_z3988_content(output_root_and_filename, coins_content_string)
 
 	pass	
 
 # file_count("/Users/rifatsm/scholar-ejournal-meta") # Count 4653 .html files
 # file_count("/Users/rifatsm/ejournals_test_set") # Count 5309 .html files
-# automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta/ALAN/fall94","/Users/rifatsm/ejournals_test_set/ALAN/fall94");
+# automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta/ALAN/fall94","/Users/rifatsm/ejournals_test_set/ALAN/fall94")
 
-# automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/ALAN/v28n1","/Users/rifatsm/ejournals_test_set/ALAN/v28n1");
-automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/","/Users/rifatsm/ejournals_test_set/");
+# automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/ALAN/v28n1","/Users/rifatsm/ejournals_test_set/ALAN/v28n1")
+# automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/JARS","/Users/rifatsm/ejournals_test_set/JARS")
 
-# automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); # Main data sample. The source is actual location. The destination is testing location 
-# automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); # Main data sample. The source is actual location. The destination is testing location 
-# automated_coins_z3988_content_total_length_calculation("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); 
-# calculating_missing_files("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); 
+automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta/JARS","/Users/rifatsm/ejournals_test_set/JARS")
+
+# automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set") # Main data sample. The source is actual location. The destination is testing location 
+# automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set") # Main data sample. The source is actual location. The destination is testing location 
+# automated_coins_z3988_content_total_length_calculation("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set")
+# calculating_missing_files("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set")
 # coins_z3988_content_read("/Users/rifatsm/scholar-ejournal-meta/JTE/v22n1/index.html")
