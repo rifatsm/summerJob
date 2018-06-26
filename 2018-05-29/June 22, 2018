@@ -1,0 +1,6 @@
+June 22, 2018
+
+ - Developed a function to update the COinS content list to contain only the desired contents
+ = Useful resources:
+ 	- List remove element: https://stackoverflow.com/questions/2793324/is-there-a-simple-way-to-delete-a-list-element-by-value
+ 	- 

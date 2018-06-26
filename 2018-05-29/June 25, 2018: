@@ -1,0 +1,4 @@
+June 25, 2018:
+ - The python script to scrape all the COinS metadata (with checking) to the newer version worked. 
+ - Develop a script to count the files containing COinS metadata
+ - Further calculate whether there are multiple COinS metadata in these files

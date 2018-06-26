@@ -38,6 +38,12 @@ def store_meta_content_in_file(content_list):
 # This function is for converting content list to content string with newline
 def list_to_string_with_newline(watermark_ri, content_list):
 	content_string = watermark_ri
+	if len(content_list) == 0:
+		print "There is no COinS metadata in the file"
+	if len(content_list) == 1:
+		print "There is only 1 (one) COinS metadata in the file"
+	if len(content_list) > 1:
+		print "There is more than one COinS metadata in the file. Total COinS metadata: " + str(len(content_list))
 	for content in content_list:
 		content_string = "\n\n" + content_string + "\n\n" + content + "\n"
 	return content_string
@@ -229,8 +235,10 @@ def coins_z3988_content_read(input_filename):
 			# 	print "Ending \"</span>\" tag exists in the next line!" 
 			if meta_content_pattern in line:
 				# print "#" + str(count) + " line: " + line
-				if "</span>" not in line:
-					line = line + " </span>"
+
+				# if "</span>" not in line:
+				# 	line = line + " </span>"
+				
 				content_list.append(line) 
 		
 		# print "content_list: "
@@ -281,6 +289,27 @@ def insert_coins_z3988_content(output_root_and_filename, coins_content):
 	with open(output_root_and_filename, "w+") as f_write:
 		f_write.write(modified_text) 
 	return True
+
+def check_for_available_coins_z3988_content(filename, coins_content):
+	newline = "\n"
+	coins_content_new = []
+	content_store = ""
+	# title = "riri-999"
+	with open(filename) as f_read:
+		file_data = f_read.read()
+		for line in file_data.split(newline):
+			# print "Line: "+line
+			if "class=\"Z3988\"" in line:
+				# print "Line before: "+line
+				title = line.split("title=\"")[1]
+				title = title.split("\">")[0]
+				# print "Title: "+title
+				for content in coins_content:
+					if title in content:
+						# print "Already exists!!"
+						coins_content.remove(content)
+		# print "New COinS Content List: " + str(coins_content)
+	return coins_content
 
 # This function is for calculating the number of occurance of COinS pattern in all the files in the source
 def automated_coins_z3988_content_total_length_calculation(directory1, directory2):
@@ -336,15 +365,16 @@ def automated_coins_z3988_content_generate(directory1, directory2):
 				if output_root_and_filename == "N/A":
 					print "Destination file not found"
 					continue
-				else:
-					print "Output_filename: " + output_root_and_filename
+				# else:
+				# 	print "Output_filename: " + output_root_and_filename
 				coins_z3988_content = coins_z3988_content_read(root_and_filename)
-				# print coins_z3988_content_list
+				# print "COinS: "+ str(coins_z3988_content)
 				if not coins_z3988_content:
 					print "Error: COinS list empty"
 				else:
+					coins_z3988_content_checked = check_for_available_coins_z3988_content(output_root_and_filename, coins_z3988_content)
 					watermark_ri = "<!-- @ri coins Z3988 content added -------------- -->"
-					coins_content_string = list_to_string_with_newline(watermark_ri, coins_z3988_content)
+					coins_content_string = list_to_string_with_newline(watermark_ri, coins_z3988_content_checked)
 					insert_coins_z3988_content(output_root_and_filename, coins_content_string)
 
 	pass	
@@ -353,7 +383,8 @@ def automated_coins_z3988_content_generate(directory1, directory2):
 # file_count("/Users/rifatsm/ejournals_test_set") # Count 5309 .html files
 # automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta/ALAN/fall94","/Users/rifatsm/ejournals_test_set/ALAN/fall94");
 
-automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/JTE/v22n1","/Users/rifatsm/ejournals_test_set/JTE/v22n1");
+# automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/ALAN/v28n1","/Users/rifatsm/ejournals_test_set/ALAN/v28n1");
+automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/","/Users/rifatsm/ejournals_test_set/");
 
 # automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); # Main data sample. The source is actual location. The destination is testing location 
 # automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set"); # Main data sample. The source is actual location. The destination is testing location 
