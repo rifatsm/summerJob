@@ -299,7 +299,8 @@ def check_for_available_coins_z3988_content(filename, coins_content):
 		file_data = f_read.read()
 		for line in file_data.split(newline):
 			# print "Line: "+line
-			if "class=\"Z3988\"" in line:
+			# if "class=\"Z3988\"" in line:
+			if "title=\"" in line: # We are checking title to match instead, we still need to add <class="Z3988"> tag where it is missing
 				# print "Line before: "+line
 				title = line.split("title=\"")[1]
 				title = title.split("\">")[0]
@@ -372,7 +373,10 @@ def automated_coins_z3988_content_generate(directory1, directory2):
 				if not coins_z3988_content:
 					print "Error: COinS list empty"
 				else:
+					
+					# Insert the title check here
 					coins_z3988_content_checked = check_for_available_coins_z3988_content(output_root_and_filename, coins_z3988_content)
+				
 					watermark_ri = "<!-- @ri coins Z3988 content added -------------- -->"
 					coins_content_string = list_to_string_with_newline(watermark_ri, coins_z3988_content_checked, "COinS")
 					insert_coins_z3988_content(output_root_and_filename, coins_content_string)
@@ -386,7 +390,7 @@ def automated_coins_z3988_content_generate(directory1, directory2):
 # automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/ALAN/v28n1","/Users/rifatsm/ejournals_test_set/ALAN/v28n1")
 # automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/JARS","/Users/rifatsm/ejournals_test_set/JARS")
 
-automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta/JARS","/Users/rifatsm/ejournals_test_set/JARS")
+automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/CATALYST","/Users/rifatsm/ejournals_test_set/CATALYST")
 
 # automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set") # Main data sample. The source is actual location. The destination is testing location 
 # automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set") # Main data sample. The source is actual location. The destination is testing location 
