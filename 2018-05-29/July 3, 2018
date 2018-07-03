@@ -1,0 +1,4 @@
+July 3, 2018
+
+ - Duplicate COinS content metadata are now taken care of
+ - COinS metadata without the tag `class="Z3988"` are taken care of

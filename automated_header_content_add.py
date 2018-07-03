@@ -35,9 +35,9 @@ def store_meta_content_in_file(content_list):
 		
 	return True
 
-# This function is for converting content list to content string with newline
-def list_to_string_with_newline(watermark_ri, content_list, metadata_type):
-	content_string = watermark_ri
+# For metadata: This function is for converting content list to content string with newline
+def list_to_string_with_newline_metadata(watermark_ri, content_list, metadata_type):
+	content_string = "\n" + watermark_ri + "\n"
 	if len(content_list) == 0:
 		print "There is no "+ metadata_type+ " metadata in the file"
 	if len(content_list) == 1:
@@ -45,8 +45,21 @@ def list_to_string_with_newline(watermark_ri, content_list, metadata_type):
 	if len(content_list) > 1:
 		print "There is more than one "+ metadata_type+ " metadata in the file. Total "+ metadata_type+ " metadata: " + str(len(content_list))
 	for content in content_list:
-		content_string = "\n\n" + content_string + "\n\n" + content + "\n"
+		content_string = content_string + "\n" + content
+	content_string = content_string + "\n"
 	return content_string
+
+# For normal contents: This function is for converting content list to content string with newline
+def list_to_string_with_newline(watermark_ri, content_list):
+	if watermark_ri:
+		content_string = "\n" + watermark_ri + "\n"
+	else: 
+		content_string = ""
+	for content in content_list:
+		content_string = content_string + "\n" + content
+	content_string = content_string + "\n"
+	return content_string
+
 
 # This function is for inserting the content in the destination file header
 def insert_content(output_root_and_filename, content_string):
@@ -173,7 +186,7 @@ def automated_header_content_generate(directory1, directory2):
 				content_list = header_content_read(root_and_filename)
 				# print content_list
 				watermark_ri = "<!--@rifatsm -- content insert -->"
-				content_string = list_to_string_with_newline(watermark_ri, content_list, "Dublin Core")
+				content_string = list_to_string_with_newline_metadata(watermark_ri, content_list, "Dublin Core")
 				# print content_string
 
 				insert_content(output_root_and_filename, content_string)
@@ -244,10 +257,6 @@ def coins_z3988_content_read(input_filename):
 		# print "content_list: "
 		# print content_list
 		return content_list
-			
-
-
-
 
 # This function calculates the total number of COinS content in a single source file 
 def coins_z3988_content_read_total_count(input_filename):
@@ -289,6 +298,56 @@ def insert_coins_z3988_content(output_root_and_filename, coins_content):
 	with open(output_root_and_filename, "w+") as f_write:
 		f_write.write(modified_text) 
 	return True
+
+
+def remove_line_without_coins_tag(filename, title_list):
+	newline = "\n"
+	file_data_list = []
+	with open(filename) as f_read:
+		file_data = f_read.read()
+		file_data_list = file_data.split(newline)
+		for line in file_data_list:
+			for title in title_list:
+				if title in line:
+					file_data_list.remove(line)
+	modified_text = list_to_string_with_newline("", file_data_list)
+	with open(filename, "w+") as f_write:
+		f_write.write(modified_text)
+	return True
+
+def check_for_available_coins_z3988_content_sp_1(filename, coins_content):
+	newline = "\n"
+	title_without_coins_tag = []
+	content_store = ""
+	# title = "riri-999"
+	with open(filename) as f_read:
+		file_data = f_read.read()
+		for line in file_data.split(newline):
+			# print "Line: "+line
+			# if "class=\"Z3988\"" in line:
+			if "title=\"" in line and "class=\"Z3988\"" in line: # We are checking title to match instead, we still need to add <class="Z3988"> tag where it is missing
+				# print "Line before: "+line
+				title = line.split("title=\"")[1]
+				title = title.split("\">")[0]
+				# print "Title: "+title
+				for content in coins_content:
+					if title in content:
+						# print "Already exists!!"
+						coins_content.remove(content)
+			if "title=\"" in line and "class=\"Z3988\"" not in line: # We are checking title to match instead, we still need to add <class="Z3988"> tag where it is missing
+				# print "Line before: "+line
+				title = line.split("title=\"")[1]
+				title = title.split("\">")[0]
+				# print "Title: "+title
+				for content in coins_content:
+					if title in content:
+						# print "Already exists!!"
+						title_without_coins_tag.append(title)
+		# print "New COinS Content List: " + str(coins_content)
+		if title_without_coins_tag:
+			remove_line_without_coins_tag(filename, title_without_coins_tag)
+	return coins_content
+
 
 def check_for_available_coins_z3988_content(filename, coins_content):
 	newline = "\n"
@@ -378,7 +437,48 @@ def automated_coins_z3988_content_generate(directory1, directory2):
 					coins_z3988_content_checked = check_for_available_coins_z3988_content(output_root_and_filename, coins_z3988_content)
 				
 					watermark_ri = "<!-- @ri coins Z3988 content added -------------- -->"
-					coins_content_string = list_to_string_with_newline(watermark_ri, coins_z3988_content_checked, "COinS")
+					coins_content_string = list_to_string_with_newline_metadata(watermark_ri, coins_z3988_content_checked, "COinS")
+					insert_coins_z3988_content(output_root_and_filename, coins_content_string)
+
+	pass
+
+# Special Case 1: Where the coins metadata is present but without the `Z3988` tag in the line. For this special case, we need to delete
+# line with the title
+def automated_coins_z3988_content_generate_sp_1(directory1, directory2):
+	count = 0
+	missing_files_count = 0
+	coins_content_err_msg = ("N/A", "N/B", "File Error")
+	for root, dirs, files in os.walk(directory1):
+		for filename in files:
+			root_and_filename = os.path.join(root, filename)
+			if ".html" or ".htm" in filename:
+				count = count + 1
+				source_filepath = root_and_filename.split(directory1)[1]
+				print "#" + str(count) + " source_filepath: " + source_filepath
+				output_root_and_filename = filename_match(source_filepath, directory2)
+				destination_path = ""
+				if directory2 in output_root_and_filename:
+					destination_path = output_root_and_filename.split(directory2)[1]
+				else:
+					destination_path = output_root_and_filename
+					missing_files_count = missing_files_count + 1
+				print "destination_path: "+destination_path
+				
+				if output_root_and_filename == "N/A":
+					print "Destination file not found"
+					continue
+				# else:
+				# 	print "Output_filename: " + output_root_and_filename
+				coins_z3988_content = coins_z3988_content_read(root_and_filename)
+				# print "COinS: "+ str(coins_z3988_content)
+				if not coins_z3988_content:
+					print "Error: COinS list empty"
+				else:
+					
+					# Insert the title check here
+					coins_z3988_content_checked = check_for_available_coins_z3988_content_sp_1(output_root_and_filename, coins_z3988_content)
+					watermark_ri = "<!-- @ri coins Z3988 content added -------------- -->"
+					coins_content_string = list_to_string_with_newline_metadata(watermark_ri, coins_z3988_content_checked, "COinS")
 					insert_coins_z3988_content(output_root_and_filename, coins_content_string)
 
 	pass	
@@ -390,7 +490,7 @@ def automated_coins_z3988_content_generate(directory1, directory2):
 # automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/ALAN/v28n1","/Users/rifatsm/ejournals_test_set/ALAN/v28n1")
 # automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/JARS","/Users/rifatsm/ejournals_test_set/JARS")
 
-automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/CATALYST","/Users/rifatsm/ejournals_test_set/CATALYST")
+automated_coins_z3988_content_generate_sp_1("/Users/rifatsm/scholar-ejournal-meta/","/Users/rifatsm/ejournals_test_set/")
 
 # automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set") # Main data sample. The source is actual location. The destination is testing location 
 # automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set") # Main data sample. The source is actual location. The destination is testing location 
