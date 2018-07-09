@@ -1,0 +1,20 @@
+July 9, 2018
+
+ - (done) Fixing Z3988 DC metadata in the title
+ 	- (done) While discarding metadata containing specific `title`, check for `name=` and `DC`. If the terms exist, do not discard them from the file content
+
+ - Fixing ALAN Review missing DOI info
+ 	- Seek contents containing `<div class="doi">`
+ 	- Include content until `</div>`
+
+ - Fixing ALAN Review Missing Season and Issue info
+ 	- Seek right contents containing `<div style="float:right; font-weight:bold; margin-right:1.5em">`
+ 	- Include content until `</div>`
+ 	- Seek left contents containing `<div style="float:left; font-weight:bold; margin-left:1.5em">`
+ 	- Include content until `</div>`
+
+ - Fixing ICC grabbing content next to COinS
+ 	- (not resolved) May be already resolved by the new update in code 
+ 	- If not, check for extra contents in the metadata
+ 	- Trim down the extra contents 
+

@@ -3,6 +3,6 @@ June 26, 2018
 Issue solving: Scholar restyling:
  - ALAN, JOTS: Include `doi` classes in the newer version
  	- Fetch data by the class="doi" tag 
- - CATALYST, EIANT, JDC, JITE, JSTE: COinS copied twice. COinS with missing `class="Z3988"` were already present
+ - (done) CATALYST, EIANT, JDC, JITE, JSTE: COinS copied twice. COinS with missing `class="Z3988"` were already present
  - ICC: Extra content added with COinS metadata 
  - (done) JARS: consider `.htm` along with `.html` files

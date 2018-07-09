@@ -308,7 +308,8 @@ def remove_line_without_coins_tag(filename, title_list):
 		file_data_list = file_data.split(newline)
 		for line in file_data_list:
 			for title in title_list:
-				if title in line:
+				# Excluding Dublin Core (DC) metadata which contains title
+				if title in line and "<meta name=\"" not in line:
 					file_data_list.remove(line)
 	modified_text = list_to_string_with_newline("", file_data_list)
 	with open(filename, "w+") as f_write:
@@ -334,7 +335,8 @@ def check_for_available_coins_z3988_content_sp_1(filename, coins_content):
 					if title in content:
 						# print "Already exists!!"
 						coins_content.remove(content)
-			if "title=\"" in line and "class=\"Z3988\"" not in line: # We are checking title to match instead, we still need to add <class="Z3988"> tag where it is missing
+			# We are checking title to match instead, we still need to add <class="Z3988"> tag where it is missing
+			if "title=\"" in line and "class=\"Z3988\"" not in line: 
 				# print "Line before: "+line
 				title = line.split("title=\"")[1]
 				title = title.split("\">")[0]
