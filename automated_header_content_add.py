@@ -60,6 +60,31 @@ def list_to_string_with_newline(watermark_ri, content_list):
 	content_string = content_string + "\n"
 	return content_string
 
+def lists_to_string(left, right, doi):
+	content_string = ""
+	# right list
+	if right: 	
+		for content in right:
+			content_string = content_string + "\n" + content
+		content_string = content_string + "\n"
+	# left list 
+	if left:
+		for content in left:
+			content_string = content_string + "\n" + content
+		content_string = content_string + "\n"
+	# doi list
+	if doi:
+		for content in doi:
+			content_string = content_string + "\n" + content
+		content_string = content_string + "\n"
+
+	return content_string
+
+def watermarking_string(watermark_ri, content_string):
+	if watermark_ri:
+		content_string = "\n" + watermark_ri + "\n" + content_string
+	return content_string
+
 
 # This function is for inserting the content in the destination file header
 def insert_content(output_root_and_filename, content_string):
@@ -258,6 +283,81 @@ def coins_z3988_content_read(input_filename):
 		# print content_list
 		return content_list
 
+
+# This function is to read the missing doi contents from a single source file 
+def doi_content_read(input_filename):
+	doi_content_pattern = "<div class=\"doi\">"
+	right_content_pattern = "<div style=\"float:right; font-weight:bold; margin-right:1.5em\">"
+	left_content_pattern = "<div style=\"float:left; font-weight:bold; margin-left:1.5em\">"
+	# coins_content_pattern_start = "<span class=\"Z3988\""
+	# coins_content_pattern_end = "</span>"
+	body_pattern_start = "<body>"
+	content_string = ""
+
+	with open(input_filename) as f_read:
+		file_data = f_read.read()
+		doi_content_list = []
+		right_content_list = []
+		left_content_list = []
+
+		# doi_content_list = ["<div class=\"doi\">"]
+		# right_content_list = ["<div style=\"float:right; font-weight:bold; margin-right:1.5em\">"]
+		# left_content_list = ["<div style=\"float:left; font-weight:bold; margin-left:1.5em\">"]
+
+		div_end = "</div>"
+		# count = 0
+		flag_doi = 0
+		flag_left = 0
+		flag_right = 0
+
+		if body_pattern_start in file_data:
+			data_text = file_data.split(body_pattern_start)[1]
+		else:
+			return content_string
+		newline = "\n"
+		for line in data_text.split(newline):
+			# count = count + 1
+			# DOI content
+			if flag_doi:
+				doi_content_list.append("<div class=\"doi\">")	
+				doi_content_list.append(line)
+				flag_doi = 0 
+			if doi_content_pattern in line:
+				flag_doi = 1
+			# right styling content 
+			if flag_right:
+				right_content_list.append("<div style=\"float:right; font-weight:bold; margin-right:1.5em\">")	
+				right_content_list.append(line)
+				flag_right = 0 
+			if right_content_pattern in line:
+				flag_right = 1
+			# left styling content 
+			if flag_left:
+				left_content_list.append("<div style=\"float:left; font-weight:bold; margin-left:1.5em\">")	
+				left_content_list.append(line)
+				flag_left = 0 
+			if left_content_pattern in line:
+				flag_left = 1
+
+		if doi_content_list:
+			doi_content_list.append(div_end)
+		if left_content_list:	
+			left_content_list.append(div_end)
+		if right_content_list:	
+			right_content_list.append(div_end)	
+
+		content_string = lists_to_string(left_content_list, right_content_list, doi_content_list)
+		if content_string:		
+			content_string = watermarking_string("<!-- @ri missing doi + left/right content added -------------- -->",content_string)
+
+
+	if content_string:
+		print "content_string: "
+		print content_string
+	return content_string
+
+
+
 # This function calculates the total number of COinS content in a single source file 
 def coins_z3988_content_read_total_count(input_filename):
 	meta_content_pattern = "class=\"Z3988\""
@@ -292,6 +392,25 @@ def insert_coins_z3988_content(output_root_and_filename, coins_content):
 		if "<body>" in file_data:
 			data_text = file_data.split("<body>")
 			modified_text = data_text[0] + "<body>" + "\n" + coins_content +  data_text[1]
+		else:
+			print "Error: No <body> found!"
+			modified_text = file_data
+	with open(output_root_and_filename, "w+") as f_write:
+		f_write.write(modified_text) 
+	return True
+
+# This function is for inserting missing doi content at the start of the body of the destination files
+def insert_doi_content(output_root_and_filename, doi_content):
+	data_text = []
+	modified_text = ""
+	with open(output_root_and_filename) as f_read:
+		file_data = f_read.read()
+		if doi_content in file_data:
+			print "Error: Missing DOI content already exists!"
+			return False
+		if "<body>" in file_data:
+			data_text = file_data.split("<body>")
+			modified_text = data_text[0] + "<body>" + "\n" + doi_content +  data_text[1]
 		else:
 			print "Error: No <body> found!"
 			modified_text = file_data
@@ -485,6 +604,43 @@ def automated_coins_z3988_content_generate_sp_1(directory1, directory2):
 
 	pass	
 
+# Issue Fixing: ALAN review missing DOI info add 
+def automated_coins_z3988_content_missing_doi(directory1, directory2):
+	count = 0
+	missing_files_count = 0
+	coins_content_err_msg = ("N/A", "N/B", "File Error")
+	for root, dirs, files in os.walk(directory1):
+		for filename in files:
+			root_and_filename = os.path.join(root, filename)
+			if ".html" or ".htm" in filename:
+				count = count + 1
+				source_filepath = root_and_filename.split(directory1)[1]
+				print "#" + str(count) + " source_filepath: " + source_filepath
+				output_root_and_filename = filename_match(source_filepath, directory2)
+				destination_path = ""
+				if directory2 in output_root_and_filename:
+					destination_path = output_root_and_filename.split(directory2)[1]
+				else:
+					destination_path = output_root_and_filename
+					missing_files_count = missing_files_count + 1
+				print "destination_path: "+destination_path
+				
+				if output_root_and_filename == "N/A":
+					print "Destination file not found"
+					continue
+				# else:
+				# 	print "Output_filename: " + output_root_and_filename
+				doi_content = doi_content_read(root_and_filename)
+				###################
+				if not doi_content:
+					print "Error: DOI list empty"
+				else:
+					insert_doi_content(output_root_and_filename, doi_content)
+				###################
+	pass	
+
+
+
 # file_count("/Users/rifatsm/scholar-ejournal-meta") # Count 4653 .html files
 # file_count("/Users/rifatsm/ejournals_test_set") # Count 5309 .html files
 # automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta/ALAN/fall94","/Users/rifatsm/ejournals_test_set/ALAN/fall94")
@@ -492,7 +648,11 @@ def automated_coins_z3988_content_generate_sp_1(directory1, directory2):
 # automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/ALAN/v28n1","/Users/rifatsm/ejournals_test_set/ALAN/v28n1")
 # automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/JARS","/Users/rifatsm/ejournals_test_set/JARS")
 
-automated_coins_z3988_content_generate_sp_1("/Users/rifatsm/scholar-ejournal-meta/","/Users/rifatsm/ejournals_test_set/")
+# automated_coins_z3988_content_generate_sp_1("/Users/rifatsm/scholar-ejournal-meta/","/Users/rifatsm/ejournals_test_set/")
+
+# Run the following function on the ALAN and JOTS files 
+# automated_coins_z3988_content_missing_doi("/Users/rifatsm/scholar-ejournal-meta/ALAN/","/Users/rifatsm/ejournals_test_set/ALAN/")
+automated_coins_z3988_content_missing_doi("/Users/rifatsm/scholar-ejournal-meta/JOTS/","/Users/rifatsm/ejournals_test_set/JOTS/")
 
 # automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set") # Main data sample. The source is actual location. The destination is testing location 
 # automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set") # Main data sample. The source is actual location. The destination is testing location 

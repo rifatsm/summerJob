@@ -3,15 +3,23 @@ July 9, 2018
  - (done) Fixing Z3988 DC metadata in the title
  	- (done) While discarding metadata containing specific `title`, check for `name=` and `DC`. If the terms exist, do not discard them from the file content
 
- - Fixing ALAN Review missing DOI info
+ - (done) Fixing ALAN Review missing DOI info
+ 	- Folders effected: [ALAN, JOTS]
  	- Seek contents containing `<div class="doi">`
  	- Include content until `</div>`
 
- - Fixing ALAN Review Missing Season and Issue info
+ - (done) Fixing ALAN Review Missing Season and Issue info
+ 	- Folders effected: [ALAN, JOTS]
  	- Seek right contents containing `<div style="float:right; font-weight:bold; margin-right:1.5em">`
  	- Include content until `</div>`
  	- Seek left contents containing `<div style="float:left; font-weight:bold; margin-left:1.5em">`
  	- Include content until `</div>`
+
+ - (done) Error Issue in JOTS file: 
+ 	- (manually done) #233 source_filepath: v42/v42n2/love.html
+		destination_path: v42/v42n2/love.html
+		- Issue description: arbitary string grabbed 
+	- (done) Empty string need to be handled
 
  - Fixing ICC grabbing content next to COinS
  	- (not resolved) May be already resolved by the new update in code 
