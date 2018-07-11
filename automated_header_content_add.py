@@ -410,7 +410,16 @@ def insert_doi_content(output_root_and_filename, doi_content):
 			return False
 		if "<body>" in file_data:
 			data_text = file_data.split("<body>")
-			modified_text = data_text[0] + "<body>" + "\n" + doi_content +  data_text[1]
+			if "<h2>" in data_text[1]:
+				body_text = data_text[1].split("<h2>")
+				modified_text = data_text[0] + "<body>" + body_text[0]  + "\n" + doi_content + "<h2>" + body_text[1]
+			elif "</h1>" in data_text[1]:
+				print "*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>"
+				body_text = data_text[1].split("</h1>")
+				modified_text = data_text[0] + "<body>" + body_text[0] + "</h1>" + "\n" + doi_content +  body_text[1]
+			else:
+				print "*==> Could not find Paragraph Header h2 & h1. Inserting DOI contents after <body>"
+				modified_text = data_text[0] + "<body>" + "\n" + doi_content +  data_text[1]	
 		else:
 			print "Error: No <body> found!"
 			modified_text = file_data

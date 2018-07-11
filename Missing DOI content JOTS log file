@@ -1,6 +1,6 @@
 #1 source_filepath: .DS_Store
-destination_path: N/A
-Destination file not found
+destination_path: .DS_Store
+Error: DOI list empty
 #2 source_filepath: guidelines.html
 destination_path: guidelines.html
 Error: DOI list empty
@@ -35,6 +35,7 @@ content_string:
    https://doi.org/10.21061/jots.v25i2.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #11 source_filepath: Summer-Fall-1999/Dugger.html
 destination_path: Summer-Fall-1999/Dugger.html
 content_string: 
@@ -45,6 +46,7 @@ content_string:
    https://doi.org/10.21061/jots.v25i2.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #12 source_filepath: Summer-Fall-1999/Edwards.html
 destination_path: Summer-Fall-1999/Edwards.html
 content_string: 
@@ -65,6 +67,7 @@ content_string:
    https://doi.org/10.21061/jots.v25i2.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #14 source_filepath: Summer-Fall-1999/Iandoli.html
 destination_path: Summer-Fall-1999/Iandoli.html
 content_string: 
@@ -75,6 +78,7 @@ content_string:
    https://doi.org/10.21061/jots.v25i2.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #15 source_filepath: Summer-Fall-1999/Ideas.html
 destination_path: Summer-Fall-1999/Ideas.html
 content_string: 
@@ -108,6 +112,7 @@ content_string:
    https://doi.org/10.21061/jots.v25i2.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #19 source_filepath: Summer-Fall-1999/Strong.html
 destination_path: Summer-Fall-1999/Strong.html
 content_string: 
@@ -128,6 +133,7 @@ content_string:
    https://doi.org/10.21061/jots.v25i2.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #21 source_filepath: Summer-Fall-1999/Wiens.html
 destination_path: Summer-Fall-1999/Wiens.html
 content_string: 
@@ -138,6 +144,7 @@ content_string:
    https://doi.org/10.21061/jots.v25i2.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #22 source_filepath: Summer-Fall-1999/PDF/index.html
 destination_path: Summer-Fall-1999/PDF/index.html
 Error: DOI list empty
@@ -574,6 +581,7 @@ content_string:
    https://doi.org/10.21061/jots.v32i1.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #69 source_filepath: v32/v32n1/gefoltz.html
 destination_path: v32/v32n1/gefoltz.html
 content_string: 
@@ -584,6 +592,7 @@ content_string:
    doi:10.21061/jots.v32i1.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #70 source_filepath: v32/v32n1/index.html
 destination_path: v32/v32n1/index.html
 Error: DOI list empty
@@ -597,6 +606,7 @@ content_string:
    https://doi.org/10.21061/jots.v32i1.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #72 source_filepath: v32/v32n1/michelson.html
 destination_path: v32/v32n1/michelson.html
 content_string: 
@@ -607,6 +617,7 @@ content_string:
    https://doi.org/10.21061/jots.v32i1.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #73 source_filepath: v32/v32n1/monberg.html
 destination_path: v32/v32n1/monberg.html
 content_string: 
@@ -617,6 +628,7 @@ content_string:
    https://doi.org/10.21061/jots.v32i1.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #74 source_filepath: v32/v32n1/sovacool.html
 destination_path: v32/v32n1/sovacool.html
 content_string: 
@@ -627,6 +639,7 @@ content_string:
    https://doi.org/10.21061/jots.v32i1.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #75 source_filepath: v32/v32n1/yu.html
 destination_path: v32/v32n1/yu.html
 content_string: 
@@ -637,6 +650,7 @@ content_string:
   https://doi.org/10.21061/jots.v32i1.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #76 source_filepath: v32/v32n1/pdf/index.html
 destination_path: v32/v32n1/pdf/index.html
 Error: DOI list empty
@@ -653,6 +667,7 @@ content_string:
    https://doi.org/10.21061/jots.v32i2.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #79 source_filepath: v32/v32n2/guidelines.html
 destination_path: v32/v32n2/guidelines.html
 Error: DOI list empty
@@ -666,6 +681,7 @@ content_string:
    https://doi.org/10.21061/jots.v32i2.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #81 source_filepath: v32/v32n2/hirsh.html
 destination_path: v32/v32n2/hirsh.html
 content_string: 
@@ -676,6 +692,7 @@ content_string:
    https://doi.org/10.21061/jots.v32i2.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #82 source_filepath: v32/v32n2/index.html
 destination_path: v32/v32n2/index.html
 Error: DOI list empty
@@ -689,6 +706,7 @@ content_string:
    https://doi.org/10.21061/jots.v32i2.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #84 source_filepath: v32/v32n2/robertson.html
 destination_path: v32/v32n2/robertson.html
 content_string: 
@@ -699,6 +717,7 @@ content_string:
    https://doi.org/10.21061/jots.v32i2.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #85 source_filepath: v32/v32n2/shields.html
 destination_path: v32/v32n2/shields.html
 content_string: 
@@ -709,6 +728,7 @@ content_string:
    https://doi.org/10.21061/jots.v32i2.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #86 source_filepath: v32/v32n2/pdf/index.html
 destination_path: v32/v32n2/pdf/index.html
 Error: DOI list empty
@@ -2640,399 +2660,7 @@ destination_path: v42/v42n2/index.html
 Error: DOI list empty
 #233 source_filepath: v42/v42n2/love.html
 destination_path: v42/v42n2/love.html
-content_string: 
-
-<!-- @ri missing doi + left/right content added -------------- -->
-
-<div class="doi">
-</p>
-
-<p>
-<i>
-Keywords: technology and engineering education, computer science, standards
-</i>
-</p>
-
-<h3>
-INTRODUCTION AND BACKGROUND
-</h3>
-
-<p>
-Including computer science (CS) education within K-12 curricula in the United States has received increased support in recent years.  This may be in response to the rapidly growing demand for preparing individuals to address critical issues such as cyber security attacks.  Such support for CS has been demonstrated in various aspects.  In 2016, President Obama introduced his "Computer Science for All" initiative.  The goal of this new initiative was to empower all students from kindergarten through high school to learn CS concepts and be equipped with the computational thinking skills deemed necessary for success in a technological society.  To achieve this goal, President Obama called for $4 billion in funding for states and $100 million directly for school districts to train teachers and expand access to CS (<a href="#wh">The White House, 2016</a>). Also in 2016, the National Science Foundation (NSF) made $120 million available over five years and the Corporation for National and Community Service (CNCS) committed up to $17 million over a three-year period to support CS education (The White House, 2016). Furthermore, the Computer Science Education Coalition, composed of 43 members ranging from industry (i.e., Google, Amazon, Microsoft, and IBM) to nongovernment organizations (i.e., Computing Research Association and the Association for Computing Machinery), has actively encouraged Congress to invest millions of dollars in K-12 CS education (<a href="#csec">Computer Science Education Coalition, 2016</a>). Since 2015, 20 state policies supporting CS education have successfully passed legislation and eight more state policies are pending as of 2016 (<a href="#code">Code.org, 2016</a>). As a result of this increased attention and support, programs, such as the Hour of Code, which is a series of one-hour online tutorials to introduce students to coding, have continued to develop.  More than 200,000 educators worldwide now implement the Hour of Code program in their schools (<a href="#code">Code.org, 2016</a>).
-</p>
-
-<h3>
-Graduation Requirements
-</h3>
-
-<p>
-In response to the growing emphasis on the critical need for more student exposure to CS and the increased national support for K-12 CS education, various states that have allowed CS coursework to be used to fulfill high school graduation requirements.  The number of states allowing CS to fulfill high school graduation requirements has increased from 12 in 2012 to 33 in 2016 (<a href="#code">Code.org, 2016</a>).  The majority (20) of these states count CS courses to toward   mathematics graduation credit requirements, whereas fewer states count CS courses as graduation credits in mathematics or science (10), science (1), mathematics or foreign language (1), and technology and engineering (T&E) (1) (<a href="#code">Code.org, 2016</a>). In addition to allowing CS coursework to fulfill high school graduation requirements, some states (Arkansas, Texas, and West Virginia) have passed legislation to require schools at various grade levels to offer at least one computer science course (Iowa and New Jersey are currently awaiting final signatures requiring all secondary schools to offer CS) and seven states have established CS standards (<a href="#code">Code.org, 2016</a>). Moreover, in 2016 Chicago Public Schools approved a policy requiring all high school students to complete CS coursework as one of their core graduation requirements (<a href="#cps">Chicago Public Schools, 2016</a>).
-</p>
-
-<h3>
-Teacher Preparation
-</h3>
-
-<p>
-However, requisite to requiring CS course offerings and enabling CS courses to fulfill graduation requirements is finding qualified educators who are prepared to teach these courses. The New Hampshire Department of Education noted that the biggest challenge for their CS for all New Hampshire initiative has been recruiting and training teachers, because finding enough individuals to meet the demands for CS-related jobs and finding enough qualified individuals who will teach CS go hand in hand (<a href="#duffort">Duffort, 2016</a>). <a href="#wright">"Wright, Rich, and Leatham (2012)</a> also raised the concern for finding quality CS teachers by highlighting that there was a CS certification exam for high school teachers in some states but no general requirements for CS teacher certification in most states.  <a href="#csta">The Computer Science Teachers Association (CSTA) (2013)</a> also reported that two states require a certification or license to teach any CS courses, seven states require training to teach Advanced Placement (AP) CS courses, and 13 states offer a certification, licensure, or supplemental endorsement, but they do not require teachers to obtain these credentials to teach CS courses.  Further complicating matters, the CSTA reported that CS courses in which the certifications or endorsements were offered, were often delivered via a variety of high school departments, which included CS, business, mathematics, T&E education, fine and practical arts, library science departments, and career and technical education (CTE) departments. In recognition of this, the K-12 CS Framework (2016) acknowledged the need to train educators for teaching CS and provided guidelines for professional development. The Framework suggested developing a CS teacher licensure exam for endorsement, instituting CS as a CTE pathway, or requiring CS as part of existing T&E education pathways.
-</p>
-
-<h3>
-Defining CS and T&E Education
-</h3>
-
-<p>
-T&E education (formerly technology education) has long battled the stigma of being mistaken for instructional or educational technology (<a href="#dugger">Dugger & Naik, 2001;</a> <a href="#iteea">ITEEA, 2016</a>).  The K-12 CS Framework defined CS as "the study of computers and algorithmic processes, including their principles, their hardware and software designs, their applications, and their impact on society" (<a href="#tucker">Tucker et. al, 2006, p. 2</a>), whereas T&E education:
-</p>
-
-<p>
-   <i>
-Includes major areas that have characteristics that define it and distinguish it from others. Some examples of major areas that could be included in a taxonomy of the designed world are medical technologies, agricultural and related biotechnologies, energy and power technologies, information and communication technologies, transportation technologies, manufacturing technologies, and construction technologies...they represent the dynamic and the broad spectrum of technology that permeates our world today. (<a href="#dugger">Dugger & Naik, 2001, p. 31</a>) Regardless of the differences in the definitions, many people continue to confuse CS with T&E education.  This was evident in <a href="#khoury">Khoury's (2007)</a> survey of 45 states, which found that many individuals did not have a clear definition or understanding of CS and confused it with technology education or industrial technology.
-</i>
-</p>
-
-<h3>
-CS within T&E Education
-</h3>
-
-<p>
-Despite this confusion, some T&E education researchers have advocated for the inclusion of CS within T&E education.  <a href="#clark">Clark and Ernst (2008)</a> believed that incorporating CS was "a truly new way of seeing what technology education can do to support both state and federal initiatives in education" (p. 26), and that it would "allow for the integration of science and technological literacy to occur through the study of data visualization and the development of both virtual and physical models" (p. 21).  Additionally, they found that CS could assist with drop-out rates, 21st-century skills (<a href="#clark">Clark & Ernst, 2008</a>), and the development of scientific and technical visualization skills related to communications, medical, biotechnology, transportation, and energy and power technologies (<a href="#ernst">Ernst & Clark, 2007, 2009</a>).
-</p>
-
-<p>
-<a href="#wright">Wright et al. (2012)</a> declared that CS, specifically programming literacy, should be incorporated as part of T&E education and the STL "much like construction technology, manufacturing technology, medical technology, and so forth are included" (p. 6) because they "may increase critical-thinking and problem solving abilities" (p. 8).  <a href="#wright">Wright et al. (2012)</a> defined programming literacy as "being able to effectively, efficiently, and safely interact, use, and manipulate communication technologies" (p. 5), and highlighted that because technology is constantly evolving, new and effective technological areas, such as CS, should be integrated within T&E education.  They believed that programming literacy had a significant relationship with many fields of technology and that the social, political, economic, and environmental impact has an affect on the world.  Given the definition and applications of computer programming they suggested similar to <a href="#ernst">Ernst and Clark (2007, 2009)</a> that CS not be viewed as a replacement for T&E education, rather that it be considered and incorporated as one of the designed world components, specifically within information and communications technologies.
-</p>
-
-<h3>
-Policy Changes
-</h3>
-
-<p>
-The misconception that CS is the same as T&E education and the ambiguity of how to best integrate the two has had an effect on policy changes and instructional decisions made in some states.  Specifically the state of Maryland is the only state to count CS toward the T&E education graduation requirement (<a href="#code">Code.org, 2016</a>), and there have been changes made by the Maryland State Department of Education (MSDE) that have affected what constitutes as T&E education coursework.  In <a href="#msde">January of 2016, MSDE</a> revised their technology education standards, which were based on the International Technology and Engineering Educators Association's (ITEEA) Standards for Technological Literacy (STL), to include CS with the addition of Standard 5, "Students will be able to apply computational thinking skills and computer science applications as tools to develop solutions to engineering problems" (p. 20).  In addition to this new standard, MSDE also added a CS pathway to the list of preapproved courses that satisfied the T&E graduation requirement, giving school systems the option to offer CS classes in lieu of T&E education courses (<a href="#msde">MSDE, 2016, p. 6</a>). However, <a href="#love">Love, Dunn, and Tomlinson (2016)</a> indicated that the CS classes that were preapproved by MSDE fell short of covering all core technologies (biotechnology, electrical, electronics, fluid, materials, mechanical, optical, structural, and thermal) and components of the designed world (medical/agricultural/biotechnology, energy and power, information and communication, transportation, and manufacturing and construction technologies) as mandated by the Code of Maryland (COMAR) 13A.04.01.01 (<a href="#msde">MSDE, 2016</a>).
-</p>
-
-<h3>
-RESEARCH QUESTIONS
-</h3>
-
-<p>
-The preapproval to use CS courses in lieu of T&E education classes can be of concern for T&E education programs facing a critical teacher shortage (<a href="#love">Love, Love, Love, 2016</a>).  Furthermore, it can misrepresent T&E education as solely the use of computers, electronic devices, programming, and coding.  As specified in COMAR (<a href="#msde">MSDE, 2016</a>) and clarified by <a href="#dugger">Dugger and Naik (2001)</a>, T&E education is focused on the broader scope of technology - providing technological literacy for all students while introducing them to the various core technologies, designed world components, and immersing them in the engineering design process.  The different definitions of CS and T&E, yet the sometimes interchangeable use of CS for T&E courses led the researchers to develop the following questions to examine the relationship between the two content areas:
-</p>
-
-<ol>
-<li><i>To what extent does each of the K-12 CS Framework subconcepts for grades 9-12 align with the STL benchmarks for grades 9-12?</i></li>
-<li><i>To what extent do select curricular resources integrate CS concepts in alignment with the designed world components of the STL?</i></li>
-</ol>
-
-<h3>
-METHODOLOGY
-</h3>
-
-<p>
-To provide rigorous qualitative data examining the alignment of the standards, a multiple comparative case study (<a href="#yin">Yin, 2014</a>) was conducted.  A multiple comparative case study analyzes for similarities, differences, and patterns across two or more cases that share a common focus or goal.  The researchers examined the high school K-12 CS Framework subconcepts as well as the high school benchmarks from the STL.  The contents from each field were analyzed separately, and then those analyses were compared to reveal emerging similarities or differences.  The researchers who performed the analyses had expertise in T&E teacher preparation and experience with writing T&E education curriculum.  The researchers started by creating a chart with each of the K-12 CS Framework subconcept statements for grades 9-12; they then compared each subconcept with what was deemed to be the closest aligned STL benchmark(s) for grades 9-12.  From these analyses emerged themes that reflected the comparative content from both sets of standards (Table 1).  Each researcher analyzed the standards separately and then arbitrated the differences until a consensus was reached.  To ensure accuracy of the interpretation of the CS framework, one graduate student with expertise in CS and one with expertise in electrical engineering reviewed the analysis and provided feedback that helped corroborate the results.
-</p>
-
-<p>
-The researchers also analyzed a number of curricular resources they found throughout their research that claimed to teach CS and T&E education concepts.  A content analysis was conducted to examine the literature and research presented on these curricular resources to determine what STL designed world components they covered.  The result was a list of resources that demonstrated the use of CS as a tool to teach these designed world components.  To corroborate the accuracy of the curricular resource analysis, the researchers had the author(s) of each resource review the description presented in Table 2 and incorporated their feedback.
-</p>
-
-<h3>
-FINDINGS
-</h3>
-
-<p>
-To answer the first research question, "To what extent does each of the K-12 CS Framework subconcepts for grades 9-12 align with the STL benchmarks for grades 9-12?" a multiple comparative case study analysis was conducted to compare the subconcept statements of the K-12 CS Framework to the closest aligned grade 9-12 benchmark(s) from the STL.  Findings are presented in the analysis column of Table 1 on page 80.
-</p>
-
-<h3>
-   Table 1: Comparative Content Analysis of the K - 12 CS Framework and the STL
-</h3>
-
-<p>
-   <i>Note. CS = K-12 Computer Science Framework (2016) subconcept; STL = Standards for Technological Literacy benchmark (ITEA/ITEEA, 2000/2002/2007).</i>
-</p>
-
-<table class="grid" cellpadding="10" style="font-size:1em; width:70%; border-collapse:collapse; margin-left: 15%; margin-top:30px; margin-bottom:30px">
-   <thead style="border-top: 1px solid; background:#b7bdbf; padding:5px">
-    <th>
-       <i>Comparative Content</i>
-    </th>
-    <th>
-       <i>CS Subconcepts and STL Benchmarks</i>
-    </th>
-    <th>
-       <i>Analysis</i>
-    </th>
-   </thead>
-   <tbody align="center">
-    <tr style="background:#FFFFFE; padding:10px">
-      <td align="left">
-       Interactions Among Technologies
-      </td>
-      <td align="left">
-       CS: Devices <br>
-<br>
-       STL: 3H - Relationships Among Technologies and the Connections Between Technology and Other Field
-      </td>
-      <td align="left">
-         The CS framework was specific to computing devices integrated with other scientific, technological, or social systems, whereas the STL asserted that any type of technological innovation (not just those involving computers) could be applied within and among various technologies or across other fields.
-      </td>
-    </tr>
-
-    <tr style="background:#dadfe1; padding:5px">
-      <td align="left">
-         Transfer of Information
-      </td>
-      <td align="left">
-         CS: Hardware and Software <br>
-<br>
-         STL: 17M - Information and Communication Technologies
-      </td>
-      <td align="left">
-         Both emphasize the systems model, but the CS Framework is focused on software and hardware interactions for controlling and processing information while the STL were focused on the transfer of information and applications for the communication of many technologies (not only computer software and hardware).
-      </td>
-    </tr>
-
-    <tr style="background:#FFFFFE; padding:10px">
-      <td align="left">
-       Solving Problems
-      </td>
-      <td align="left">
-CS: Troubleshooting<br>
-CS: Algorithms<br>
-<br>
-STL: 8H - Attributes of Design<br>
-STL: 2Y – Core Concepts of Technology
-      </td>
-      <td align="left">
-         Both are focused on using the engineering design process (EDP), but while the STL focused on using all phases of the EDP to create physical models and prototypes, the CS Framework only focused on a few of the EDP phases to produce prototypes of computational artifacts, such as programs, simulations, visualizations, and apps.
-      </td>
-    </tr>
-
-    <tr style="background:#dadfe1; padding:5px">
-      <td align="left">
-         The Use of Computational Tools
-      </td>
-      <td align="left">
-         CS: Program Development<br>
-CS: Data and Analysis<br>
-CS: Visualization and Transformation<br>
-<br>
-STL: 12P - Use and Maintain Technological Products and Systems
-      </td>
-      <td align="left">
-         The CS Framework was focused on using computational tools and programs to perform calculations, process data, transform data, and transfer data, whereas the STL is focused on utilizing computers and calculation devices as technological tools to communicate data and inform designs to problems.
-      </td>
-    </tr>
-
-    <tr style="background:#FFFFFE; border-bottom:1px solid; padding:10px">
-      <td align="left">
-            Networks
-      </td>
-      <td align="left">
-          CS: Network Communication and Organization<br>
-          <br>
-STL: 17O - Information and Communication Technologies
-      </td>
-      <td align="left">
-         The CS Framework was focused on a more indepth study of the topology or structure of computer networking systems while the STL broadly discussed how communication systems transfer information, not including the topography of networking systems.
-      </td>
-    </tr>
-
-<tr style="background:#dadfe1; padding:5px">
-      <td align="left">
-Collection of Data
-     </td>
-
-      <td align="left">
-CS: Collection<br>
-<br>
-STL: 12P - Use and Maintain Technological Products and Systems
-     </td>
-
-      <td align="left">
-The CS Framework was concerned with computer and network-automated tools used to collect numerical data and the security of those data collection systems. The STL did not address data collection methods or data security, rather it focused on collection of data to inform engineering design practices, which was not limited to computers and automated tools.
-     </td>
-</tr>
-
-<tr style="background:#FFFFFE; border-bottom:1px solid; padding:10px">
-      <td align="left">
-Storage and Retrieval of Data
-      </td>
-
-      <td align="left">
-CS: Storage<br>
-<br>
-STL: 17O - Information and Communication Technologies
-     </td>
-
-      <td align="left">
-The CS Framework emphasized the specific processes for organizing data in relation to storing, accessing, and archiving information using computer and network systems whereas the STL focused on the broader view of how information is transferred through a communication system.
-     </td>
-</tr>
-
-<tr style="background:#dadfe1; padding:5px">
-      <td align="left">
-Representation of Data
-     </td>
-
-      <td align="left">
-CS: Visualization and Transformation<br>
-<br>
-STL: 17P - Information and Communication Technologies<br>
-STL: 3H - Relationships Among Technologies and the Connections Between Technology and Other Fields
-     </td>
-
-      <td align="left">
-The CS Framework was focused specifically on the application of mathematical operations to transform and analyze data to be represented by computer software and programming while the STL emphasized various technologies (electronic and non-electronic) can be used to represent data and apply concepts from various fields (not just mathematical operations) to foster innovation.
-     </td>
-</tr>
-
-<tr style="background:#FFFFFE; border-bottom:1px solid; padding:10px">
-      <td align="left">
-Modeling
-      </td>
-
-      <td align="left">
-CS: Inference and Models<br>
-<br>
-STL: 11P - Apply the Design Process
-     </td>
-
-      <td align="left">
-CS Framework was focused on using computers to create data models for developing inferences and predictions to test and validate computer model data. The STL was focused on creating and evaluating various types of models throughout all phases of the engineering design process to not only predict but also evaluate design solutions not limited to computer generated or mathematical models.
-     </td>
-</tr>
-
-<tr style="background:#dadfe1; padding:5px">
-      <td align="left">
-Mathematical Applications
-     </td>
-
-      <td align="left">
-CS: Algorithms<br>
-<br>
-CS: Visualization and Transformation<br>
-<br>
-STL: 3J - Relationships Among Technologies and the Connections Between Technology and Other Fields
-     </td>
-
-      <td align="left">
-The CS Framework focused specifically on using computational systems and programs to perform calculations while the STL emphasized the application of both mathematical and scientific concepts to aid in engineering design decisions and advance various technologies (not limited to programming, software, and computers).
-     </td>
-</tr>
-
-<tr style="background:#FFFFFE; border-bottom:1px solid; padding:10px">
-      <td align="left">
-Structuring of Data
-      </td>
-
-      <td align="left">
-CS: Variables<br>
-<br>
-STL: 17Q - Information and Communication Technologies
-     </td>
-
-      <td align="left">
-The CS Framework emphasized programming knowledge and data structures as a means for improving programming and program efficiency, whereas the STL focused on visual, auditory, and tactile methods to effectively communicate data.
-     </td>
-</tr>
-
-<tr style="background:#dadfe1; padding:5px">
-      <td align="left">
-Determining Tradeoffs
-     </td>
-
-      <td align="left">
-CS: Control<br>
-<br>
-STL: 4I - The Cultural, Social, Economic, and Political Effects of Technology
-     </td>
-
-      <td align="left">
-The CS Framework focused on considering the tradeoffs specifically related to choice of programming language for control structures, however the STL focused on the broader global, environmental, cultural, safety, societal, and economical tradeoffs associated with various technologies beyond programming.
-     </td>
-</tr>
-
-<tr style="background:#FFFFFE; border-bottom:1px solid; padding:10px">
-      <td align="left">
-Systems Approach
-      </td>
-
-      <td align="left">
-CS: Modularity<br>
-<br>
-STL: 2Y – The Core Concepts of Technology
-     </td>
-
-      <td align="left">
-The CS Framework focused on systems design using programming language for software applications, module relationships, and program management while the STL focused on systems thinking related to natural and manmade control systems related to many technologies, beyond software applications and programming.
-     </td>
-</tr>
-
-<tr style="background:#dadfe1; padding:5px">
-      <td align="left">
-Societal Access to Technology
-     </td>
-
-      <td align="left">
-CS: Culture<br>
-<br>
-STL: 4K - The Cultural, Social, Economic, and Political Effects of Technology
-     </td>
-
-      <td align="left">
-The CS Framework focused on the design of computing technologies and artifacts to provide equitable societal access to such technologies while the STL focused on the broader cultural, social, economic, and political effects that various forms of technology have on society.
-     </td>
-</tr>
-
-<tr style="background:#FFFFFE; border-bottom:1px solid; padding:10px">
-      <td align="left">
-Greater Societal Impact
-      </td>
-
-      <td align="left">
-CS: Cybersecurity<br>
-CS: Social Interactions<br>
-<br>
-STL: 4I - The Cultural, Social, Economic, and Political Effects of Technology<br>
-STL: 4K - The Cultural, Social, Economic, and Political Effects of Technology<br>
-STL: 17N - Information and Communication Technologies
-     </td>
-
-      <td align="left">
-The CS Framework emphasized that computing and network security measures have helped to connect people from different cultures and career fields while considering tradeoffs between accessibility and security. The STL focused on the various uses of many types of communication systems and the decision making process to consider both positive and negative global, environmental, cultural, safety, societal, and economical trade-offs of technologies.
-     </td>
-</tr>
-
-<tr style="background:#dadfe1; padding:5px">
-      <td align="left">
-Safety and Ethics
-     </td>
-
-      <td align="left">
-CS: Safety, Law, and Ethics<br>
-<br>
-STL: 9L - Engineering Design
-     </td>
-
-      <td align="left">
-The CS Framework focused on legal issues and tradeoffs related to computing, specifically Internet usage, whereas the STL focused on a broader scope of safety and ethical issues that affect society such as safety, reliability, economic considerations, quality control, environmental concerns, manufacturability, maintenance and repair, and ergonomics.
-     </td>
-</tr>
-
-<tr style="background:#FFFFFE; border-bottom:1px solid; padding:10px">
-      <td align="left">
-
-      </td>
-</tr>
-
-   </tbody>
- </table>
-
- <p>
- To answer the second research question, "To what extent do select curricular resources integrate CS concepts in alignment with the designed world components of the STL?" the researchers conducted a content analysis of courses they discovered during their research that claimed to teach both T&E and CS concepts. The curricular resources presented in Table 2 were ones that the analysis found to demonstrate the best use of CS as a tool for teaching various designed world components (Table 2).
-</div>
+<manually edited>
 
 #234 source_filepath: Winter-Spring-1997/index.html
 destination_path: Winter-Spring-1997/index.html
@@ -3050,6 +2678,7 @@ content_string:
    https://doi.org/10.21061/jots.v24i1.a.13
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #237 source_filepath: Winter-Spring-1998/black.html
 destination_path: Winter-Spring-1998/black.html
 content_string: 
@@ -3060,6 +2689,7 @@ content_string:
    https://doi.org/10.21061/jots.v24i1.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #238 source_filepath: Winter-Spring-1998/bookreview.html
 destination_path: Winter-Spring-1998/bookreview.html
 content_string: 
@@ -3070,6 +2700,7 @@ content_string:
    https://doi.org/10.21061/jots.v24i1.a.15
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #239 source_filepath: Winter-Spring-1998/brauchle.html
 destination_path: Winter-Spring-1998/brauchle.html
 content_string: 
@@ -3080,6 +2711,7 @@ content_string:
    https://doi.org/10.21061/jots.v24i1.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #240 source_filepath: Winter-Spring-1998/cardon.html
 destination_path: Winter-Spring-1998/cardon.html
 content_string: 
@@ -3090,6 +2722,7 @@ content_string:
    https://doi.org/10.21061/jots.v24i1.a.12
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #241 source_filepath: Winter-Spring-1998/dailey.html
 destination_path: Winter-Spring-1998/dailey.html
 content_string: 
@@ -3100,6 +2733,7 @@ content_string:
    https://doi.org/10.21061/jots.v24i1.a.14
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #242 source_filepath: Winter-Spring-1998/demiranda.html
 destination_path: Winter-Spring-1998/demiranda.html
 content_string: 
@@ -3110,6 +2744,7 @@ content_string:
    https://doi.org/10.21061/jots.v24i1.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #243 source_filepath: Winter-Spring-1998/guide.html
 destination_path: Winter-Spring-1998/guide.html
 Error: DOI list empty
@@ -3129,6 +2764,7 @@ content_string:
    https://doi.org/10.21061/jots.v24i1.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #247 source_filepath: Winter-Spring-1998/mockford.html
 destination_path: Winter-Spring-1998/mockford.html
 content_string: 
@@ -3139,6 +2775,7 @@ content_string:
    https://doi.org/10.21061/jots.v24i1.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #248 source_filepath: Winter-Spring-1998/natarajan.html
 destination_path: Winter-Spring-1998/natarajan.html
 content_string: 
@@ -3149,6 +2786,7 @@ content_string:
    https://doi.org/10.21061/jots.v24i1.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #249 source_filepath: Winter-Spring-1998/oneill.html
 destination_path: Winter-Spring-1998/oneill.html
 content_string: 
@@ -3159,6 +2797,7 @@ content_string:
    https://doi.org/10.21061/jots.v24i1.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #250 source_filepath: Winter-Spring-1998/prime.html
 destination_path: Winter-Spring-1998/prime.html
 content_string: 
@@ -3169,6 +2808,7 @@ content_string:
    https://doi.org/10.21061/jots.v24i1.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #251 source_filepath: Winter-Spring-1998/pubeditor.html
 destination_path: Winter-Spring-1998/pubeditor.html
 Error: DOI list empty
@@ -3182,6 +2822,7 @@ content_string:
    https://doi.org/10.21061/jots.v24i1.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #253 source_filepath: Winter-Spring-1998/sinn.html
 destination_path: Winter-Spring-1998/sinn.html
 content_string: 
@@ -3192,6 +2833,7 @@ content_string:
    https://doi.org/10.21061/jots.v24i1.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #254 source_filepath: Winter-Spring-1998/yamazaki.html
 destination_path: Winter-Spring-1998/yamazaki.html
 content_string: 
@@ -3202,6 +2844,7 @@ content_string:
    https://doi.org/10.21061/jots.v24i1.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #255 source_filepath: Winter-Spring-1998/PDF/index.html
 destination_path: Winter-Spring-1998/PDF/index.html
 Error: DOI list empty
@@ -3215,6 +2858,7 @@ content_string:
    https://doi.org/10.21061/jots.v25i1.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #257 source_filepath: Winter-Spring-1999/editarticle.html
 destination_path: Winter-Spring-1999/editarticle.html
 content_string: 
@@ -3235,6 +2879,7 @@ content_string:
    https://doi.org/10.21061/jots.v25i1.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #259 source_filepath: Winter-Spring-1999/hotek.html
 destination_path: Winter-Spring-1999/hotek.html
 content_string: 
@@ -3245,6 +2890,7 @@ content_string:
    https://doi.org/10.21061/jots.v25i1.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #260 source_filepath: Winter-Spring-1999/ideas.html
 destination_path: Winter-Spring-1999/ideas.html
 content_string: 
@@ -3278,6 +2924,7 @@ content_string:
    https://doi.org/10.21061/jots.v25i1.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #264 source_filepath: Winter-Spring-1999/PDF/index.html
 destination_path: Winter-Spring-1999/PDF/index.html
 Error: DOI list empty
@@ -3291,6 +2938,7 @@ content_string:
    https://doi.org/10.21061/jots.v26i1.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #266 source_filepath: Winter-Spring-2000/akabue.html
 destination_path: Winter-Spring-2000/akabue.html
 content_string: 
@@ -3440,6 +3088,7 @@ content_string:
    https://doi.org/10.21061/jots.v27i1.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #283 source_filepath: Winter-Spring-2001/index.html
 destination_path: Winter-Spring-2001/index.html
 Error: DOI list empty
@@ -3453,6 +3102,7 @@ content_string:
    https://doi.org/10.21061/jots.v27i1.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #285 source_filepath: Winter-Spring-2001/lovedahl.html
 destination_path: Winter-Spring-2001/lovedahl.html
 content_string: 
@@ -3535,4 +3185,4 @@ Error: DOI list empty
 #295 source_filepath: Winter-Spring-2002/pdf/index.html
 destination_path: Winter-Spring-2002/pdf/index.html
 Error: DOI list empty
-[Finished in 1.2s]
+[Finished in 1.3s]

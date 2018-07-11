@@ -21,6 +21,9 @@ July 9, 2018
 		- Issue description: arbitary string grabbed 
 	- (done) Empty string need to be handled
 
+ - Error: DOI is in the wrong place
+ 	- ALAN/v40n1/glenn.html
+
  - Fixing ICC grabbing content next to COinS
  	- (not resolved) May be already resolved by the new update in code 
  	- If not, check for extra contents in the metadata

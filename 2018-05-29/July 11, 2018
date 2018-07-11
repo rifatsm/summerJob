@@ -1,0 +1,18 @@
+July 11, 2018
+
+	- Python Command to run HTTPServer
+		- python -m SimpleHTTPServer 8000
+
+- (done) Error: DOI is in the wrong place
+ 	- ALAN/v40n1/glenn.html
+ 	- We need to develope a rule for getting the correct location after the title 
+ 	- Look for common tags, divs, classes for the above purpose
+ 		- Possible Soln: split on the first `</h2>` after `<div class="col-sm-8 main-content-left">` 
+ 			- We can solely split on the first `</h2>` inside the body and insert the contents there 
+ 			- This should work on both ALAN & JOTS files
+
+- (done) Fixing ICC grabbing content next to COinS
+ 	- (not resolved) May be already resolved by the new update in code 
+ 	- If not, check for extra contents in the metadata
+ 	- Trim down the extra contents 
+

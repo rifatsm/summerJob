@@ -36,6 +36,7 @@ content_string:
 	Fall 1994
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #10 source_filepath: fall94/Baines.html
 destination_path: fall94/Baines.html
 content_string: 
@@ -118,6 +119,7 @@ content_string:
 	Fall 1994
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #15 source_filepath: fall94/Greenway.html
 destination_path: fall94/Greenway.html
 content_string: 
@@ -136,6 +138,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i1.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #16 source_filepath: fall94/Hobbs.html
 destination_path: fall94/Hobbs.html
 content_string: 
@@ -154,6 +157,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i1.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #17 source_filepath: fall94/index.html
 destination_path: fall94/index.html
 content_string: 
@@ -186,6 +190,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i1.a.16
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #19 source_filepath: fall94/Meltzer.html
 destination_path: fall94/Meltzer.html
 content_string: 
@@ -204,6 +209,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i1.a.14
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #20 source_filepath: fall94/MemCONN.html
 destination_path: fall94/MemCONN.html
 content_string: 
@@ -218,6 +224,7 @@ content_string:
 	Fall 1994
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #21 source_filepath: fall94/Monseau.html
 destination_path: fall94/Monseau.html
 content_string: 
@@ -236,6 +243,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i1.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #22 source_filepath: fall94/Moore.html
 destination_path: fall94/Moore.html
 content_string: 
@@ -254,6 +262,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i1.a.12
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #23 source_filepath: fall94/Poe.html
 destination_path: fall94/Poe.html
 content_string: 
@@ -272,6 +281,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i1.a.13
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #24 source_filepath: fall94/PubCONN.html
 destination_path: fall94/PubCONN.html
 content_string: 
@@ -290,6 +300,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i1.a.14
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #25 source_filepath: fall94/Questions.html
 destination_path: fall94/Questions.html
 content_string: 
@@ -304,6 +315,7 @@ content_string:
 	Fall 1994
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #26 source_filepath: fall94/ResCONN.html
 destination_path: fall94/ResCONN.html
 content_string: 
@@ -322,6 +334,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i1.a.15
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #27 source_filepath: fall94/Salisbury.html
 destination_path: fall94/Salisbury.html
 content_string: 
@@ -340,6 +353,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i1.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #28 source_filepath: fall94/Schmitz.html
 destination_path: fall94/Schmitz.html
 content_string: 
@@ -358,6 +372,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i1.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #29 source_filepath: fall94/Stringer.html
 destination_path: fall94/Stringer.html
 content_string: 
@@ -376,6 +391,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i1.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #30 source_filepath: fall94/Thompson.html
 destination_path: fall94/Thompson.html
 content_string: 
@@ -394,6 +410,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i1.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #31 source_filepath: fall94/toc.html
 destination_path: fall94/toc.html
 content_string: 
@@ -408,6 +425,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #32 source_filepath: fall94/Zindel.html
 destination_path: fall94/Zindel.html
 content_string: 
@@ -426,6 +444,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i1.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #33 source_filepath: fall95/Answers.html
 destination_path: fall95/Answers.html
 content_string: 
@@ -440,6 +459,7 @@ content_string:
 	Fall 1995
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #34 source_filepath: fall95/Banker.html
 destination_path: fall95/Banker.html
 content_string: 
@@ -458,6 +478,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i1.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #35 source_filepath: fall95/Bridgers.html
 destination_path: fall95/Bridgers.html
 content_string: 
@@ -476,6 +497,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i1.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #36 source_filepath: fall95/Clair.html
 destination_path: fall95/Clair.html
 content_string: 
@@ -494,6 +516,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i1.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #37 source_filepath: fall95/Clip_and_file.html
 destination_path: fall95/Clip_and_file.html
 content_string: 
@@ -508,6 +531,7 @@ content_string:
 	Fall 1995
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #38 source_filepath: fall95/Editor.html
 destination_path: fall95/Editor.html
 content_string: 
@@ -522,6 +546,7 @@ content_string:
 	Fall 1995
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #39 source_filepath: fall95/Ericson.html
 destination_path: fall95/Ericson.html
 content_string: 
@@ -540,6 +565,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i1.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #40 source_filepath: fall95/Franklin.html
 destination_path: fall95/Franklin.html
 content_string: 
@@ -558,6 +584,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i1.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #41 source_filepath: fall95/index.html
 destination_path: fall95/index.html
 content_string: 
@@ -604,6 +631,7 @@ content_string:
 	Fall 1995
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #44 source_filepath: fall95/LibCONN.html
 destination_path: fall95/LibCONN.html
 content_string: 
@@ -622,6 +650,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i1.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #45 source_filepath: fall95/MemCONN.html
 destination_path: fall95/MemCONN.html
 content_string: 
@@ -636,6 +665,7 @@ content_string:
 	Fall 1995
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #46 source_filepath: fall95/Newman.html
 destination_path: fall95/Newman.html
 content_string: 
@@ -654,6 +684,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i1.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #47 source_filepath: fall95/PubCONN.html
 destination_path: fall95/PubCONN.html
 content_string: 
@@ -672,6 +703,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i1.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #48 source_filepath: fall95/Questions.html
 destination_path: fall95/Questions.html
 content_string: 
@@ -686,6 +718,7 @@ content_string:
 	Fall 1995
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #49 source_filepath: fall95/ResCONN.html
 destination_path: fall95/ResCONN.html
 content_string: 
@@ -704,6 +737,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i1.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #50 source_filepath: fall95/Simmons.html
 destination_path: fall95/Simmons.html
 content_string: 
@@ -722,6 +756,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i1.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #51 source_filepath: fall95/toc.html
 destination_path: fall95/toc.html
 Error: DOI list empty
@@ -739,6 +774,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #53 source_filepath: fall96/f96-02-Talbert.html
 destination_path: fall96/f96-02-Talbert.html
 content_string: 
@@ -775,6 +811,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i1.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #55 source_filepath: fall96/f96-04-McKinney.html
 destination_path: fall96/f96-04-McKinney.html
 content_string: 
@@ -793,6 +830,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i1.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #56 source_filepath: fall96/f96-05-Chandler.html
 destination_path: fall96/f96-05-Chandler.html
 content_string: 
@@ -847,6 +885,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i1.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #59 source_filepath: fall96/f96-08-Sanders.html
 destination_path: fall96/f96-08-Sanders.html
 content_string: 
@@ -865,6 +904,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i1.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #60 source_filepath: fall96/f96-09-Hayn.html
 destination_path: fall96/f96-09-Hayn.html
 content_string: 
@@ -883,6 +923,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i1.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #61 source_filepath: fall96/f96-10-Carico.html
 destination_path: fall96/f96-10-Carico.html
 content_string: 
@@ -901,6 +942,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i1.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #62 source_filepath: fall96/f96-11-Research.html
 destination_path: fall96/f96-11-Research.html
 content_string: 
@@ -919,6 +961,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i1.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #63 source_filepath: fall96/f96-12-Library.html
 destination_path: fall96/f96-12-Library.html
 content_string: 
@@ -1001,6 +1044,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #68 source_filepath: fall96/f96-clip_and_file.html
 destination_path: fall96/f96-clip_and_file.html
 content_string: 
@@ -1015,6 +1059,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #69 source_filepath: fall96/f96-Questions.html
 destination_path: fall96/f96-Questions.html
 content_string: 
@@ -1029,6 +1074,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #70 source_filepath: fall96/f96-reviews.html
 destination_path: fall96/f96-reviews.html
 content_string: 
@@ -1043,6 +1089,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #71 source_filepath: fall96/f96-TOC.html
 destination_path: fall96/f96-TOC.html
 content_string: 
@@ -1057,6 +1104,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #72 source_filepath: fall96/index.html
 destination_path: fall96/index.html
 content_string: 
@@ -1085,6 +1133,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #74 source_filepath: fall97/barron.html
 destination_path: fall97/barron.html
 content_string: 
@@ -1103,6 +1152,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i1.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #75 source_filepath: fall97/cart.html
 destination_path: fall97/cart.html
 content_string: 
@@ -1121,6 +1171,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i1.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #76 source_filepath: fall97/clipandfile.html
 destination_path: fall97/clipandfile.html
 content_string: 
@@ -1135,6 +1186,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #77 source_filepath: fall97/editor.html
 destination_path: fall97/editor.html
 content_string: 
@@ -1149,6 +1201,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #78 source_filepath: fall97/gill.html
 destination_path: fall97/gill.html
 content_string: 
@@ -1167,6 +1220,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i1.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #79 source_filepath: fall97/index.html
 destination_path: fall97/index.html
 content_string: 
@@ -1199,6 +1253,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i1.a.13
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #81 source_filepath: fall97/littlejohn.html
 destination_path: fall97/littlejohn.html
 content_string: 
@@ -1217,6 +1272,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i1.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #82 source_filepath: fall97/membership.html
 destination_path: fall97/membership.html
 content_string: 
@@ -1231,6 +1287,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #83 source_filepath: fall97/napoli.html
 destination_path: fall97/napoli.html
 content_string: 
@@ -1249,6 +1306,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i1.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #84 source_filepath: fall97/publisher.html
 destination_path: fall97/publisher.html
 content_string: 
@@ -1267,6 +1325,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i1.a.12
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #85 source_filepath: fall97/research.html
 destination_path: fall97/research.html
 content_string: 
@@ -1285,6 +1344,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i1.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #86 source_filepath: fall97/review.html
 destination_path: fall97/review.html
 content_string: 
@@ -1303,6 +1363,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i1.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #87 source_filepath: fall97/schaefer.html
 destination_path: fall97/schaefer.html
 content_string: 
@@ -1321,6 +1382,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i1.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #88 source_filepath: fall97/sullivan.html
 destination_path: fall97/sullivan.html
 content_string: 
@@ -1339,6 +1401,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i1.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #89 source_filepath: fall97/taylor.html
 destination_path: fall97/taylor.html
 content_string: 
@@ -1357,6 +1420,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i1.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #90 source_filepath: fall97/trivia.html
 destination_path: fall97/trivia.html
 content_string: 
@@ -1371,6 +1435,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #91 source_filepath: fall97/tsujimoto.html
 destination_path: fall97/tsujimoto.html
 content_string: 
@@ -1389,6 +1454,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i1.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #92 source_filepath: fall98/brown.html
 destination_path: fall98/brown.html
 content_string: 
@@ -1407,6 +1473,7 @@ content_string:
    https://doi.org/10.21061/alan.v26i1.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #93 source_filepath: fall98/bucher.html
 destination_path: fall98/bucher.html
 content_string: 
@@ -1425,6 +1492,7 @@ content_string:
    https://doi.org/10.21061/alan.v26i1.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #94 source_filepath: fall98/clip.html
 destination_path: fall98/clip.html
 content_string: 
@@ -1439,6 +1507,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #95 source_filepath: fall98/editor.html
 destination_path: fall98/editor.html
 content_string: 
@@ -1453,6 +1522,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #96 source_filepath: fall98/edteam.html
 destination_path: fall98/edteam.html
 content_string: 
@@ -1467,6 +1537,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #97 source_filepath: fall98/hesse.html
 destination_path: fall98/hesse.html
 content_string: 
@@ -1485,6 +1556,7 @@ content_string:
    https://doi.org/10.21061/alan.v26i1.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #98 source_filepath: fall98/index.html
 destination_path: fall98/index.html
 content_string: 
@@ -1513,6 +1585,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #100 source_filepath: fall98/mckinney.html
 destination_path: fall98/mckinney.html
 content_string: 
@@ -1531,6 +1604,7 @@ content_string:
    https://doi.org/10.21061/alan.v26i1.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #101 source_filepath: fall98/nobles.html
 destination_path: fall98/nobles.html
 content_string: 
@@ -1549,6 +1623,7 @@ content_string:
    https://doi.org/10.21061/alan.v26i1.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #102 source_filepath: fall98/research.html
 destination_path: fall98/research.html
 content_string: 
@@ -1567,6 +1642,7 @@ content_string:
    https://doi.org/10.21061/alan.v26i1.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #103 source_filepath: fall98/royer.html
 destination_path: fall98/royer.html
 content_string: 
@@ -1585,6 +1661,7 @@ content_string:
    https://doi.org/10.21061/alan.v26i1.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #104 source_filepath: fall98/stallworth.html
 destination_path: fall98/stallworth.html
 content_string: 
@@ -1603,6 +1680,7 @@ content_string:
    https://doi.org/10.21061/alan.v26i1.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #105 source_filepath: fall98/stover.html
 destination_path: fall98/stover.html
 content_string: 
@@ -1621,6 +1699,7 @@ content_string:
    https://doi.org/10.21061/alan.v26i1.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #106 source_filepath: fall98/tighe.html
 destination_path: fall98/tighe.html
 content_string: 
@@ -1639,6 +1718,7 @@ content_string:
    https://doi.org/10.21061/alan.v26i1.a.12
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #107 source_filepath: fall98/tuccillo.html
 destination_path: fall98/tuccillo.html
 content_string: 
@@ -1657,6 +1737,7 @@ content_string:
    https://doi.org/10.21061/alan.v26i1.a.13
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #108 source_filepath: fall98/weiss.html
 destination_path: fall98/weiss.html
 content_string: 
@@ -1675,6 +1756,7 @@ content_string:
    https://doi.org/10.21061/alan.v26i1.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #109 source_filepath: fall98/wilder.html
 destination_path: fall98/wilder.html
 content_string: 
@@ -1693,6 +1775,7 @@ content_string:
    https://doi.org/10.21061/alan.v26i1.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #110 source_filepath: fall99/brewbaker.html
 destination_path: fall99/brewbaker.html
 content_string: 
@@ -1711,6 +1794,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #111 source_filepath: fall99/carico.html
 destination_path: fall99/carico.html
 content_string: 
@@ -1729,6 +1813,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #112 source_filepath: fall99/chance.html
 destination_path: fall99/chance.html
 content_string: 
@@ -1747,6 +1832,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #113 source_filepath: fall99/clip.html
 destination_path: fall99/clip.html
 content_string: 
@@ -1761,6 +1847,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #114 source_filepath: fall99/editor.html
 destination_path: fall99/editor.html
 content_string: 
@@ -1775,6 +1862,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #115 source_filepath: fall99/gregg.html
 destination_path: fall99/gregg.html
 content_string: 
@@ -1793,6 +1881,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #116 source_filepath: fall99/index.html
 destination_path: fall99/index.html
 content_string: 
@@ -1825,6 +1914,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #118 source_filepath: fall99/miller.html
 destination_path: fall99/miller.html
 content_string: 
@@ -1843,6 +1933,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #119 source_filepath: fall99/moore.html
 destination_path: fall99/moore.html
 content_string: 
@@ -1861,6 +1952,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #120 source_filepath: fall99/radley.html
 destination_path: fall99/radley.html
 content_string: 
@@ -1879,6 +1971,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #121 source_filepath: fall99/smith.html
 destination_path: fall99/smith.html
 content_string: 
@@ -1897,6 +1990,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #122 source_filepath: fall99/watson.html
 destination_path: fall99/watson.html
 content_string: 
@@ -1915,6 +2009,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #123 source_filepath: fall99/wilder.html
 destination_path: fall99/wilder.html
 content_string: 
@@ -1933,6 +2028,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #124 source_filepath: lockss/manifest.html
 destination_path: lockss/manifest.html
 Error: DOI list empty
@@ -1954,6 +2050,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i3.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #126 source_filepath: spring00/ariew.html
 destination_path: spring00/ariew.html
 content_string: 
@@ -1972,6 +2069,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i3.a.14
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #127 source_filepath: spring00/baron.html
 destination_path: spring00/baron.html
 content_string: 
@@ -1990,6 +2088,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i3.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #128 source_filepath: spring00/brewbaker.html
 destination_path: spring00/brewbaker.html
 content_string: 
@@ -2008,6 +2107,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i3.a.16
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #129 source_filepath: spring00/broughton.html
 destination_path: spring00/broughton.html
 content_string: 
@@ -2026,6 +2126,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i3.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #130 source_filepath: spring00/broughtonint.html
 destination_path: spring00/broughtonint.html
 content_string: 
@@ -2044,6 +2145,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i3.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #131 source_filepath: spring00/brown.html
 destination_path: spring00/brown.html
 content_string: 
@@ -2062,6 +2164,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i3.a.13
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #132 source_filepath: spring00/brownres.html
 destination_path: spring00/brownres.html
 content_string: 
@@ -2080,6 +2183,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i3.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #133 source_filepath: spring00/carico.html
 destination_path: spring00/carico.html
 content_string: 
@@ -2098,6 +2202,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i3.a.12
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #134 source_filepath: spring00/crowe.html
 destination_path: spring00/crowe.html
 content_string: 
@@ -2116,6 +2221,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i3.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #135 source_filepath: spring00/editor.html
 destination_path: spring00/editor.html
 content_string: 
@@ -2130,6 +2236,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #136 source_filepath: spring00/i2a.html
 destination_path: spring00/i2a.html
 content_string: 
@@ -2144,6 +2251,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #137 source_filepath: spring00/index.html
 destination_path: spring00/index.html
 content_string: 
@@ -2176,6 +2284,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i3.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #139 source_filepath: spring00/kaplan.html
 destination_path: spring00/kaplan.html
 content_string: 
@@ -2194,6 +2303,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i3.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #140 source_filepath: spring00/ladd.html
 destination_path: spring00/ladd.html
 content_string: 
@@ -2212,6 +2322,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i3.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #141 source_filepath: spring00/simmons.html
 destination_path: spring00/simmons.html
 content_string: 
@@ -2230,6 +2341,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i3.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #142 source_filepath: spring00/white.html
 destination_path: spring00/white.html
 content_string: 
@@ -2248,6 +2360,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i3.a.15
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #143 source_filepath: spring00/white2.html
 destination_path: spring00/white2.html
 content_string: 
@@ -2266,6 +2379,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i3.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #144 source_filepath: spring94/Albritton.html
 destination_path: spring94/Albritton.html
 content_string: 
@@ -2284,6 +2398,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i3.a.12
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #145 source_filepath: spring94/Answers.html
 destination_path: spring94/Answers.html
 content_string: 
@@ -2298,6 +2413,7 @@ content_string:
 	Spring 1994
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #146 source_filepath: spring94/Asher.html
 destination_path: spring94/Asher.html
 content_string: 
@@ -2316,6 +2432,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i3.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #147 source_filepath: spring94/Brown.html
 destination_path: spring94/Brown.html
 content_string: 
@@ -2334,6 +2451,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i3.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #148 source_filepath: spring94/Clip_and_file.html
 destination_path: spring94/Clip_and_file.html
 content_string: 
@@ -2348,6 +2466,7 @@ content_string:
 	Spring 1994
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #149 source_filepath: spring94/DivCONN.html
 destination_path: spring94/DivCONN.html
 content_string: 
@@ -2366,6 +2485,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i3.a.13
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #150 source_filepath: spring94/Editor.html
 destination_path: spring94/Editor.html
 content_string: 
@@ -2380,6 +2500,7 @@ content_string:
 	Spring 1994
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #151 source_filepath: spring94/Foster.html
 destination_path: spring94/Foster.html
 content_string: 
@@ -2398,6 +2519,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i3.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #152 source_filepath: spring94/index.html
 destination_path: spring94/index.html
 content_string: 
@@ -2412,6 +2534,7 @@ content_string:
    Spring 1994
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #153 source_filepath: spring94/index20110610.html
 destination_path: N/A
 Destination file not found
@@ -2433,6 +2556,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i3.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #155 source_filepath: spring94/LibCONN.html
 destination_path: spring94/LibCONN.html
 content_string: 
@@ -2451,6 +2575,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i3.a.14
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #156 source_filepath: spring94/Liddie.html
 destination_path: spring94/Liddie.html
 content_string: 
@@ -2469,6 +2594,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i3.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #157 source_filepath: spring94/MemCONN.html
 destination_path: spring94/MemCONN.html
 content_string: 
@@ -2483,6 +2609,7 @@ content_string:
 	Spring 1994
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #158 source_filepath: spring94/Mitchell.html
 destination_path: spring94/Mitchell.html
 content_string: 
@@ -2501,6 +2628,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i3.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #159 source_filepath: spring94/Overstreet.html
 destination_path: spring94/Overstreet.html
 content_string: 
@@ -2519,6 +2647,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i3.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #160 source_filepath: spring94/Playpublishers.html
 destination_path: spring94/Playpublishers.html
 content_string: 
@@ -2537,6 +2666,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i3.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #161 source_filepath: spring94/PubCONN.html
 destination_path: spring94/PubCONN.html
 content_string: 
@@ -2555,6 +2685,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i3.a.15
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #162 source_filepath: spring94/Questions.html
 destination_path: spring94/Questions.html
 content_string: 
@@ -2569,6 +2700,7 @@ content_string:
 	Spring 1994
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #163 source_filepath: spring94/Teasley.html
 destination_path: spring94/Teasley.html
 content_string: 
@@ -2587,6 +2719,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i3.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #164 source_filepath: spring94/Tighe.html
 destination_path: spring94/Tighe.html
 content_string: 
@@ -2605,6 +2738,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i3.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #165 source_filepath: spring94/toc.html
 destination_path: spring94/toc.html
 content_string: 
@@ -2619,6 +2753,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #166 source_filepath: spring94/Vogel.html
 destination_path: spring94/Vogel.html
 content_string: 
@@ -2637,6 +2772,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i3.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #167 source_filepath: spring94/Youngplaywrites.html
 destination_path: spring94/Youngplaywrites.html
 content_string: 
@@ -2655,6 +2791,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i3.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #168 source_filepath: spring94/Zaidman.html
 destination_path: spring94/Zaidman.html
 content_string: 
@@ -2673,6 +2810,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i3.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #169 source_filepath: spring95/answers.html
 destination_path: spring95/answers.html
 content_string: 
@@ -2687,6 +2825,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #170 source_filepath: spring95/Asher.html
 destination_path: spring95/Asher.html
 content_string: 
@@ -2705,6 +2844,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i3.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #171 source_filepath: spring95/Bontempo.html
 destination_path: spring95/Bontempo.html
 content_string: 
@@ -2723,6 +2863,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i3.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #172 source_filepath: spring95/Clip_and_file.html
 destination_path: spring95/Clip_and_file.html
 Error: DOI list empty
@@ -2744,6 +2885,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i3.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #174 source_filepath: spring95/Editor.html
 destination_path: spring95/Editor.html
 Error: DOI list empty
@@ -2761,6 +2903,7 @@ content_string:
    Spring 1995
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #176 source_filepath: spring95/Levy.html
 destination_path: spring95/Levy.html
 content_string: 
@@ -2779,6 +2922,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i3.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #177 source_filepath: spring95/LibCONN.html
 destination_path: spring95/LibCONN.html
 content_string: 
@@ -2797,6 +2941,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i3.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #178 source_filepath: spring95/MemCONN.html
 destination_path: spring95/MemCONN.html
 content_string: 
@@ -2811,6 +2956,7 @@ content_string:
 	Spring 1995
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #179 source_filepath: spring95/Mills.html
 destination_path: spring95/Mills.html
 content_string: 
@@ -2829,6 +2975,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i3.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #180 source_filepath: spring95/Mosley.html
 destination_path: spring95/Mosley.html
 content_string: 
@@ -2847,6 +2994,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i3.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #181 source_filepath: spring95/Nye.html
 destination_path: spring95/Nye.html
 content_string: 
@@ -2865,6 +3013,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i3.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #182 source_filepath: spring95/PubCONN.html
 destination_path: spring95/PubCONN.html
 content_string: 
@@ -2883,6 +3032,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i3.a.12
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #183 source_filepath: spring95/questions.html
 destination_path: spring95/questions.html
 content_string: 
@@ -2897,6 +3047,7 @@ content_string:
 	Spring 1995
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #184 source_filepath: spring95/Russick.html
 destination_path: spring95/Russick.html
 content_string: 
@@ -2915,6 +3066,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i3.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #185 source_filepath: spring95/Stanfill.html
 destination_path: spring95/Stanfill.html
 content_string: 
@@ -2933,6 +3085,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i3.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #186 source_filepath: spring95/toc.html
 destination_path: spring95/toc.html
 content_string: 
@@ -2947,6 +3100,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #187 source_filepath: spring95/Zaidman.html
 destination_path: spring95/Zaidman.html
 content_string: 
@@ -2965,6 +3119,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i3.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #188 source_filepath: spring96/ALANworkshop.html
 destination_path: spring96/ALANworkshop.html
 content_string: 
@@ -2993,6 +3148,7 @@ content_string:
 	Spring 1996
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #190 source_filepath: spring96/bleeker.html
 destination_path: spring96/bleeker.html
 content_string: 
@@ -3011,6 +3167,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i3.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #191 source_filepath: spring96/bookconnection.html
 destination_path: spring96/bookconnection.html
 content_string: 
@@ -3029,6 +3186,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i3.a.13
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #192 source_filepath: spring96/editors.html
 destination_path: spring96/editors.html
 content_string: 
@@ -3043,6 +3201,7 @@ content_string:
 	Spring 1996
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #193 source_filepath: spring96/greenway.html
 destination_path: spring96/greenway.html
 content_string: 
@@ -3061,6 +3220,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i3.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #194 source_filepath: spring96/griffin.html
 destination_path: spring96/griffin.html
 content_string: 
@@ -3079,6 +3239,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i3.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #195 source_filepath: spring96/hipple.html
 destination_path: spring96/hipple.html
 content_string: 
@@ -3097,6 +3258,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i3.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #196 source_filepath: spring96/index.html
 destination_path: spring96/index.html
 content_string: 
@@ -3129,6 +3291,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i3.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #198 source_filepath: spring96/libcn-mmoore.html
 destination_path: spring96/libcn-mmoore.html
 content_string: 
@@ -3147,6 +3310,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i3.a.12
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #199 source_filepath: spring96/mbrshpcon.html
 destination_path: spring96/mbrshpcon.html
 content_string: 
@@ -3161,6 +3325,7 @@ content_string:
 	Spring 1996
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #200 source_filepath: spring96/mcdonald.html
 destination_path: spring96/mcdonald.html
 content_string: 
@@ -3179,6 +3344,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i3.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #201 source_filepath: spring96/mendt.html
 destination_path: spring96/mendt.html
 content_string: 
@@ -3197,6 +3363,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i3.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #202 source_filepath: spring96/moore.html
 destination_path: spring96/moore.html
 content_string: 
@@ -3215,6 +3382,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i3.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #203 source_filepath: spring96/philbrick.html
 destination_path: spring96/philbrick.html
 content_string: 
@@ -3233,6 +3401,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i3.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #204 source_filepath: spring96/pubconnection.html
 destination_path: spring96/pubconnection.html
 content_string: 
@@ -3251,6 +3420,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i3.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #205 source_filepath: spring96/questions.html
 destination_path: spring96/questions.html
 content_string: 
@@ -3265,6 +3435,7 @@ content_string:
 	Spring 1996
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #206 source_filepath: spring96/schwarz.html
 destination_path: spring96/schwarz.html
 content_string: 
@@ -3283,6 +3454,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i3.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #207 source_filepath: spring96/toc.html
 destination_path: spring96/toc.html
 content_string: 
@@ -3297,6 +3469,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #208 source_filepath: spring97/index.html
 destination_path: spring97/index.html
 content_string: 
@@ -3325,6 +3498,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #210 source_filepath: spring97/s97-02-Peck.html
 destination_path: spring97/s97-02-Peck.html
 content_string: 
@@ -3343,6 +3517,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i3.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #211 source_filepath: spring97/s97-05-Davis.html
 destination_path: spring97/s97-05-Davis.html
 content_string: 
@@ -3361,6 +3536,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i3.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #212 source_filepath: spring97/s97-10-Sheffer.html
 destination_path: spring97/s97-10-Sheffer.html
 content_string: 
@@ -3379,6 +3555,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i3.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #213 source_filepath: spring97/s97-12-Bloem.html
 destination_path: spring97/s97-12-Bloem.html
 content_string: 
@@ -3397,6 +3574,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i3.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #214 source_filepath: spring97/s97-17-Mattson.html
 destination_path: spring97/s97-17-Mattson.html
 content_string: 
@@ -3415,6 +3593,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i3.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #215 source_filepath: spring97/s97-22-Munde.html
 destination_path: spring97/s97-22-Munde.html
 content_string: 
@@ -3433,6 +3612,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i3.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #216 source_filepath: spring97/s97-36-Yearwood.html
 destination_path: spring97/s97-36-Yearwood.html
 content_string: 
@@ -3451,6 +3631,7 @@ content_string:
     https://doi.org/10.21061/alan.v24i3.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #217 source_filepath: spring97/s97-40-McAlpine.html
 destination_path: spring97/s97-40-McAlpine.html
 content_string: 
@@ -3469,6 +3650,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i3.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #218 source_filepath: spring97/s97-42-Kaplan.html
 destination_path: spring97/s97-42-Kaplan.html
 content_string: 
@@ -3487,6 +3669,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i3.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #219 source_filepath: spring97/s97-47-Herz.html
 destination_path: spring97/s97-47-Herz.html
 content_string: 
@@ -3505,6 +3688,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i3.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #220 source_filepath: spring97/s97-51-Paterson.html
 destination_path: spring97/s97-51-Paterson.html
 content_string: 
@@ -3523,6 +3707,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i3.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #221 source_filepath: spring97/s97-Answers.html
 destination_path: spring97/s97-Answers.html
 content_string: 
@@ -3537,6 +3722,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #222 source_filepath: spring97/s97-Diversity.html
 destination_path: spring97/s97-Diversity.html
 content_string: 
@@ -3555,6 +3741,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i3.a.12
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #223 source_filepath: spring97/s97-Library.html
 destination_path: spring97/s97-Library.html
 content_string: 
@@ -3573,6 +3760,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i3.a.13
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #224 source_filepath: spring97/s97-Membership.html
 destination_path: spring97/s97-Membership.html
 content_string: 
@@ -3587,6 +3775,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #225 source_filepath: spring97/s97-Publisher.html
 destination_path: spring97/s97-Publisher.html
 content_string: 
@@ -3605,6 +3794,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i3.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #226 source_filepath: spring97/s97-Questions.html
 destination_path: spring97/s97-Questions.html
 content_string: 
@@ -3619,6 +3809,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #227 source_filepath: spring97/s97-reviews.html
 destination_path: spring97/s97-reviews.html
 content_string: 
@@ -3633,6 +3824,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #228 source_filepath: spring97/s97-toc.html
 destination_path: spring97/s97-toc.html
 content_string: 
@@ -3647,6 +3839,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #229 source_filepath: spring98/andrews.html
 destination_path: spring98/andrews.html
 content_string: 
@@ -3665,6 +3858,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i3.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #230 source_filepath: spring98/beineke.html
 destination_path: spring98/beineke.html
 content_string: 
@@ -3683,6 +3877,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i3.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #231 source_filepath: spring98/charles.html
 destination_path: spring98/charles.html
 content_string: 
@@ -3701,6 +3896,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i3.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #232 source_filepath: spring98/clip.html
 destination_path: spring98/clip.html
 content_string: 
@@ -3715,6 +3911,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #233 source_filepath: spring98/darlington.html
 destination_path: spring98/darlington.html
 content_string: 
@@ -3733,6 +3930,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i3.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #234 source_filepath: spring98/diversity.html
 destination_path: spring98/diversity.html
 content_string: 
@@ -3751,6 +3949,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i3.a.13
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #235 source_filepath: spring98/editor.html
 destination_path: spring98/editor.html
 content_string: 
@@ -3765,6 +3964,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #236 source_filepath: spring98/finnessy.html
 destination_path: spring98/finnessy.html
 content_string: 
@@ -3783,6 +3983,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i3.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #237 source_filepath: spring98/foulksboyd.html
 destination_path: spring98/foulksboyd.html
 content_string: 
@@ -3801,6 +4002,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i3.a.12
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #238 source_filepath: spring98/index.html
 destination_path: spring98/index.html
 content_string: 
@@ -3847,6 +4049,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #241 source_filepath: spring98/morgan.html
 destination_path: spring98/morgan.html
 content_string: 
@@ -3865,6 +4068,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i3.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #242 source_filepath: spring98/myers.html
 destination_path: spring98/myers.html
 content_string: 
@@ -3883,6 +4087,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i3.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #243 source_filepath: spring98/publisher.html
 destination_path: spring98/publisher.html
 content_string: 
@@ -3901,6 +4106,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i3.a.14
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #244 source_filepath: spring98/taylor.html
 destination_path: spring98/taylor.html
 content_string: 
@@ -3937,6 +4143,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i3.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #246 source_filepath: spring98/zitlow.html
 destination_path: spring98/zitlow.html
 content_string: 
@@ -3955,6 +4162,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i3.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #247 source_filepath: spring99/baines.html
 destination_path: spring99/baines.html
 content_string: 
@@ -3973,6 +4181,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #248 source_filepath: spring99/bode.html
 destination_path: spring99/bode.html
 content_string: 
@@ -3991,6 +4200,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #249 source_filepath: spring99/brewbaker.html
 destination_path: spring99/brewbaker.html
 content_string: 
@@ -4009,6 +4219,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.13
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #250 source_filepath: spring99/brown.html
 destination_path: spring99/brown.html
 content_string: 
@@ -4027,6 +4238,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.12
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #251 source_filepath: spring99/bubbles.html
 destination_path: spring99/bubbles.html
 content_string: 
@@ -4041,6 +4253,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #252 source_filepath: spring99/editor.html
 destination_path: spring99/editor.html
 content_string: 
@@ -4055,6 +4268,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #253 source_filepath: spring99/gregg.html
 destination_path: spring99/gregg.html
 content_string: 
@@ -4073,6 +4287,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #254 source_filepath: spring99/hanson.html
 destination_path: spring99/hanson.html
 content_string: 
@@ -4091,6 +4306,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.15
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #255 source_filepath: spring99/index.html
 destination_path: spring99/index.html
 content_string: 
@@ -4123,6 +4339,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #257 source_filepath: spring99/kaiser.html
 destination_path: spring99/kaiser.html
 content_string: 
@@ -4141,6 +4358,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #258 source_filepath: spring99/lubar1.html
 destination_path: spring99/lubar1.html
 content_string: 
@@ -4159,6 +4377,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #259 source_filepath: spring99/lubar2.html
 destination_path: spring99/lubar2.html
 content_string: 
@@ -4177,6 +4396,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #260 source_filepath: spring99/simmons.html
 destination_path: spring99/simmons.html
 content_string: 
@@ -4195,6 +4415,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #261 source_filepath: spring99/unwin.html
 destination_path: spring99/unwin.html
 content_string: 
@@ -4213,6 +4434,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #262 source_filepath: spring99/waddell.html
 destination_path: spring99/waddell.html
 content_string: 
@@ -4231,6 +4453,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #263 source_filepath: spring99/warner.html
 destination_path: spring99/warner.html
 content_string: 
@@ -4249,6 +4472,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.14
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #264 source_filepath: spring99/watts.html
 destination_path: spring99/watts.html
 content_string: 
@@ -4267,6 +4491,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i1.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #265 source_filepath: v28n1/angel.html
 destination_path: v28n1/angel.html
 content_string: 
@@ -4285,6 +4510,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i1.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #266 source_filepath: v28n1/angel2.html
 destination_path: v28n1/angel2.html
 content_string: 
@@ -4303,6 +4529,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i1.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #267 source_filepath: v28n1/asher.html
 destination_path: v28n1/asher.html
 content_string: 
@@ -4321,6 +4548,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i1.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #268 source_filepath: v28n1/blubaugh.html
 destination_path: v28n1/blubaugh.html
 content_string: 
@@ -4339,6 +4567,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i1.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #269 source_filepath: v28n1/book.html
 destination_path: v28n1/book.html
 content_string: 
@@ -4353,6 +4582,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #270 source_filepath: v28n1/book2.html
 destination_path: v28n1/book2.html
 content_string: 
@@ -4371,6 +4601,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i1.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #271 source_filepath: v28n1/editor.html
 destination_path: v28n1/editor.html
 content_string: 
@@ -4385,6 +4616,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #272 source_filepath: v28n1/faq.html
 destination_path: v28n1/faq.html
 content_string: 
@@ -4403,6 +4635,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i1.a.13
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #273 source_filepath: v28n1/george.html
 destination_path: v28n1/george.html
 content_string: 
@@ -4421,6 +4654,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i1.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #274 source_filepath: v28n1/index.html
 destination_path: v28n1/index.html
 content_string: 
@@ -4453,6 +4687,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i1.a.14
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #276 source_filepath: v28n1/nelson.html
 destination_path: v28n1/nelson.html
 content_string: 
@@ -4471,6 +4706,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i1.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #277 source_filepath: v28n1/schwarz.html
 destination_path: v28n1/schwarz.html
 content_string: 
@@ -4489,6 +4725,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i1.a.12
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #278 source_filepath: v28n1/singer.html
 destination_path: v28n1/singer.html
 content_string: 
@@ -4507,6 +4744,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i1.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #279 source_filepath: v28n1/verderame.html
 destination_path: v28n1/verderame.html
 content_string: 
@@ -4525,6 +4763,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i1.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #280 source_filepath: v28n1/zitlow.html
 destination_path: v28n1/zitlow.html
 content_string: 
@@ -4543,6 +4782,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i1.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #281 source_filepath: v28n2/brooks.html
 destination_path: v28n2/brooks.html
 content_string: 
@@ -4561,6 +4801,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i2.a.14
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #282 source_filepath: v28n2/bucher.html
 destination_path: v28n2/bucher.html
 content_string: 
@@ -4579,6 +4820,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i2.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #283 source_filepath: v28n2/charles.html
 destination_path: v28n2/charles.html
 content_string: 
@@ -4597,6 +4839,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i2.a.13
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #284 source_filepath: v28n2/cline.html
 destination_path: v28n2/cline.html
 content_string: 
@@ -4615,6 +4858,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i2.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #285 source_filepath: v28n2/dimmitt.html
 destination_path: v28n2/dimmitt.html
 content_string: 
@@ -4633,6 +4877,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i2.a.12
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #286 source_filepath: v28n2/editor.html
 destination_path: v28n2/editor.html
 content_string: 
@@ -4647,6 +4892,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #287 source_filepath: v28n2/gregg.html
 destination_path: v28n2/gregg.html
 content_string: 
@@ -4665,6 +4911,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i2.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #288 source_filepath: v28n2/index.html
 destination_path: v28n2/index.html
 content_string: 
@@ -4697,6 +4944,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i2.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #290 source_filepath: v28n2/lent.html
 destination_path: v28n2/lent.html
 content_string: 
@@ -4715,6 +4963,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i2.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #291 source_filepath: v28n2/mascia.html
 destination_path: v28n2/mascia.html
 content_string: 
@@ -4733,6 +4982,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i2.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #292 source_filepath: v28n2/mcnulty.html
 destination_path: v28n2/mcnulty.html
 content_string: 
@@ -4751,6 +5001,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i2.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #293 source_filepath: v28n2/philbrick.html
 destination_path: v28n2/philbrick.html
 content_string: 
@@ -4769,6 +5020,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i2.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #294 source_filepath: v28n2/ritter.html
 destination_path: v28n2/ritter.html
 content_string: 
@@ -4787,6 +5039,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i2.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #295 source_filepath: v28n2/simmons.html
 destination_path: v28n2/simmons.html
 content_string: 
@@ -4805,6 +5058,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i2.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #296 source_filepath: v28n2/tuccillo.html
 destination_path: v28n2/tuccillo.html
 content_string: 
@@ -4823,6 +5077,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i2.a.15
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #297 source_filepath: v28n2/turner.html
 destination_path: v28n2/turner.html
 content_string: 
@@ -4841,6 +5096,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i2.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #298 source_filepath: v28n3/bednar.html
 destination_path: v28n3/bednar.html
 content_string: 
@@ -4877,6 +5133,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i3.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #300 source_filepath: v28n3/dickson.html
 destination_path: v28n3/dickson.html
 content_string: 
@@ -4895,6 +5152,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i3.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #301 source_filepath: v28n3/editor.html
 destination_path: v28n3/editor.html
 content_string: 
@@ -4909,6 +5167,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #302 source_filepath: v28n3/elkins.html
 destination_path: v28n3/elkins.html
 content_string: 
@@ -4927,6 +5186,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i3.a.12
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #303 source_filepath: v28n3/erenberger.html
 destination_path: v28n3/erenberger.html
 content_string: 
@@ -4945,6 +5205,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i3.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #304 source_filepath: v28n3/frey.html
 destination_path: v28n3/frey.html
 content_string: 
@@ -4981,6 +5242,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i3.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #306 source_filepath: v28n3/index.html
 destination_path: v28n3/index.html
 content_string: 
@@ -5013,6 +5275,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i3.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #308 source_filepath: v28n3/lipsett.html
 destination_path: v28n3/lipsett.html
 content_string: 
@@ -5031,6 +5294,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i3.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #309 source_filepath: v28n3/osborn.html
 destination_path: v28n3/osborn.html
 content_string: 
@@ -5049,6 +5313,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i3.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #310 source_filepath: v28n3/radley.html
 destination_path: v28n3/radley.html
 content_string: 
@@ -5067,6 +5332,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i3.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #311 source_filepath: v28n3/salvner.html
 destination_path: v28n3/salvner.html
 content_string: 
@@ -5085,6 +5351,7 @@ content_string:
    https://doi.org/10.21061/alan.v28i3.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #312 source_filepath: v29n1/angel.html
 destination_path: v29n1/angel.html
 content_string: 
@@ -5497,6 +5764,7 @@ content_string:
    Winter 2002
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #337 source_filepath: v29n2/kaplan.html
 destination_path: v29n2/kaplan.html
 content_string: 
@@ -6020,6 +6288,7 @@ content_string:
    Fall 2002
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #369 source_filepath: v30n1/jensen.html
 destination_path: v30n1/jensen.html
 content_string: 
@@ -6303,6 +6572,7 @@ content_string:
    Winter 2003
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #386 source_filepath: v30n2/kaplan.html
 destination_path: v30n2/kaplan.html
 content_string: 
@@ -6604,6 +6874,7 @@ content_string:
    Spring/Summer 2003
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #404 source_filepath: v30n3/johnson.html
 destination_path: v30n3/johnson.html
 content_string: 
@@ -6833,6 +7104,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #418 source_filepath: v31n1/editors.html
 destination_path: v31n1/editors.html
 content_string: 
@@ -7055,6 +7327,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #431 source_filepath: v31n2/editor.html
 destination_path: v31n2/editor.html
 content_string: 
@@ -7137,6 +7410,7 @@ content_string:
    Winter 2004
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #436 source_filepath: v31n2/kaplan.html
 destination_path: v31n2/kaplan.html
 content_string: 
@@ -7259,6 +7533,7 @@ content_string:
    https://doi.org/10.21061/alan.v31i2.a.12
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #443 source_filepath: v31n3/blasingame.html
 destination_path: v31n3/blasingame.html
 content_string: 
@@ -7291,6 +7566,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #445 source_filepath: v31n3/clip_reviews.html
 destination_path: v31n3/clip_reviews.html
 content_string: 
@@ -7305,6 +7581,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #446 source_filepath: v31n3/clip_reviews_test.html
 destination_path: v31n3/clip_reviews_test.html
 content_string: 
@@ -7319,6 +7596,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #447 source_filepath: v31n3/cohn.html
 destination_path: v31n3/cohn.html
 content_string: 
@@ -7577,6 +7855,7 @@ content_string:
    https://doi.org/10.21061/alan.v32i1.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #462 source_filepath: v32n1/broz.html
 destination_path: v32n1/broz.html
 content_string: 
@@ -7609,6 +7888,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #464 source_filepath: v32n1/carlile.html
 destination_path: v32n1/carlile.html
 content_string: 
@@ -7641,6 +7921,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #466 source_filepath: v32n1/clip_reviews_fluid.html
 destination_path: v32n1/clip_reviews_fluid.html
 content_string: 
@@ -7655,6 +7936,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #467 source_filepath: v32n1/editors.html
 destination_path: v32n1/editors.html
 content_string: 
@@ -7891,6 +8173,7 @@ content_string:
   https://doi.org/10.21061/alan.v34i2.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #483 source_filepath: v34n2/sherbert.html
 destination_path: v34n2/sherbert.html
 content_string: 
@@ -7901,6 +8184,7 @@ content_string:
   https://doi.org/10.21061/alan.v34i2.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #484 source_filepath: v34n2/witte.html
 destination_path: v34n2/witte.html
 content_string: 
@@ -7911,6 +8195,7 @@ content_string:
   https://doi.org/10.21061/alan.v34i2.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #485 source_filepath: v34n3/baer.html
 destination_path: v34n3/baer.html
 content_string: 
@@ -7921,6 +8206,7 @@ content_string:
   https://doi.org/10.21061/alan.v34i3.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #486 source_filepath: v34n3/cobb.html
 destination_path: v34n3/cobb.html
 content_string: 
@@ -7931,6 +8217,7 @@ content_string:
   https://doi.org/10.21061/alan.v34i3.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #487 source_filepath: v34n3/editors.html
 destination_path: v34n3/editors.html
 Error: DOI list empty
@@ -7944,6 +8231,7 @@ content_string:
   https://doi.org/10.21061/alan.v34i3.a.7 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #489 source_filepath: v34n3/greinke.html
 destination_path: v34n3/greinke.html
 content_string: 
@@ -7954,6 +8242,7 @@ content_string:
   https://doi.org/10.21061/alan.v34i3.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #490 source_filepath: v34n3/index.html
 destination_path: v34n3/index.html
 content_string: 
@@ -7978,6 +8267,7 @@ content_string:
 		https://doi.org/10.21061/alan.v34i3.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #492 source_filepath: v34n3/lesesne.html
 destination_path: v34n3/lesesne.html
 content_string: 
@@ -7988,6 +8278,7 @@ content_string:
   https://doi.org/10.21061/alan.v34i3.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #493 source_filepath: v34n3/metzger.html
 destination_path: v34n3/metzger.html
 content_string: 
@@ -7998,6 +8289,7 @@ content_string:
 	https://doi.org/10.21061/alan.v34i3.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #494 source_filepath: v34n3/miskec.html
 destination_path: v34n3/miskec.html
 content_string: 
@@ -8008,6 +8300,7 @@ content_string:
   https://doi.org/10.21061/alan.v34i3.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #495 source_filepath: v34n3/nichols.html
 destination_path: v34n3/nichols.html
 content_string: 
@@ -8018,6 +8311,7 @@ content_string:
   https://doi.org/10.21061/alan.v34i3.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #496 source_filepath: v34n3/review.html
 destination_path: v34n3/review.html
 content_string: 
@@ -8032,6 +8326,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #497 source_filepath: v34n3/sharon.html
 destination_path: v34n3/sharon.html
 content_string: 
@@ -8042,6 +8337,7 @@ content_string:
 	https://doi.org/10.21061/alan.v34i3.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #498 source_filepath: v34n3/weiss.html
 destination_path: v34n3/weiss.html
 content_string: 
@@ -8052,6 +8348,7 @@ content_string:
 		https://doi.org/10.21061/alan.v34i3.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #499 source_filepath: v35n1/arter.html
 destination_path: v35n1/arter.html
 content_string: 
@@ -8070,6 +8367,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i1.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #500 source_filepath: v35n1/blasingame.html
 destination_path: v35n1/blasingame.html
 content_string: 
@@ -8088,6 +8386,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i1.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #501 source_filepath: v35n1/broz.html
 destination_path: v35n1/broz.html
 content_string: 
@@ -8106,6 +8405,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i1.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #502 source_filepath: v35n1/clip.html
 destination_path: v35n1/clip.html
 content_string: 
@@ -8120,6 +8420,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #503 source_filepath: v35n1/editors.html
 destination_path: v35n1/editors.html
 Error: DOI list empty
@@ -8137,6 +8438,7 @@ content_string:
 
 </div>
 
+*==> Could not find Paragraph Header h2 & h1. Inserting DOI contents after <body>
 #505 source_filepath: v35n1/index.html
 destination_path: v35n1/index.html
 content_string: 
@@ -8151,6 +8453,7 @@ content_string:
    Fall 2007
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #506 source_filepath: v35n1/katz.html
 destination_path: v35n1/katz.html
 content_string: 
@@ -8169,6 +8472,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i1.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #507 source_filepath: v35n1/kaywell.html
 destination_path: v35n1/kaywell.html
 content_string: 
@@ -8187,6 +8491,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i1.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #508 source_filepath: v35n1/manuscripts.html
 destination_path: v35n1/manuscripts.html
 content_string: 
@@ -8201,6 +8506,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #509 source_filepath: v35n1/mara.html
 destination_path: v35n1/mara.html
 content_string: 
@@ -8219,6 +8525,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i1.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #510 source_filepath: v35n1/rice.html
 destination_path: v35n1/rice.html
 content_string: 
@@ -8237,6 +8544,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i1.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #511 source_filepath: v35n1/scherff.html
 destination_path: v35n1/scherff.html
 content_string: 
@@ -8255,6 +8563,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i1.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #512 source_filepath: v35n1/smith.html
 destination_path: v35n1/smith.html
 content_string: 
@@ -8273,6 +8582,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i1.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #513 source_filepath: v35n1/stephens.html
 destination_path: v35n1/stephens.html
 content_string: 
@@ -8291,6 +8601,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i1.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #514 source_filepath: v35n1/tuccillo.html
 destination_path: v35n1/tuccillo.html
 content_string: 
@@ -8309,6 +8620,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i1.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #515 source_filepath: v35n1/wayman.html
 destination_path: v35n1/wayman.html
 content_string: 
@@ -8327,6 +8639,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i1.a.12
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #516 source_filepath: v35n2/bean.html
 destination_path: v35n2/bean.html
 content_string: 
@@ -8345,6 +8658,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i2.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #517 source_filepath: v35n2/bickmore.html
 destination_path: v35n2/bickmore.html
 content_string: 
@@ -8363,6 +8677,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i2.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #518 source_filepath: v35n2/blasingame.html
 destination_path: v35n2/blasingame.html
 content_string: 
@@ -8381,6 +8696,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i2.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #519 source_filepath: v35n2/bleeker.html
 destination_path: v35n2/bleeker.html
 content_string: 
@@ -8399,6 +8715,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i2.a.12
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #520 source_filepath: v35n2/brinda.html
 destination_path: v35n2/brinda.html
 content_string: 
@@ -8417,6 +8734,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i2.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #521 source_filepath: v35n2/clip.html
 destination_path: v35n2/clip.html
 content_string: 
@@ -8431,6 +8749,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #522 source_filepath: v35n2/editors.html
 destination_path: v35n2/editors.html
 Error: DOI list empty
@@ -8448,6 +8767,7 @@ content_string:
    Winter 2008
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #524 source_filepath: v35n2/lott.html
 destination_path: v35n2/lott.html
 content_string: 
@@ -8466,6 +8786,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i2.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #525 source_filepath: v35n2/madill.html
 destination_path: v35n2/madill.html
 content_string: 
@@ -8484,6 +8805,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i2.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #526 source_filepath: v35n2/manuscripts.html
 destination_path: v35n2/manuscripts.html
 content_string: 
@@ -8498,6 +8820,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #527 source_filepath: v35n2/metzger.html
 destination_path: v35n2/metzger.html
 content_string: 
@@ -8516,6 +8839,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i2.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #528 source_filepath: v35n2/moorman.html
 destination_path: v35n2/moorman.html
 content_string: 
@@ -8534,6 +8858,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i2.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #529 source_filepath: v35n2/quick.html
 destination_path: v35n2/quick.html
 content_string: 
@@ -8552,6 +8877,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i2.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #530 source_filepath: v35n2/sitomer.html
 destination_path: v35n2/sitomer.html
 content_string: 
@@ -8570,6 +8896,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i2.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #531 source_filepath: v35n2/stan.html
 destination_path: v35n2/stan.html
 content_string: 
@@ -8588,6 +8915,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i2.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #532 source_filepath: v35n3/authors.html
 destination_path: v35n3/authors.html
 content_string: 
@@ -8602,6 +8930,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #533 source_filepath: v35n3/brown.html
 destination_path: v35n3/brown.html
 content_string: 
@@ -8620,6 +8949,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i3.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #534 source_filepath: v35n3/caillouet.html
 destination_path: v35n3/caillouet.html
 content_string: 
@@ -8638,6 +8968,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i3.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #535 source_filepath: v35n3/clip.html
 destination_path: v35n3/clip.html
 content_string: 
@@ -8652,6 +8983,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #536 source_filepath: v35n3/coffel.html
 destination_path: v35n3/coffel.html
 content_string: 
@@ -8670,6 +9002,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i3.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #537 source_filepath: v35n3/editors.html
 destination_path: v35n3/editors.html
 Error: DOI list empty
@@ -8690,6 +9023,7 @@ content_string:
    Summer 2008
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #540 source_filepath: v35n3/lamping.html
 destination_path: v35n3/lamping.html
 content_string: 
@@ -8708,6 +9042,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i3.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #541 source_filepath: v35n3/manuscripts.html
 destination_path: v35n3/manuscripts.html
 content_string: 
@@ -8722,6 +9057,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #542 source_filepath: v35n3/mason.html
 destination_path: v35n3/mason.html
 content_string: 
@@ -8740,6 +9076,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i3.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #543 source_filepath: v35n3/nicosia.html
 destination_path: v35n3/nicosia.html
 content_string: 
@@ -8758,6 +9095,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i3.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #544 source_filepath: v35n3/oquinn.html
 destination_path: v35n3/oquinn.html
 content_string: 
@@ -8776,6 +9114,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i3.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #545 source_filepath: v35n3/representatives.html
 destination_path: v35n3/representatives.html
 Error: DOI list empty
@@ -8797,6 +9136,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i3.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #547 source_filepath: v35n3/vincent.html
 destination_path: v35n3/vincent.html
 content_string: 
@@ -8815,6 +9155,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i3.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #548 source_filepath: v35n3/weiss.html
 destination_path: v35n3/weiss.html
 content_string: 
@@ -8833,6 +9174,7 @@ content_string:
    https://doi.org/10.21061/alan.v35i3.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #549 source_filepath: v36n1/authors.html
 destination_path: v36n1/authors.html
 content_string: 
@@ -8847,6 +9189,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #550 source_filepath: v36n1/bauer.html
 destination_path: v36n1/bauer.html
 content_string: 
@@ -8865,6 +9208,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i1.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #551 source_filepath: v36n1/bott.html
 destination_path: v36n1/bott.html
 content_string: 
@@ -8883,6 +9227,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i1.a.13
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #552 source_filepath: v36n1/brannon.html
 destination_path: v36n1/brannon.html
 content_string: 
@@ -8901,6 +9246,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i1.a.12
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #553 source_filepath: v36n1/carter.html
 destination_path: v36n1/carter.html
 content_string: 
@@ -8919,6 +9265,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i1.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #554 source_filepath: v36n1/clip.html
 destination_path: v36n1/clip.html
 content_string: 
@@ -8933,6 +9280,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #555 source_filepath: v36n1/crowe.html
 destination_path: v36n1/crowe.html
 content_string: 
@@ -8951,6 +9299,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i1.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #556 source_filepath: v36n1/editors.html
 destination_path: v36n1/editors.html
 Error: DOI list empty
@@ -8972,6 +9321,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i1.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #558 source_filepath: v36n1/goodson.html
 destination_path: v36n1/goodson.html
 content_string: 
@@ -8992,6 +9342,7 @@ content_string:
    doi:10.21061/alan.v36i1.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #559 source_filepath: v36n1/grants.html
 destination_path: v36n1/grants.html
 Error: DOI list empty
@@ -9013,6 +9364,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i1.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #561 source_filepath: v36n1/hayn.html
 destination_path: v36n1/hayn.html
 content_string: 
@@ -9031,6 +9383,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i1.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #562 source_filepath: v36n1/index.html
 destination_path: v36n1/index.html
 content_string: 
@@ -9045,6 +9398,7 @@ content_string:
    Fall 2008
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #563 source_filepath: v36n1/indexMetatagDC.html
 destination_path: N/A
 Destination file not found
@@ -9066,6 +9420,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i1.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #565 source_filepath: v36n1/manuscripts.html
 destination_path: v36n1/manuscripts.html
 content_string: 
@@ -9080,6 +9435,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #566 source_filepath: v36n1/small.html
 destination_path: v36n1/small.html
 content_string: 
@@ -9098,6 +9454,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i1.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #567 source_filepath: v36n1/test.html
 destination_path: v36n1/test.html
 Error: DOI list empty
@@ -9119,6 +9476,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i1.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #569 source_filepath: v36n1/ward.html
 destination_path: v36n1/ward.html
 content_string: 
@@ -9137,6 +9495,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i1.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #570 source_filepath: v36n2/adomat.html
 destination_path: v36n2/adomat.html
 content_string: 
@@ -9155,6 +9514,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i2.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #571 source_filepath: v36n2/authors.html
 destination_path: v36n2/authors.html
 content_string: 
@@ -9169,6 +9529,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #572 source_filepath: v36n2/bittel.html
 destination_path: v36n2/bittel.html
 content_string: 
@@ -9187,6 +9548,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i2.a.12
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #573 source_filepath: v36n2/brooks.html
 destination_path: v36n2/brooks.html
 content_string: 
@@ -9205,6 +9567,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i2.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #574 source_filepath: v36n2/campbell.html
 destination_path: v36n2/campbell.html
 content_string: 
@@ -9223,6 +9586,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i2.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #575 source_filepath: v36n2/clip.html
 destination_path: v36n2/clip.html
 content_string: 
@@ -9237,6 +9601,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #576 source_filepath: v36n2/crandall.html
 destination_path: v36n2/crandall.html
 content_string: 
@@ -9255,6 +9620,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i2.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #577 source_filepath: v36n2/editors.html
 destination_path: v36n2/editors.html
 Error: DOI list empty
@@ -9276,6 +9642,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i2.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #579 source_filepath: v36n2/frey.html
 destination_path: v36n2/frey.html
 content_string: 
@@ -9294,6 +9661,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i2.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #580 source_filepath: v36n2/glenn.html
 destination_path: v36n2/glenn.html
 content_string: 
@@ -9312,6 +9680,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i2.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #581 source_filepath: v36n2/grants.html
 destination_path: v36n2/grants.html
 Error: DOI list empty
@@ -9333,6 +9702,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i2.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #583 source_filepath: v36n2/index.html
 destination_path: v36n2/index.html
 content_string: 
@@ -9347,6 +9717,7 @@ content_string:
    Winter 2009
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #584 source_filepath: v36n2/jeffery.html
 destination_path: v36n2/jeffery.html
 content_string: 
@@ -9365,6 +9736,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i2.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #585 source_filepath: v36n2/johnson.html
 destination_path: v36n2/johnson.html
 content_string: 
@@ -9383,6 +9755,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i2.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #586 source_filepath: v36n2/manuscripts.html
 destination_path: v36n2/manuscripts.html
 content_string: 
@@ -9397,6 +9770,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #587 source_filepath: v36n2/smith.html
 destination_path: v36n2/smith.html
 content_string: 
@@ -9415,6 +9789,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i2.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #588 source_filepath: v36n3/agbaw.html
 destination_path: v36n3/agbaw.html
 content_string: 
@@ -9433,6 +9808,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i3.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #589 source_filepath: v36n3/authors.html
 destination_path: v36n3/authors.html
 content_string: 
@@ -9447,6 +9823,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #590 source_filepath: v36n3/broz.html
 destination_path: v36n3/broz.html
 content_string: 
@@ -9465,6 +9842,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i3.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #591 source_filepath: v36n3/clip.html
 destination_path: v36n3/clip.html
 content_string: 
@@ -9479,6 +9857,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #592 source_filepath: v36n3/editors.html
 destination_path: v36n3/editors.html
 Error: DOI list empty
@@ -9500,6 +9879,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i3.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #594 source_filepath: v36n3/gold.html
 destination_path: v36n3/gold.html
 content_string: 
@@ -9518,6 +9898,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i3.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #595 source_filepath: v36n3/grants.html
 destination_path: v36n3/grants.html
 Error: DOI list empty
@@ -9539,6 +9920,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i3.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #597 source_filepath: v36n3/index.html
 destination_path: v36n3/index.html
 content_string: 
@@ -9553,6 +9935,7 @@ content_string:
    Summer 2009
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #598 source_filepath: v36n3/keeling.html
 destination_path: v36n3/keeling.html
 content_string: 
@@ -9571,6 +9954,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i3.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #599 source_filepath: v36n3/kerr.html
 destination_path: v36n3/kerr.html
 content_string: 
@@ -9589,6 +9973,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i3.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #600 source_filepath: v36n3/koss.html
 destination_path: v36n3/koss.html
 content_string: 
@@ -9607,6 +9992,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i3.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #601 source_filepath: v36n3/manuscripts.html
 destination_path: v36n3/manuscripts.html
 content_string: 
@@ -9621,6 +10007,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #602 source_filepath: v36n3/mathew.html
 destination_path: v36n3/mathew.html
 content_string: 
@@ -9639,6 +10026,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i3.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #603 source_filepath: v36n3/meixner.html
 destination_path: v36n3/meixner.html
 content_string: 
@@ -9657,6 +10045,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i3.a.12
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #604 source_filepath: v36n3/rice.html
 destination_path: v36n3/rice.html
 content_string: 
@@ -9675,6 +10064,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i3.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #605 source_filepath: v36n3/smith.html
 destination_path: v36n3/smith.html
 content_string: 
@@ -9693,6 +10083,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i3.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #606 source_filepath: v36n3/weiss.html
 destination_path: v36n3/weiss.html
 content_string: 
@@ -9711,6 +10102,7 @@ content_string:
    https://doi.org/10.21061/alan.v36i3.a.13
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #607 source_filepath: v37n1/authors.html
 destination_path: v37n1/authors.html
 content_string: 
@@ -9725,6 +10117,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #608 source_filepath: v37n1/awards.html
 destination_path: v37n1/awards.html
 Error: DOI list empty
@@ -9746,6 +10139,7 @@ content_string:
    https://doi.org/10.21061/alan.v37i1.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #610 source_filepath: v37n1/clip.html
 destination_path: v37n1/clip.html
 content_string: 
@@ -9760,6 +10154,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #611 source_filepath: v37n1/editors.html
 destination_path: v37n1/editors.html
 Error: DOI list empty
@@ -9781,6 +10176,7 @@ content_string:
    https://doi.org/10.21061/alan.v37i1.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #613 source_filepath: v37n1/gutierrez.html
 destination_path: v37n1/gutierrez.html
 content_string: 
@@ -9799,6 +10195,7 @@ content_string:
    https://doi.org/10.21061/alan.v37i1.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #614 source_filepath: v37n1/hathaway.html
 destination_path: v37n1/hathaway.html
 content_string: 
@@ -9817,6 +10214,7 @@ content_string:
    https://doi.org/10.21061/alan.v37i1.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #615 source_filepath: v37n1/hazlett.html
 destination_path: v37n1/hazlett.html
 content_string: 
@@ -9835,6 +10233,7 @@ content_string:
    https://doi.org/10.21061/alan.v37i1.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #616 source_filepath: v37n1/hill.html
 destination_path: v37n1/hill.html
 content_string: 
@@ -9853,6 +10252,7 @@ content_string:
    https://doi.org/10.21061/alan.v37i1.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #617 source_filepath: v37n1/index.html
 destination_path: v37n1/index.html
 content_string: 
@@ -9867,6 +10267,7 @@ content_string:
    Fall 2009
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #618 source_filepath: v37n1/manuscripts.html
 destination_path: v37n1/manuscripts.html
 content_string: 
@@ -9881,6 +10282,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #619 source_filepath: v37n1/robillard.html
 destination_path: v37n1/robillard.html
 content_string: 
@@ -9899,6 +10301,7 @@ content_string:
    https://doi.org/10.21061/alan.v37i1.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #620 source_filepath: v37n1/ross.html
 destination_path: v37n1/ross.html
 content_string: 
@@ -9917,6 +10320,7 @@ content_string:
    https://doi.org/10.21061/alan.v37i1.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #621 source_filepath: v37n1/soter.html
 destination_path: v37n1/soter.html
 content_string: 
@@ -9935,6 +10339,7 @@ content_string:
    https://doi.org/10.21061/alan.v37i1.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #622 source_filepath: v37n1/state.html
 destination_path: v37n1/state.html
 Error: DOI list empty
@@ -9959,6 +10364,7 @@ content_string:
    https://doi.org/10.21061/alan.v37i1.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #625 source_filepath: v37n1/westenskow.html
 destination_path: v37n1/westenskow.html
 content_string: 
@@ -9977,6 +10383,7 @@ content_string:
    https://doi.org/10.21061/alan.v37i1.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #626 source_filepath: v37n2/authors.html
 destination_path: v37n2/authors.html
 content_string: 
@@ -9991,6 +10398,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #627 source_filepath: v37n2/awards.html
 destination_path: v37n2/awards.html
 Error: DOI list empty
@@ -10012,6 +10420,7 @@ content_string:
    https://doi.org/10.21061/alan.v37i2.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #629 source_filepath: v37n2/brannon.html
 destination_path: v37n2/brannon.html
 content_string: 
@@ -10048,6 +10457,7 @@ content_string:
    https://doi.org/10.21061/alan.v37i2.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #631 source_filepath: v37n2/clip.html
 destination_path: v37n2/clip.html
 content_string: 
@@ -10062,6 +10472,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #632 source_filepath: v37n2/editors.html
 destination_path: v37n2/editors.html
 Error: DOI list empty
@@ -10083,6 +10494,7 @@ content_string:
    https://doi.org/10.21061/alan.v37i2.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #634 source_filepath: v37n2/index.html
 destination_path: v37n2/index.html
 content_string: 
@@ -10097,6 +10509,7 @@ content_string:
    Winter 2010
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #635 source_filepath: v37n2/kaplan.html
 destination_path: v37n2/kaplan.html
 content_string: 
@@ -10115,6 +10528,7 @@ content_string:
    https://doi.org/10.21061/alan.v37i2.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #636 source_filepath: v37n2/kuo.html
 destination_path: v37n2/kuo.html
 content_string: 
@@ -10133,6 +10547,7 @@ content_string:
    https://doi.org/10.21061/alan.v37i2.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #637 source_filepath: v37n2/manuscripts.html
 destination_path: v37n2/manuscripts.html
 content_string: 
@@ -10147,6 +10562,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #638 source_filepath: v37n2/miller.html
 destination_path: v37n2/miller.html
 content_string: 
@@ -10165,6 +10581,7 @@ content_string:
    https://doi.org/10.21061/alan.v37i2.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #639 source_filepath: v37n2/readers.html
 destination_path: v37n2/readers.html
 Error: DOI list empty
@@ -10186,6 +10603,7 @@ content_string:
    https://doi.org/10.21061/alan.v37i2.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #641 source_filepath: v37n2/simmons.html
 destination_path: v37n2/simmons.html
 content_string: 
@@ -10222,6 +10640,7 @@ content_string:
    https://doi.org/10.21061/alan.v37i2.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #643 source_filepath: v37n2/welch.html
 destination_path: v37n2/welch.html
 content_string: 
@@ -10290,6 +10709,7 @@ content_string:
 	Summer 2010 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #647 source_filepath: v37n3/connors.html
 destination_path: v37n3/connors.html
 content_string: 
@@ -10322,6 +10742,7 @@ content_string:
 	Summer 2010
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #649 source_filepath: v37n3/groenke.html
 destination_path: v37n3/groenke.html
 content_string: 
@@ -10354,6 +10775,7 @@ content_string:
    Summer 2010
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #651 source_filepath: v37n3/manuscripts.html
 destination_path: v37n3/manuscripts.html
 content_string: 
@@ -10368,6 +10790,7 @@ content_string:
 	Summer 2010
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #652 source_filepath: v37n3/miller.html
 destination_path: v37n3/miller.html
 content_string: 
@@ -10508,6 +10931,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #660 source_filepath: v38n1/awards.html
 destination_path: v38n1/awards.html
 content_string: 
@@ -10522,6 +10946,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #661 source_filepath: v38n1/bickmore.html
 destination_path: v38n1/bickmore.html
 Error: DOI list empty
@@ -10575,6 +11000,7 @@ content_string:
 	Fall 2010 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #665 source_filepath: v38n1/davila.html
 destination_path: v38n1/davila.html
 content_string: 
@@ -10607,6 +11033,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #667 source_filepath: v38n1/high.html
 destination_path: v38n1/high.html
 content_string: 
@@ -10639,6 +11066,7 @@ content_string:
    Fall 2010
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #669 source_filepath: v38n1/kienholz.html
 destination_path: v38n1/kienholz.html
 content_string: 
@@ -10675,6 +11103,7 @@ content_string:
    https://doi.org/10.21061/alan.v38i1.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #671 source_filepath: v38n1/manuscripts.html
 destination_path: v38n1/manuscripts.html
 content_string: 
@@ -10689,6 +11118,7 @@ content_string:
 	Fall 2010
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #672 source_filepath: v38n1/mason.html
 destination_path: v38n1/mason.html
 content_string: 
@@ -10742,6 +11172,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #676 source_filepath: v38n2/bell.html
 destination_path: v38n2/bell.html
 content_string: 
@@ -10792,6 +11223,7 @@ content_string:
 	Winter 2011 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #679 source_filepath: v38n2/dail.html
 destination_path: v38n2/dail.html
 content_string: 
@@ -10892,6 +11324,7 @@ content_string:
    Winter 2011
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #685 source_filepath: v38n2/insenga.html
 destination_path: v38n2/insenga.html
 content_string: 
@@ -10942,6 +11375,7 @@ content_string:
 	Winter 2011 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #688 source_filepath: v38n2/stories.html
 destination_path: v38n2/stories.html
 Error: DOI list empty
@@ -11013,6 +11447,7 @@ content_string:
 	Summer 2011
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #693 source_filepath: v38n3/baer.html
 destination_path: v38n3/baer.html
 content_string: 
@@ -11063,6 +11498,7 @@ content_string:
 	Summer 2011 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #696 source_filepath: v38n3/editor.html
 destination_path: v38n3/editor.html
 content_string: 
@@ -11145,6 +11581,7 @@ content_string:
    Summer 2011
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #701 source_filepath: v38n3/kaplan.html
 destination_path: v38n3/kaplan.html
 content_string: 
@@ -11195,6 +11632,7 @@ content_string:
 	Summer 2011 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #704 source_filepath: v38n3/richard.html
 destination_path: v38n3/richard.html
 content_string: 
@@ -11298,6 +11736,7 @@ content_string:
 	Fall 2011 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #711 source_filepath: v39n1/barnes.html
 destination_path: v39n1/barnes.html
 content_string: 
@@ -11366,6 +11805,7 @@ content_string:
 	Fall 2011 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #715 source_filepath: v39n1/cummins.html
 destination_path: v39n1/cummins.html
 content_string: 
@@ -11430,6 +11870,7 @@ content_string:
    Fall 2011
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #719 source_filepath: v39n1/manuscripts.html
 destination_path: v39n1/manuscripts.html
 content_string: 
@@ -11444,6 +11885,7 @@ content_string:
 	Fall 2011 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #720 source_filepath: v39n1/martinez.html
 destination_path: v39n1/martinez.html
 content_string: 
@@ -11580,6 +12022,7 @@ content_string:
 	Winter 2012 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #728 source_filepath: v39n2/award.html
 destination_path: v39n2/award.html
 content_string: 
@@ -11630,6 +12073,7 @@ content_string:
    https://doi.org/10.21061/alan.v39i2.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #731 source_filepath: v39n2/brenner.html
 destination_path: v39n2/brenner.html
 content_string: 
@@ -11662,6 +12106,7 @@ content_string:
 	Winter 2012 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #733 source_filepath: v39n2/collins.html
 destination_path: v39n2/collins.html
 content_string: 
@@ -11762,6 +12207,7 @@ content_string:
    Winter 2012
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #739 source_filepath: v39n2/jones.html
 destination_path: v39n2/jones.html
 content_string: 
@@ -11812,6 +12258,7 @@ content_string:
 	Winter 2012 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #742 source_filepath: v39n2/saldana.html
 destination_path: v39n2/saldana.html
 content_string: 
@@ -11876,6 +12323,7 @@ content_string:
 	Summer 2012 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #746 source_filepath: v39n3/awards.html
 destination_path: v39n3/awards.html
 content_string: 
@@ -11950,6 +12398,7 @@ content_string:
 	Summer 2012 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #751 source_filepath: v39n3/dail.html
 destination_path: v39n3/dail.html
 content_string: 
@@ -12050,6 +12499,7 @@ content_string:
    Summer 2012
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #757 source_filepath: v39n3/kane.html
 destination_path: v39n3/kane.html
 content_string: 
@@ -12082,6 +12532,7 @@ content_string:
 	Summer 2012 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #759 source_filepath: v39n3/mason.html
 destination_path: v39n3/mason.html
 content_string: 
@@ -12210,6 +12661,7 @@ content_string:
 	Fall 2012 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #767 source_filepath: v40n1/awards.html
 destination_path: v40n1/awards.html
 content_string: 
@@ -12301,6 +12753,7 @@ content_string:
    Fall 2012
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #774 source_filepath: v40n1/kaplan.html
 destination_path: v40n1/kaplan.html
 content_string: 
@@ -12333,6 +12786,7 @@ content_string:
 	Fall 2012 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #776 source_filepath: v40n1/peters.html
 destination_path: v40n1/peters.html
 content_string: 
@@ -12523,6 +12977,7 @@ content_string:
    Winter 2013
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #795 source_filepath: v40n2/johnson.html
 destination_path: v40n2/johnson.html
 content_string: 
@@ -12692,6 +13147,7 @@ content_string:
    Summer 2013
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #815 source_filepath: v40n3/kaywell.html
 destination_path: v40n3/kaywell.html
 content_string: 
@@ -12941,6 +13397,7 @@ content_string:
    Fall 2013
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #843 source_filepath: v41n1/lesesne.html
 destination_path: v41n1/lesesne.html
 content_string: 
@@ -13100,6 +13557,7 @@ content_string:
    Winter 2014
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #862 source_filepath: v41n2/jones.html
 destination_path: v41n2/jones.html
 content_string: 
@@ -13457,6 +13915,7 @@ content_string:
 	Summer 2015
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #926 source_filepath: v42n3/manuscripts.html
 destination_path: v42n3/manuscripts.html
 Error: DOI list empty
@@ -13547,6 +14006,7 @@ content_string:
 	Fall 2015
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #943 source_filepath: v43n1/kirk.html
 destination_path: v43n1/kirk.html
 Error: DOI list empty
@@ -13681,6 +14141,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #979 source_filepath: winter00/clip.html
 destination_path: winter00/clip.html
 content_string: 
@@ -13695,6 +14156,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #980 source_filepath: winter00/editor.html
 destination_path: winter00/editor.html
 content_string: 
@@ -13709,6 +14171,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #981 source_filepath: winter00/garden.html
 destination_path: winter00/garden.html
 content_string: 
@@ -13727,6 +14190,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i2.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #982 source_filepath: winter00/gill.html
 destination_path: winter00/gill.html
 content_string: 
@@ -13745,6 +14209,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i2.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #983 source_filepath: winter00/gould.html
 destination_path: winter00/gould.html
 content_string: 
@@ -13763,6 +14228,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i2.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #984 source_filepath: winter00/index.html
 destination_path: winter00/index.html
 content_string: 
@@ -13813,6 +14279,7 @@ content_string:
    https://doi.org/10.21061/alan.v27i2.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #987 source_filepath: winter00/sluss.html
 destination_path: winter00/sluss.html
 content_string: 
@@ -13921,6 +14388,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i2.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #993 source_filepath: winter94/Answers.html
 destination_path: N/A
 Destination file not found
@@ -13942,6 +14410,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i2.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #995 source_filepath: winter94/CenCONN.html
 destination_path: N/A
 Destination file not found
@@ -13962,6 +14431,7 @@ content_string:
 	Winter 1994
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #998 source_filepath: winter94/Greene.html
 destination_path: winter94/Greene.html
 content_string: 
@@ -13980,6 +14450,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i2.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #999 source_filepath: winter94/Headley.html
 destination_path: winter94/Headley.html
 content_string: 
@@ -13998,6 +14469,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i2.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1000 source_filepath: winter94/Hoffman.html
 destination_path: winter94/Hoffman.html
 content_string: 
@@ -14016,6 +14488,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i2.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1001 source_filepath: winter94/Hurwitz.html
 destination_path: winter94/Hurwitz.html
 content_string: 
@@ -14034,6 +14507,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i2.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1002 source_filepath: winter94/index.html
 destination_path: winter94/index.html
 content_string: 
@@ -14066,6 +14540,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i2.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1004 source_filepath: winter94/Kaywell.html
 destination_path: winter94/Kaywell.html
 content_string: 
@@ -14084,6 +14559,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i2.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1005 source_filepath: winter94/LibCONN.html
 destination_path: N/A
 Destination file not found
@@ -14108,6 +14584,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i2.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1008 source_filepath: winter94/PubCONN.html
 destination_path: N/A
 Destination file not found
@@ -14135,6 +14612,7 @@ content_string:
    https://doi.org/10.21061/alan.v21i2.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1012 source_filepath: winter95/Bushman.html
 destination_path: winter95/Bushman.html
 content_string: 
@@ -14153,6 +14631,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i2.a.14
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1013 source_filepath: winter95/Carter.html
 destination_path: winter95/Carter.html
 content_string: 
@@ -14171,6 +14650,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i2.a.13
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1014 source_filepath: winter95/Cole.html
 destination_path: winter95/Cole.html
 content_string: 
@@ -14189,6 +14669,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i2.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1015 source_filepath: winter95/editor.html
 destination_path: winter95/editor.html
 content_string: 
@@ -14203,6 +14684,7 @@ content_string:
 	Winter 1995
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1016 source_filepath: winter95/index.html
 destination_path: winter95/index.html
 content_string: 
@@ -14217,6 +14699,7 @@ content_string:
    Winter 1995
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1017 source_filepath: winter95/Kaiser-1.html
 destination_path: winter95/Kaiser-1.html
 content_string: 
@@ -14235,6 +14718,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i2.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1018 source_filepath: winter95/Kaiser-2.html
 destination_path: winter95/Kaiser-2.html
 content_string: 
@@ -14253,6 +14737,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i2.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1019 source_filepath: winter95/Kaiser-3.html
 destination_path: winter95/Kaiser-3.html
 content_string: 
@@ -14271,6 +14756,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i2.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1020 source_filepath: winter95/Kaiser-4.html
 destination_path: winter95/Kaiser-4.html
 content_string: 
@@ -14289,6 +14775,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i2.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1021 source_filepath: winter95/Kaiser.html
 destination_path: winter95/Kaiser.html
 content_string: 
@@ -14307,6 +14794,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i2.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1022 source_filepath: winter95/Lee.html
 destination_path: winter95/Lee.html
 content_string: 
@@ -14325,6 +14813,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i2.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1023 source_filepath: winter95/Litton.html
 destination_path: winter95/Litton.html
 content_string: 
@@ -14343,6 +14832,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i2.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1024 source_filepath: winter95/McCracken.html
 destination_path: winter95/McCracken.html
 content_string: 
@@ -14361,6 +14851,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i2.a.12
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1025 source_filepath: winter95/Milner.html
 destination_path: winter95/Milner.html
 content_string: 
@@ -14379,6 +14870,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i2.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1026 source_filepath: winter95/Mitchell.html
 destination_path: winter95/Mitchell.html
 content_string: 
@@ -14397,6 +14889,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i2.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1027 source_filepath: winter95/Myracle.html
 destination_path: winter95/Myracle.html
 content_string: 
@@ -14451,6 +14944,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i2.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1030 source_filepath: winter95/Shaw.html
 destination_path: winter95/Shaw.html
 content_string: 
@@ -14469,6 +14963,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i2.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1031 source_filepath: winter95/Staples.html
 destination_path: winter95/Staples.html
 content_string: 
@@ -14487,6 +14982,7 @@ content_string:
    https://doi.org/10.21061/alan.v22i2.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1032 source_filepath: winter95/toc.html
 destination_path: winter95/toc.html
 content_string: 
@@ -14501,6 +14997,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1033 source_filepath: winter96/barron.html
 destination_path: winter96/barron.html
 content_string: 
@@ -14519,6 +15016,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i2.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1034 source_filepath: winter96/bauer.html
 destination_path: winter96/bauer.html
 content_string: 
@@ -14537,6 +15035,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i2.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1035 source_filepath: winter96/benton.html
 destination_path: winter96/benton.html
 content_string: 
@@ -14555,6 +15054,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i2.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1036 source_filepath: winter96/brooks.html
 destination_path: winter96/brooks.html
 content_string: 
@@ -14573,6 +15073,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i2.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1037 source_filepath: winter96/burk.html
 destination_path: winter96/burk.html
 content_string: 
@@ -14591,6 +15092,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i2.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1038 source_filepath: winter96/cenCONN.html
 destination_path: winter96/cenCONN.html
 content_string: 
@@ -14609,6 +15111,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i2.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1039 source_filepath: winter96/clip_and_file.html
 destination_path: winter96/clip_and_file.html
 content_string: 
@@ -14623,6 +15126,7 @@ content_string:
 	Winter 1996
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1040 source_filepath: winter96/editor.html
 destination_path: winter96/editor.html
 content_string: 
@@ -14637,6 +15141,7 @@ content_string:
 	Winter 1996
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1041 source_filepath: winter96/garrison.html
 destination_path: winter96/garrison.html
 content_string: 
@@ -14655,6 +15160,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i2.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1042 source_filepath: winter96/index.html
 destination_path: winter96/index.html
 content_string: 
@@ -14687,6 +15193,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i2.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1044 source_filepath: winter96/memCONN.html
 destination_path: winter96/memCONN.html
 content_string: 
@@ -14701,6 +15208,7 @@ content_string:
 	Winter 1996
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1045 source_filepath: winter96/pubCONN.html
 destination_path: winter96/pubCONN.html
 content_string: 
@@ -14719,6 +15227,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i2.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1046 source_filepath: winter96/toc.html
 destination_path: winter96/toc.html
 content_string: 
@@ -14733,6 +15242,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1047 source_filepath: winter96/webunder.html
 destination_path: winter96/webunder.html
 content_string: 
@@ -14751,6 +15261,7 @@ content_string:
    https://doi.org/10.21061/alan.v23i2.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1048 source_filepath: winter97/index.html
 destination_path: winter97/index.html
 content_string: 
@@ -14782,6 +15293,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1051 source_filepath: winter97/w97-02-Stoehr.html
 destination_path: winter97/w97-02-Stoehr.html
 content_string: 
@@ -14800,6 +15312,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i3.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1052 source_filepath: winter97/w97-03-Benton.html
 destination_path: winter97/w97-03-Benton.html
 content_string: 
@@ -14818,6 +15331,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i3.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1053 source_filepath: winter97/w97-04-Gerlach.html
 destination_path: winter97/w97-04-Gerlach.html
 content_string: 
@@ -14836,6 +15350,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i3.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1054 source_filepath: winter97/w97-05-Reid.html
 destination_path: winter97/w97-05-Reid.html
 content_string: 
@@ -14854,6 +15369,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i3.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1055 source_filepath: winter97/w97-06-Main.html
 destination_path: winter97/w97-06-Main.html
 content_string: 
@@ -14872,6 +15388,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i3.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1056 source_filepath: winter97/w97-07-Lesesne.html
 destination_path: winter97/w97-07-Lesesne.html
 content_string: 
@@ -14890,6 +15407,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i3.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1057 source_filepath: winter97/w97-08-Carico.html
 destination_path: winter97/w97-08-Carico.html
 content_string: 
@@ -14908,6 +15426,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i3.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1058 source_filepath: winter97/w97-09-Laughton.html
 destination_path: winter97/w97-09-Laughton.html
 content_string: 
@@ -14926,6 +15445,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i3.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1059 source_filepath: winter97/w97-10-Censorship.html
 destination_path: winter97/w97-10-Censorship.html
 content_string: 
@@ -14944,6 +15464,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i3.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1060 source_filepath: winter97/w97-11-Publisher.html
 destination_path: winter97/w97-11-Publisher.html
 content_string: 
@@ -14962,6 +15483,7 @@ content_string:
    https://doi.org/10.21061/alan.v24i3.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1061 source_filepath: winter97/w97-12-Membership.html
 destination_path: winter97/w97-12-Membership.html
 content_string: 
@@ -14976,6 +15498,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1062 source_filepath: winter97/w97-Answers.html
 destination_path: winter97/w97-Answers.html
 content_string: 
@@ -14990,6 +15513,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1063 source_filepath: winter97/w97-Questions.html
 destination_path: winter97/w97-Questions.html
 content_string: 
@@ -15004,6 +15528,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1064 source_filepath: winter97/w97-reviews.html
 destination_path: winter97/w97-reviews.html
 content_string: 
@@ -15018,6 +15543,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1065 source_filepath: winter98/bauermeister.html
 destination_path: winter98/bauermeister.html
 content_string: 
@@ -15036,6 +15562,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i2.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1066 source_filepath: winter98/book.html
 destination_path: winter98/book.html
 content_string: 
@@ -15054,6 +15581,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i2.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1067 source_filepath: winter98/censorship.html
 destination_path: winter98/censorship.html
 content_string: 
@@ -15072,6 +15600,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i2.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1068 source_filepath: winter98/editor.html
 destination_path: winter98/editor.html
 content_string: 
@@ -15086,6 +15615,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1069 source_filepath: winter98/gil.html
 destination_path: winter98/gil.html
 content_string: 
@@ -15104,6 +15634,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i2.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1070 source_filepath: winter98/gill.html
 destination_path: winter98/gill.html
 content_string: 
@@ -15122,6 +15653,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i2.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1071 source_filepath: winter98/harmon.html
 destination_path: winter98/harmon.html
 content_string: 
@@ -15140,6 +15672,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i2.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1072 source_filepath: winter98/index.html
 destination_path: winter98/index.html
 content_string: 
@@ -15172,6 +15705,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i2.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1074 source_filepath: winter98/membership.html
 destination_path: winter98/membership.html
 content_string: 
@@ -15186,6 +15720,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1075 source_filepath: winter98/platzner.html
 destination_path: winter98/platzner.html
 content_string: 
@@ -15204,6 +15739,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i2.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1076 source_filepath: winter98/publisher.html
 destination_path: winter98/publisher.html
 content_string: 
@@ -15222,6 +15758,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i2.a.12
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1077 source_filepath: winter98/retrospective.html
 destination_path: winter98/retrospective.html
 content_string: 
@@ -15240,6 +15777,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i2.a.13
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1078 source_filepath: winter98/salvner.html
 destination_path: winter98/salvner.html
 content_string: 
@@ -15258,6 +15796,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i2.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1079 source_filepath: winter98/simmons.html
 destination_path: winter98/simmons.html
 content_string: 
@@ -15276,6 +15815,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i2.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1080 source_filepath: winter98/smith.html
 destination_path: winter98/smith.html
 content_string: 
@@ -15294,6 +15834,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i2.a.7
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1081 source_filepath: winter98/thomp.html
 destination_path: winter98/thomp.html
 content_string: 
@@ -15312,6 +15853,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i2.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1082 source_filepath: winter98/thompson.html
 destination_path: winter98/thompson.html
 content_string: 
@@ -15330,6 +15872,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i2.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1083 source_filepath: winter98/trivia.html
 destination_path: winter98/trivia.html
 content_string: 
@@ -15344,6 +15887,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1084 source_filepath: winter98/wallace.html
 destination_path: winter98/wallace.html
 content_string: 
@@ -15362,6 +15906,7 @@ content_string:
    https://doi.org/10.21061/alan.v25i2.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1085 source_filepath: winter99/barnhouse.html
 destination_path: winter99/barnhouse.html
 content_string: 
@@ -15380,6 +15925,7 @@ content_string:
    https://doi.org/10.21061/alan.v26i2.a.11
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1086 source_filepath: winter99/boreen.html
 destination_path: winter99/boreen.html
 content_string: 
@@ -15398,6 +15944,7 @@ content_string:
    https://doi.org/10.21061/alan.v26i2.a.3
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1087 source_filepath: winter99/cadnum.html
 destination_path: winter99/cadnum.html
 content_string: 
@@ -15416,6 +15963,7 @@ content_string:
    https://doi.org/10.21061/alan.v26i2.a.1
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1088 source_filepath: winter99/carico.html
 destination_path: winter99/carico.html
 content_string: 
@@ -15434,6 +15982,7 @@ content_string:
    https://doi.org/10.21061/alan.v26i2.a.10
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1089 source_filepath: winter99/curtis.html
 destination_path: winter99/curtis.html
 content_string: 
@@ -15452,6 +16001,7 @@ content_string:
    https://doi.org/10.21061/alan.v26i2.a.8
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1090 source_filepath: winter99/editor.html
 destination_path: winter99/editor.html
 content_string: 
@@ -15466,6 +16016,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1091 source_filepath: winter99/george.html
 destination_path: winter99/george.html
 content_string: 
@@ -15484,6 +16035,7 @@ content_string:
    https://doi.org/10.21061/alan.v26i2.a.9
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1092 source_filepath: winter99/gill.html
 destination_path: winter99/gill.html
 content_string: 
@@ -15502,6 +16054,7 @@ content_string:
    https://doi.org/10.21061/alan.v26i2.a.13
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1093 source_filepath: winter99/glenn.html
 destination_path: winter99/glenn.html
 content_string: 
@@ -15520,6 +16073,7 @@ content_string:
    https://doi.org/10.21061/alan.v26i2.a.5
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1094 source_filepath: winter99/index.html
 destination_path: winter99/index.html
 content_string: 
@@ -15552,6 +16106,7 @@ content_string:
    https://doi.org/10.21061/alan.v26i2.a.6
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1096 source_filepath: winter99/keeling.html
 destination_path: winter99/keeling.html
 content_string: 
@@ -15570,6 +16125,7 @@ content_string:
    https://doi.org/10.21061/alan.v26i2.a.2
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1097 source_filepath: winter99/review.html
 destination_path: winter99/review.html
 content_string: 
@@ -15584,6 +16140,7 @@ content_string:
 
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1098 source_filepath: winter99/salisbury.html
 destination_path: winter99/salisbury.html
 content_string: 
@@ -15602,6 +16159,7 @@ content_string:
    https://doi.org/10.21061/alan.v26i2.a.4
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1099 source_filepath: winter99/west.html
 destination_path: winter99/west.html
 content_string: 
@@ -15620,6 +16178,7 @@ content_string:
    https://doi.org/10.21061/alan.v26i2.a.12
 </div>
 
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
 #1100 source_filepath: winter99/winkler.html
 destination_path: winter99/winkler.html
 content_string: 
@@ -15638,4 +16197,5 @@ content_string:
    https://doi.org/10.21061/alan.v26i2.a.7
 </div>
 
-[Finished in 7.6s]
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+[Finished in 7.3s]
