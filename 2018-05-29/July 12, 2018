@@ -1,0 +1,21 @@
+July 12, 2018
+
+ - Installing VirtualBox
+ - Setting up vagrant 
+
+
+ - Vagrant command
+	- After any changes restart the tomcat server: `sudo service tomcat8 restart`
+
+ - source directory for the Mirage 2 style:
+ 	- `/var/local/vtechworks/src/dspace/dspace/modules/xmlui-mirage2/src/main/webapp/themes/Mirage2/styles`
+
+ - Make similar to `https://lib.vt.edu/`
+
+ - Vagrant commands:
+ 	- vagrant up
+ 	- vagrant destroy
+ 	- vagrant provision
+ 	- vagrant ssh (logs into the vm)
+ 		- sudo service tomcat8 restart
+ 	

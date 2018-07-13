@@ -60,6 +60,7 @@ def list_to_string_with_newline(watermark_ri, content_list):
 	content_string = content_string + "\n"
 	return content_string
 
+# For DOI contents: This function is for converting doi content list to content string with newline
 def lists_to_string(left, right, doi):
 	content_string = ""
 	# right list
@@ -80,6 +81,7 @@ def lists_to_string(left, right, doi):
 
 	return content_string
 
+# This function is to add watermark to the content string 
 def watermarking_string(watermark_ri, content_string):
 	if watermark_ri:
 		content_string = "\n" + watermark_ri + "\n" + content_string
@@ -223,34 +225,6 @@ def automated_header_content_generate(directory1, directory2):
 	pass	
 
 # This function is to read the coins_content from a single source file 
-# Previous version - deprecated
-# def coins_z3988_content_read(input_filename):
-# 	meta_content_pattern = "class=\"Z3988\""
-# 	with open(input_filename) as f_read:
-# 		file_data = f_read.read()
-# 		data_text = ""
-# 		modified_text = ""
-# 		if "<body>" in file_data:
-# 			data_text = file_data.split("<body>")[1]
-# 			if meta_content_pattern in data_text:
-# 				# print "COinS exists in " + input_filename 
-# 				modified_text = data_text.split(meta_content_pattern)[1]
-# 				temp_list = modified_text.split("</span>")
-# 				coins_content = "<span " + "class=\"Z3988\"" + temp_list[0] + "</span>\n"
-# 				while (meta_content_pattern in temp_list[1]):
-# 					modified_text = temp_list[1].split(meta_content_pattern)[1]
-# 					temp_list = modified_text.split("</span>")
-# 					coins_content = coins_content + "<span " + meta_content_pattern + temp_list[0] + "</span>\n"
-# 				# print coins_content
-# 				return coins_content
-# 			else:
-# 				return "N/A"
-# 		else:
-# 			return "N/B"
-# 	return "File Error"
-
-
-# This function is to read the coins_content from a single source file 
 def coins_z3988_content_read(input_filename):
 	meta_content_pattern = "class=\"Z3988\""
 	with open(input_filename) as f_read:
@@ -265,22 +239,8 @@ def coins_z3988_content_read(input_filename):
 		newline = "\n"
 		for line in data_text.split(newline):
 			count = count + 1
-			# if "<span " in line:
-			# 	print "Starting \"<span\" tag exits!"
-			# if "</span>" in line: # The ending tag is usually not on the same line 
-			#  	print "Ending \"</span>\" tag exits!"
-			# if "</span>" in data_text.split(newline)[count]:
-			# 	print "Ending \"</span>\" tag exists in the next line!" 
 			if meta_content_pattern in line:
-				# print "#" + str(count) + " line: " + line
-
-				# if "</span>" not in line:
-				# 	line = line + " </span>"
-				
 				content_list.append(line) 
-		
-		# print "content_list: "
-		# print content_list
 		return content_list
 
 
@@ -289,8 +249,6 @@ def doi_content_read(input_filename):
 	doi_content_pattern = "<div class=\"doi\">"
 	right_content_pattern = "<div style=\"float:right; font-weight:bold; margin-right:1.5em\">"
 	left_content_pattern = "<div style=\"float:left; font-weight:bold; margin-left:1.5em\">"
-	# coins_content_pattern_start = "<span class=\"Z3988\""
-	# coins_content_pattern_end = "</span>"
 	body_pattern_start = "<body>"
 	content_string = ""
 
@@ -300,12 +258,7 @@ def doi_content_read(input_filename):
 		right_content_list = []
 		left_content_list = []
 
-		# doi_content_list = ["<div class=\"doi\">"]
-		# right_content_list = ["<div style=\"float:right; font-weight:bold; margin-right:1.5em\">"]
-		# left_content_list = ["<div style=\"float:left; font-weight:bold; margin-left:1.5em\">"]
-
 		div_end = "</div>"
-		# count = 0
 		flag_doi = 0
 		flag_left = 0
 		flag_right = 0
@@ -316,7 +269,6 @@ def doi_content_read(input_filename):
 			return content_string
 		newline = "\n"
 		for line in data_text.split(newline):
-			# count = count + 1
 			# DOI content
 			if flag_doi:
 				doi_content_list.append("<div class=\"doi\">")	
@@ -448,32 +400,24 @@ def check_for_available_coins_z3988_content_sp_1(filename, coins_content):
 	newline = "\n"
 	title_without_coins_tag = []
 	content_store = ""
-	# title = "riri-999"
 	with open(filename) as f_read:
 		file_data = f_read.read()
 		for line in file_data.split(newline):
-			# print "Line: "+line
-			# if "class=\"Z3988\"" in line:
 			if "title=\"" in line and "class=\"Z3988\"" in line: # We are checking title to match instead, we still need to add <class="Z3988"> tag where it is missing
-				# print "Line before: "+line
 				title = line.split("title=\"")[1]
 				title = title.split("\">")[0]
-				# print "Title: "+title
 				for content in coins_content:
 					if title in content:
 						# print "Already exists!!"
 						coins_content.remove(content)
 			# We are checking title to match instead, we still need to add <class="Z3988"> tag where it is missing
 			if "title=\"" in line and "class=\"Z3988\"" not in line: 
-				# print "Line before: "+line
 				title = line.split("title=\"")[1]
 				title = title.split("\">")[0]
-				# print "Title: "+title
 				for content in coins_content:
 					if title in content:
 						# print "Already exists!!"
 						title_without_coins_tag.append(title)
-		# print "New COinS Content List: " + str(coins_content)
 		if title_without_coins_tag:
 			remove_line_without_coins_tag(filename, title_without_coins_tag)
 	return coins_content
@@ -483,22 +427,16 @@ def check_for_available_coins_z3988_content(filename, coins_content):
 	newline = "\n"
 	coins_content_new = []
 	content_store = ""
-	# title = "riri-999"
 	with open(filename) as f_read:
 		file_data = f_read.read()
 		for line in file_data.split(newline):
-			# print "Line: "+line
-			# if "class=\"Z3988\"" in line:
 			if "title=\"" in line: # We are checking title to match instead, we still need to add <class="Z3988"> tag where it is missing
-				# print "Line before: "+line
 				title = line.split("title=\"")[1]
 				title = title.split("\">")[0]
-				# print "Title: "+title
 				for content in coins_content:
 					if title in content:
 						# print "Already exists!!"
 						coins_content.remove(content)
-		# print "New COinS Content List: " + str(coins_content)
 	return coins_content
 
 # This function is for calculating the number of occurance of COinS pattern in all the files in the source
@@ -555,8 +493,6 @@ def automated_coins_z3988_content_generate(directory1, directory2):
 				if output_root_and_filename == "N/A":
 					print "Destination file not found"
 					continue
-				# else:
-				# 	print "Output_filename: " + output_root_and_filename
 				coins_z3988_content = coins_z3988_content_read(root_and_filename)
 				# print "COinS: "+ str(coins_z3988_content)
 				if not coins_z3988_content:
@@ -597,8 +533,6 @@ def automated_coins_z3988_content_generate_sp_1(directory1, directory2):
 				if output_root_and_filename == "N/A":
 					print "Destination file not found"
 					continue
-				# else:
-				# 	print "Output_filename: " + output_root_and_filename
 				coins_z3988_content = coins_z3988_content_read(root_and_filename)
 				# print "COinS: "+ str(coins_z3988_content)
 				if not coins_z3988_content:
@@ -637,15 +571,11 @@ def automated_coins_z3988_content_missing_doi(directory1, directory2):
 				if output_root_and_filename == "N/A":
 					print "Destination file not found"
 					continue
-				# else:
-				# 	print "Output_filename: " + output_root_and_filename
 				doi_content = doi_content_read(root_and_filename)
-				###################
 				if not doi_content:
 					print "Error: DOI list empty"
 				else:
 					insert_doi_content(output_root_and_filename, doi_content)
-				###################
 	pass	
 
 
@@ -657,11 +587,11 @@ def automated_coins_z3988_content_missing_doi(directory1, directory2):
 # automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/ALAN/v28n1","/Users/rifatsm/ejournals_test_set/ALAN/v28n1")
 # automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/JARS","/Users/rifatsm/ejournals_test_set/JARS")
 
-# automated_coins_z3988_content_generate_sp_1("/Users/rifatsm/scholar-ejournal-meta/","/Users/rifatsm/ejournals_test_set/")
+automated_coins_z3988_content_generate_sp_1("/Users/rifatsm/scholar-ejournal-meta/","/Users/rifatsm/ejournals_test_set/")
 
 # Run the following function on the ALAN and JOTS files 
 # automated_coins_z3988_content_missing_doi("/Users/rifatsm/scholar-ejournal-meta/ALAN/","/Users/rifatsm/ejournals_test_set/ALAN/")
-automated_coins_z3988_content_missing_doi("/Users/rifatsm/scholar-ejournal-meta/JOTS/","/Users/rifatsm/ejournals_test_set/JOTS/")
+# automated_coins_z3988_content_missing_doi("/Users/rifatsm/scholar-ejournal-meta/JOTS/","/Users/rifatsm/ejournals_test_set/JOTS/")
 
 # automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set") # Main data sample. The source is actual location. The destination is testing location 
 # automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set") # Main data sample. The source is actual location. The destination is testing location 
