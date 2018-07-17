@@ -587,14 +587,19 @@ def automated_coins_z3988_content_missing_doi(directory1, directory2):
 # automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/ALAN/v28n1","/Users/rifatsm/ejournals_test_set/ALAN/v28n1")
 # automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/JARS","/Users/rifatsm/ejournals_test_set/JARS")
 
-automated_coins_z3988_content_generate_sp_1("/Users/rifatsm/scholar-ejournal-meta/","/Users/rifatsm/ejournals_test_set/")
+# automated_coins_z3988_content_generate_sp_1("/Users/rifatsm/scholar-ejournal-meta/","/Users/rifatsm/ejournals_test_set/")
 
 # Run the following function on the ALAN and JOTS files 
 # automated_coins_z3988_content_missing_doi("/Users/rifatsm/scholar-ejournal-meta/ALAN/","/Users/rifatsm/ejournals_test_set/ALAN/")
-# automated_coins_z3988_content_missing_doi("/Users/rifatsm/scholar-ejournal-meta/JOTS/","/Users/rifatsm/ejournals_test_set/JOTS/")
+automated_coins_z3988_content_missing_doi("/Users/rifatsm/scholar-ejournal-meta/JOTS/","/Users/rifatsm/ejournals_test_set/JOTS/")
 
 # automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set") # Main data sample. The source is actual location. The destination is testing location 
 # automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set") # Main data sample. The source is actual location. The destination is testing location 
 # automated_coins_z3988_content_total_length_calculation("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set")
 # calculating_missing_files("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set")
 # coins_z3988_content_read("/Users/rifatsm/scholar-ejournal-meta/JTE/v22n1/index.html")
+
+##################################
+# Files that require manual edit:
+## /JOTS/v42/v42n2/love.html -- after running the script automated_coins_z3988_content_missing_doi("/Users/rifatsm/scholar-ejournal-meta/JOTS/","/Users/rifatsm/ejournals_test_set/JOTS/")
+## All the files (7) under ICC. Manually discard extra content from the COinS metadata 

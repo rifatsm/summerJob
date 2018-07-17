@@ -1,0 +1,3198 @@
+Log of Issue Fixing: JOTS review missing DOI info add
+function: automated_coins_z3988_content_missing_doi("/Users/rifatsm/scholar-ejournal-meta/JOTS/","/Users/rifatsm/ejournals_test_set/JOTS/")
+
+
+#1 source_filepath: .DS_Store
+destination_path: .DS_Store
+Error: DOI list empty
+#2 source_filepath: guidelines.html
+destination_path: guidelines.html
+Error: DOI list empty
+#3 source_filepath: index.html
+destination_path: index.html
+Error: DOI list empty
+#4 source_filepath: Summer-Fall-1996/index.html
+destination_path: Summer-Fall-1996/index.html
+Error: DOI list empty
+#5 source_filepath: Summer-Fall-1996/PDF/index.html
+destination_path: Summer-Fall-1996/PDF/index.html
+Error: DOI list empty
+#6 source_filepath: Summer-Fall-1997/index.html
+destination_path: Summer-Fall-1997/index.html
+Error: DOI list empty
+#7 source_filepath: Summer-Fall-1997/PDF/index.html
+destination_path: Summer-Fall-1997/PDF/index.html
+Error: DOI list empty
+#8 source_filepath: Summer-Fall-1998/index.html
+destination_path: Summer-Fall-1998/index.html
+Error: DOI list empty
+#9 source_filepath: Summer-Fall-1998/PDF/index.html
+destination_path: Summer-Fall-1998/PDF/index.html
+Error: DOI list empty
+#10 source_filepath: Summer-Fall-1999/Coppola.html
+destination_path: Summer-Fall-1999/Coppola.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v25i2.a.9
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#11 source_filepath: Summer-Fall-1999/Dugger.html
+destination_path: Summer-Fall-1999/Dugger.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v25i2.a.8
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#12 source_filepath: Summer-Fall-1999/Edwards.html
+destination_path: Summer-Fall-1999/Edwards.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v25i2.a.3
+</div>
+
+#13 source_filepath: Summer-Fall-1999/Faiola.html
+destination_path: Summer-Fall-1999/Faiola.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v25i2.a.10
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#14 source_filepath: Summer-Fall-1999/Iandoli.html
+destination_path: Summer-Fall-1999/Iandoli.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v25i2.a.2
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#15 source_filepath: Summer-Fall-1999/Ideas.html
+destination_path: Summer-Fall-1999/Ideas.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v25i2.a.11
+</div>
+
+#16 source_filepath: Summer-Fall-1999/index.html
+destination_path: Summer-Fall-1999/index.html
+Error: DOI list empty
+#17 source_filepath: Summer-Fall-1999/Loepp.html
+destination_path: Summer-Fall-1999/Loepp.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v25i2.a.6
+</div>
+
+#18 source_filepath: Summer-Fall-1999/Streichler.html
+destination_path: Summer-Fall-1999/Streichler.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v25i2.a.1
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#19 source_filepath: Summer-Fall-1999/Strong.html
+destination_path: Summer-Fall-1999/Strong.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v25i2.a.5
+</div>
+
+#20 source_filepath: Summer-Fall-1999/Todd.html
+destination_path: Summer-Fall-1999/Todd.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v25i2.a.7
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#21 source_filepath: Summer-Fall-1999/Wiens.html
+destination_path: Summer-Fall-1999/Wiens.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v25i2.a.4
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#22 source_filepath: Summer-Fall-1999/PDF/index.html
+destination_path: Summer-Fall-1999/PDF/index.html
+Error: DOI list empty
+#23 source_filepath: Summer-Fall-2000/barak.html
+destination_path: Summer-Fall-2000/barak.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 26, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Summer/Fall 2000
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v26i2.a.3
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#24 source_filepath: Summer-Fall-2000/call.html
+destination_path: Summer-Fall-2000/call.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+<div style="float:left; font-weight:bold; margin-left:1.5em">Summer/Fall 2000</div>
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+<br/>
+</div>
+
+#25 source_filepath: Summer-Fall-2000/chang.html
+destination_path: Summer-Fall-2000/chang.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 26, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Summer/Fall 2000
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v26i2.a.9
+</div>
+
+#26 source_filepath: Summer-Fall-2000/closing.html
+destination_path: Summer-Fall-2000/closing.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+<div style="float:left; font-weight:bold; margin-left:1.5em">Summer/Fall 2000</div>
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+<br/>
+</div>
+
+#27 source_filepath: Summer-Fall-2000/editor.html
+destination_path: Summer-Fall-2000/editor.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 26, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Summer/Fall 2000
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v26i2.a.1
+</div>
+
+#28 source_filepath: Summer-Fall-2000/holmes.html
+destination_path: Summer-Fall-2000/holmes.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 26, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Summer/Fall 2000
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v26i2.a.8
+</div>
+
+#29 source_filepath: Summer-Fall-2000/index.html
+destination_path: Summer-Fall-2000/index.html
+Error: DOI list empty
+#30 source_filepath: Summer-Fall-2000/landoli.html
+destination_path: Summer-Fall-2000/landoli.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 26, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Summer/Fall 2000
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v26i2.a.2
+</div>
+
+#31 source_filepath: Summer-Fall-2000/raudebaugh.html
+destination_path: Summer-Fall-2000/raudebaugh.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 26, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Summer/Fall 2000
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v26i2.a.7
+</div>
+
+#32 source_filepath: Summer-Fall-2000/streichler.html
+destination_path: Summer-Fall-2000/streichler.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+<div style="float:left; font-weight:bold; margin-left:1.5em">Summer/Fall 2000</div>
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+<br/>
+</div>
+
+#33 source_filepath: Summer-Fall-2000/waldrop.html
+destination_path: Summer-Fall-2000/waldrop.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 26, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Summer/Fall 2000
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v26i2.a.5
+</div>
+
+#34 source_filepath: Summer-Fall-2000/welch.html
+destination_path: Summer-Fall-2000/welch.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 26, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Summer/Fall 2000
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v26i2.a.6
+</div>
+
+#35 source_filepath: Summer-Fall-2000/wescott.html
+destination_path: Summer-Fall-2000/wescott.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 26, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Summer/Fall 2000
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v26i2.a.4
+</div>
+
+#36 source_filepath: Summer-Fall-2000/pdf/index.html
+destination_path: Summer-Fall-2000/pdf/index.html
+Error: DOI list empty
+#37 source_filepath: Summer-Fall-2001/akubue.html
+destination_path: Summer-Fall-2001/akubue.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 27, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Summer/Fall 2001
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v27i2.a.1
+</div>
+
+#38 source_filepath: Summer-Fall-2001/chen.html
+destination_path: Summer-Fall-2001/chen.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 27, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Summer/Fall 2001
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v27i2.a.3
+</div>
+
+#39 source_filepath: Summer-Fall-2001/gelven.html
+destination_path: Summer-Fall-2001/gelven.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 27, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Summer/Fall 2001
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v27i2.a.5
+</div>
+
+#40 source_filepath: Summer-Fall-2001/hoepfl.html
+destination_path: Summer-Fall-2001/hoepfl.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 27, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Summer/Fall 2001
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v27i2.a.2
+</div>
+
+#41 source_filepath: Summer-Fall-2001/huang.html
+destination_path: Summer-Fall-2001/huang.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 27, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Summer/Fall 2001
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v27i2.a.7
+</div>
+
+#42 source_filepath: Summer-Fall-2001/index.html
+destination_path: Summer-Fall-2001/index.html
+Error: DOI list empty
+#43 source_filepath: Summer-Fall-2001/salim.html
+destination_path: Summer-Fall-2001/salim.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 27, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Summer/Fall 2001
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v27i2.a.4
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#44 source_filepath: Summer-Fall-2001/woolsey.html
+destination_path: Summer-Fall-2001/woolsey.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 27, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Summer/Fall 2001
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v27i2.a.6
+</div>
+
+#45 source_filepath: Summer-Fall-2001/young.html
+destination_path: Summer-Fall-2001/young.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 27, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Summer/Fall 2001
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v27i2.a.8
+</div>
+
+#46 source_filepath: Summer-Fall-2001/pdf/index.html
+destination_path: Summer-Fall-2001/pdf/index.html
+Error: DOI list empty
+#47 source_filepath: Summer-Fall-2002/index.html
+destination_path: Summer-Fall-2002/index.html
+Error: DOI list empty
+#48 source_filepath: Summer-Fall-2002/pdf/index.html
+destination_path: Summer-Fall-2002/pdf/index.html
+Error: DOI list empty
+#49 source_filepath: v29/index.html
+destination_path: v29/index.html
+Error: DOI list empty
+#50 source_filepath: v29/v29n1/index.html
+destination_path: v29/v29n1/index.html
+Error: DOI list empty
+#51 source_filepath: v29/v29n2/index.html
+destination_path: v29/v29n2/index.html
+Error: DOI list empty
+#52 source_filepath: v30/index.html
+destination_path: v30/index.html
+Error: DOI list empty
+#53 source_filepath: v30/v30n1/index.html
+destination_path: v30/v30n1/index.html
+Error: DOI list empty
+#54 source_filepath: v30/v30n1/pdf/index.html
+destination_path: v30/v30n1/pdf/index.html
+Error: DOI list empty
+#55 source_filepath: v30/v30n2/index.html
+destination_path: v30/v30n2/index.html
+Error: DOI list empty
+#56 source_filepath: v30/v30n2/pdf/index.html
+destination_path: v30/v30n2/pdf/index.html
+Error: DOI list empty
+#57 source_filepath: v30/v30n3/index.html
+destination_path: v30/v30n3/index.html
+Error: DOI list empty
+#58 source_filepath: v30/v30n3/pdf/index.html
+destination_path: v30/v30n3/pdf/index.html
+Error: DOI list empty
+#59 source_filepath: v30/v30n4/index.html
+destination_path: v30/v30n4/index.html
+Error: DOI list empty
+#60 source_filepath: v30/v30n4/pdf/index.html
+destination_path: v30/v30n4/pdf/index.html
+Error: DOI list empty
+#61 source_filepath: v31/index.html
+destination_path: v31/index.html
+Error: DOI list empty
+#62 source_filepath: v31/v31n1/index.html
+destination_path: v31/v31n1/index.html
+Error: DOI list empty
+#63 source_filepath: v31/v31n1/pdf/index.html
+destination_path: v31/v31n1/pdf/index.html
+Error: DOI list empty
+#64 source_filepath: v31/v31n2/index.html
+destination_path: v31/v31n2/index.html
+Error: DOI list empty
+#65 source_filepath: v31/v31n2/pdf/index.html
+destination_path: v31/v31n2/pdf/index.html
+Error: DOI list empty
+#66 source_filepath: v32/index.html
+destination_path: v32/index.html
+Error: DOI list empty
+#67 source_filepath: v32/v32n1/books.html
+destination_path: v32/v32n1/books.html
+Error: DOI list empty
+#68 source_filepath: v32/v32n1/cummings.html
+destination_path: v32/v32n1/cummings.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v32i1.a.4
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#69 source_filepath: v32/v32n1/gefoltz.html
+destination_path: v32/v32n1/gefoltz.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   doi:10.21061/jots.v32i1.a.1
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#70 source_filepath: v32/v32n1/index.html
+destination_path: v32/v32n1/index.html
+Error: DOI list empty
+#71 source_filepath: v32/v32n1/mcquade.html
+destination_path: v32/v32n1/mcquade.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v32i1.a.5
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#72 source_filepath: v32/v32n1/michelson.html
+destination_path: v32/v32n1/michelson.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v32i1.a.7
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#73 source_filepath: v32/v32n1/monberg.html
+destination_path: v32/v32n1/monberg.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v32i1.a.3
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#74 source_filepath: v32/v32n1/sovacool.html
+destination_path: v32/v32n1/sovacool.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v32i1.a.2
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#75 source_filepath: v32/v32n1/yu.html
+destination_path: v32/v32n1/yu.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+  https://doi.org/10.21061/jots.v32i1.a.6
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#76 source_filepath: v32/v32n1/pdf/index.html
+destination_path: v32/v32n1/pdf/index.html
+Error: DOI list empty
+#77 source_filepath: v32/v32n2/books.html
+destination_path: v32/v32n2/books.html
+Error: DOI list empty
+#78 source_filepath: v32/v32n2/foltz.html
+destination_path: v32/v32n2/foltz.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v32i2.a.6
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#79 source_filepath: v32/v32n2/guidelines.html
+destination_path: v32/v32n2/guidelines.html
+Error: DOI list empty
+#80 source_filepath: v32/v32n2/hadjilambrinos.html
+destination_path: v32/v32n2/hadjilambrinos.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v32i2.a.5
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#81 source_filepath: v32/v32n2/hirsh.html
+destination_path: v32/v32n2/hirsh.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v32i2.a.2
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#82 source_filepath: v32/v32n2/index.html
+destination_path: v32/v32n2/index.html
+Error: DOI list empty
+#83 source_filepath: v32/v32n2/okojie.html
+destination_path: v32/v32n2/okojie.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v32i2.a.1
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#84 source_filepath: v32/v32n2/robertson.html
+destination_path: v32/v32n2/robertson.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v32i2.a.3
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#85 source_filepath: v32/v32n2/shields.html
+destination_path: v32/v32n2/shields.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v32i2.a.4
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#86 source_filepath: v32/v32n2/pdf/index.html
+destination_path: v32/v32n2/pdf/index.html
+Error: DOI list empty
+#87 source_filepath: v33/index.html
+destination_path: v33/index.html
+Error: DOI list empty
+#88 source_filepath: v33/v33n1/index.html
+destination_path: v33/v33n1/index.html
+Error: DOI list empty
+#89 source_filepath: v33/v33n2/index.html
+destination_path: v33/v33n2/index.html
+Error: DOI list empty
+#90 source_filepath: v34/index.html
+destination_path: v34/index.html
+Error: DOI list empty
+#91 source_filepath: v34/v34n1/bruce.html
+destination_path: v34/v34n1/bruce.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 34, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2008
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v34i1.a.4
+</div>
+
+#92 source_filepath: v34/v34n1/cesarini.html
+destination_path: v34/v34n1/cesarini.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 34, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2008
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v34i1.a.6
+</div>
+
+#93 source_filepath: v34/v34n1/clark.html
+destination_path: v34/v34n1/clark.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 34, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2008
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v34i1.a.3
+</div>
+
+#94 source_filepath: v34/v34n1/clase.html
+destination_path: v34/v34n1/clase.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 34, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2008
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v34i1.a.2
+</div>
+
+#95 source_filepath: v34/v34n1/guidelines.html
+destination_path: v34/v34n1/guidelines.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+<div style="float:left; font-weight:bold; margin-left:1.5em">Spring 2008</div>
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+<br/>
+</div>
+
+#96 source_filepath: v34/v34n1/guidera.html
+destination_path: v34/v34n1/guidera.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 34, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2008
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v34i1.a.7
+</div>
+
+#97 source_filepath: v34/v34n1/hiser.html
+destination_path: v34/v34n1/hiser.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+<div style="float:left; font-weight:bold; margin-left:1.5em">Spring 2008</div>
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+<br/>
+</div>
+
+#98 source_filepath: v34/v34n1/index.html
+destination_path: v34/v34n1/index.html
+Error: DOI list empty
+#99 source_filepath: v34/v34n1/scott.html
+destination_path: v34/v34n1/scott.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 34, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2008
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v34i1.a.5
+</div>
+
+#100 source_filepath: v34/v34n1/sgro.html
+destination_path: v34/v34n1/sgro.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 34, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2008
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v34i1.a.1
+</div>
+
+#101 source_filepath: v35/index.html
+destination_path: v35/index.html
+Error: DOI list empty
+#102 source_filepath: v35/v35n1/choi.html
+destination_path: v35/v35n1/choi.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 35, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2009
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v35i1.a.7
+</div>
+
+#103 source_filepath: v35/v35n1/ernst.html
+destination_path: v35/v35n1/ernst.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 35, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2009
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v35i1.a.1
+</div>
+
+#104 source_filepath: v35/v35n1/field.html
+destination_path: v35/v35n1/field.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 35, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2009
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v35i1.a.3
+</div>
+
+#105 source_filepath: v35/v35n1/foreword.html
+destination_path: v35/v35n1/foreword.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+<div style="float:left; font-weight:bold; margin-left:1.5em">Fall 2009</div>
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+<br/>
+</div>
+
+#106 source_filepath: v35/v35n1/guidelines.html
+destination_path: v35/v35n1/guidelines.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+<div style="float:left; font-weight:bold; margin-left:1.5em">Fall 2009</div>
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+<br/>
+</div>
+
+#107 source_filepath: v35/v35n1/hall.html
+destination_path: v35/v35n1/hall.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 35, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2009
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v35i1.a.8
+</div>
+
+#108 source_filepath: v35/v35n1/hartman.html
+destination_path: v35/v35n1/hartman.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 35, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2009
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v35i1.a.10
+</div>
+
+#109 source_filepath: v35/v35n1/hiser.html
+destination_path: v35/v35n1/hiser.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+<div style="float:left; font-weight:bold; margin-left:1.5em">Fall 2009</div>
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+<br/>
+</div>
+
+#110 source_filepath: v35/v35n1/holley.html
+destination_path: v35/v35n1/holley.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 35, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2009
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v35i1.a.2
+</div>
+
+#111 source_filepath: v35/v35n1/holmes.html
+destination_path: v35/v35n1/holmes.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 35, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2009
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v35i1.a.5
+</div>
+
+#112 source_filepath: v35/v35n1/index.html
+destination_path: v35/v35n1/index.html
+Error: DOI list empty
+#113 source_filepath: v35/v35n1/kwon.html
+destination_path: v35/v35n1/kwon.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 35, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2009
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v35i1.a.9
+</div>
+
+#114 source_filepath: v35/v35n1/tate.html
+destination_path: v35/v35n1/tate.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 35, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2009
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v35i1.a.4
+</div>
+
+#115 source_filepath: v35/v35n1/yildiz.html
+destination_path: v35/v35n1/yildiz.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 35, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2009
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v35i1.a.6
+</div>
+
+#116 source_filepath: v35/v35n2/bellamy.html
+destination_path: v35/v35n2/bellamy.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 35, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Winter 2009
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v35i2.a.1
+</div>
+
+#117 source_filepath: v35/v35n2/dharavath.html
+destination_path: v35/v35n2/dharavath.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 35, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Winter 2009
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v35i2.a.4
+</div>
+
+#118 source_filepath: v35/v35n2/index.html
+destination_path: v35/v35n2/index.html
+Error: DOI list empty
+#119 source_filepath: v35/v35n2/king.html
+destination_path: v35/v35n2/king.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 35, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Winter 2009
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v35i2.a.6
+</div>
+
+#120 source_filepath: v35/v35n2/locke.html
+destination_path: v35/v35n2/locke.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 35, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Winter 2009
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v35i2.a.3
+</div>
+
+#121 source_filepath: v35/v35n2/phillips.html
+destination_path: v35/v35n2/phillips.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 35, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Winter 2009
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v35i2.a.5
+</div>
+
+#122 source_filepath: v35/v35n2/shih.html
+destination_path: v35/v35n2/shih.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 35, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Winter 2009
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v35i2.a.7
+</div>
+
+#123 source_filepath: v35/v35n2/sirinterlikci.html
+destination_path: v35/v35n2/sirinterlikci.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 35, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Winter 2009
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v35i2.a.2
+</div>
+
+#124 source_filepath: v36/index.html
+destination_path: v36/index.html
+Error: DOI list empty
+#125 source_filepath: v36/v36n1/daugherty.html
+destination_path: v36/v36n1/daugherty.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 36, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2010
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v36i1.a.6
+</div>
+
+#126 source_filepath: v36/v36n1/dave.html
+destination_path: v36/v36n1/dave.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 36, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2010
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v36i1.a.5
+</div>
+
+#127 source_filepath: v36/v36n1/guidelines.html
+destination_path: v36/v36n1/guidelines.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+<div style="float:left; font-weight:bold; margin-left:1.5em">Spring 2010</div>
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+<br/>
+</div>
+
+#128 source_filepath: v36/v36n1/holley.html
+destination_path: v36/v36n1/holley.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+<div style="float:left; font-weight:bold; margin-left:1.5em">Spring 2010</div>
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+<br/>
+</div>
+
+#129 source_filepath: v36/v36n1/hylton.html
+destination_path: v36/v36n1/hylton.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 36, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2010
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v36i1.a.2
+</div>
+
+#130 source_filepath: v36/v36n1/index.html
+destination_path: v36/v36n1/index.html
+Error: DOI list empty
+#131 source_filepath: v36/v36n1/kelley.html
+destination_path: v36/v36n1/kelley.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 36, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2010
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v36i1.a.1
+</div>
+
+#132 source_filepath: v36/v36n1/mahoney.html
+destination_path: v36/v36n1/mahoney.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 36, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2010
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v36i1.a.4
+</div>
+
+#133 source_filepath: v36/v36n1/rockland.html
+destination_path: v36/v36n1/rockland.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 36, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2010
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v36i1.a.7
+</div>
+
+#134 source_filepath: v36/v36n1/scott.html
+destination_path: v36/v36n1/scott.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 36, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2010
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v36i1.a.3
+</div>
+
+#135 source_filepath: v36/v36n2/acharya.html
+destination_path: v36/v36n2/acharya.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 36, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2010
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v36i2.a.7
+</div>
+
+#136 source_filepath: v36/v36n2/index.html
+destination_path: v36/v36n2/index.html
+Error: DOI list empty
+#137 source_filepath: v36/v36n2/lahoud.html
+destination_path: v36/v36n2/lahoud.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 36, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2010
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v36i2.a.4
+</div>
+
+#138 source_filepath: v36/v36n2/laux.html
+destination_path: v36/v36n2/laux.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 36, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2010
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v36i2.a.1
+</div>
+
+#139 source_filepath: v36/v36n2/merrill.html
+destination_path: v36/v36n2/merrill.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 36, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2010
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v36i2.a.3
+</div>
+
+#140 source_filepath: v36/v36n2/nickolich.html
+destination_path: v36/v36n2/nickolich.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 36, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2010
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v36i2.a.5
+</div>
+
+#141 source_filepath: v36/v36n2/wikina.html
+destination_path: v36/v36n2/wikina.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 36, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2010
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v36i2.a.6
+</div>
+
+#142 source_filepath: v36/v36n2/williams.html
+destination_path: v36/v36n2/williams.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 36, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2010
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v36i2.a.2
+</div>
+
+#143 source_filepath: v37/index.html
+destination_path: v37/index.html
+Error: DOI list empty
+#144 source_filepath: v37/v37n1/atkinson.html
+destination_path: v37/v37n1/atkinson.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 37, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2011
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v37i1.a.3
+</div>
+
+#145 source_filepath: v37/v37n1/index.html
+destination_path: v37/v37n1/index.html
+Error: DOI list empty
+#146 source_filepath: v37/v37n1/lowe.html
+destination_path: v37/v37n1/lowe.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 37, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2011
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v37i1.a.1
+</div>
+
+#147 source_filepath: v37/v37n1/ritz.html
+destination_path: v37/v37n1/ritz.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 37, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2011
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v37i1.a.4
+</div>
+
+#148 source_filepath: v37/v37n1/steinke.html
+destination_path: v37/v37n1/steinke.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 37, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2011
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v37i1.a.5
+</div>
+
+#149 source_filepath: v37/v37n1/thaden.html
+destination_path: v37/v37n1/thaden.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 37, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2011
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v37i1.a.2
+</div>
+
+#150 source_filepath: v37/v37n1/williams.html
+destination_path: v37/v37n1/williams.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 37, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2011
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v37i1.a.6
+</div>
+
+#151 source_filepath: v37/v37n2/award.html
+destination_path: v37/v37n2/award.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+<div style="float:left; font-weight:bold; margin-left:1.5em">Fall 2011</div>
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+<br/>
+</div>
+
+#152 source_filepath: v37/v37n2/chapman.html
+destination_path: v37/v37n2/chapman.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 37, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2011
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v37i2.a.4
+</div>
+
+#153 source_filepath: v37/v37n2/fazarro.html
+destination_path: v37/v37n2/fazarro.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 37, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2011
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v37i2.a.7
+</div>
+
+#154 source_filepath: v37/v37n2/foster.html
+destination_path: v37/v37n2/foster.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 37, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2011
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v37i2.a.5
+</div>
+
+#155 source_filepath: v37/v37n2/guidelines.html
+destination_path: v37/v37n2/guidelines.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+<div style="float:left; font-weight:bold; margin-left:1.5em">Fall 2011</div>
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+<br/>
+</div>
+
+#156 source_filepath: v37/v37n2/index.html
+destination_path: v37/v37n2/index.html
+Error: DOI list empty
+#157 source_filepath: v37/v37n2/klein.html
+destination_path: v37/v37n2/klein.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 37, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2011
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v37i2.a.2
+</div>
+
+#158 source_filepath: v37/v37n2/koch.html
+destination_path: v37/v37n2/koch.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 37, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2011
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v37i2.a.3
+</div>
+
+#159 source_filepath: v37/v37n2/larson.html
+destination_path: v37/v37n2/larson.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 37, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2011
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v37i2.a.6
+</div>
+
+#160 source_filepath: v37/v37n2/rardin.html
+destination_path: v37/v37n2/rardin.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 37, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2011
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v37i2.a.1
+</div>
+
+#161 source_filepath: v38/index.html
+destination_path: v38/index.html
+Error: DOI list empty
+#162 source_filepath: v38/v38n1/doyle.html
+destination_path: v38/v38n1/doyle.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 38, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2012
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v38i1.a.6
+</div>
+
+#163 source_filepath: v38/v38n1/fazarro.html
+destination_path: v38/v38n1/fazarro.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 38, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2012
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v38i1.a.5
+</div>
+
+#164 source_filepath: v38/v38n1/feutz.html
+destination_path: v38/v38n1/feutz.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 38, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2012
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v38i1.a.2
+</div>
+
+#165 source_filepath: v38/v38n1/flowers.html
+destination_path: v38/v38n1/flowers.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 38, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2012
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v38i1.a.1
+</div>
+
+#166 source_filepath: v38/v38n1/gumbo.html
+destination_path: v38/v38n1/gumbo.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 38, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2012
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v38i1.a.3
+</div>
+
+#167 source_filepath: v38/v38n1/index.html
+destination_path: v38/v38n1/index.html
+Error: DOI list empty
+#168 source_filepath: v38/v38n1/kelley.html
+destination_path: v38/v38n1/kelley.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 38, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2012
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v38i1.a.4
+</div>
+
+#169 source_filepath: v38/v38n2/award.html
+destination_path: v38/v38n2/award.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+	Volume 38, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+	Fall 2012
+</div>
+
+#170 source_filepath: v38/v38n2/baughman.html
+destination_path: v38/v38n2/baughman.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 38, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2012
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v38i2.a.6
+</div>
+
+#171 source_filepath: v38/v38n2/guidelines.html
+destination_path: v38/v38n2/guidelines.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+	Volume 38, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+	Fall 2012
+</div>
+
+#172 source_filepath: v38/v38n2/index.html
+destination_path: v38/v38n2/index.html
+Error: DOI list empty
+#173 source_filepath: v38/v38n2/lazaros.html
+destination_path: v38/v38n2/lazaros.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 38, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2012
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v38i2.a.1
+</div>
+
+#174 source_filepath: v38/v38n2/ritz-old.html
+destination_path: v38/v38n2/ritz-old.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+	Volume 38, Number 2 
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+	Fall 2012 
+</div>
+
+#175 source_filepath: v38/v38n2/ritz.html
+destination_path: v38/v38n2/ritz.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 38, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2012
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v38i2.a.4
+</div>
+
+#176 source_filepath: v38/v38n2/rose.html
+destination_path: v38/v38n2/rose.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 38, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2012
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v38i2.a.3
+</div>
+
+#177 source_filepath: v38/v38n2/sanduk.html
+destination_path: v38/v38n2/sanduk.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 38, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2012
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v38i2.a.5
+</div>
+
+#178 source_filepath: v38/v38n2/yau.html
+destination_path: v38/v38n2/yau.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 38, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2012
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v38i2.a.2
+</div>
+
+#179 source_filepath: v39/v39n1/aba.html
+destination_path: v39/v39n1/aba.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 39, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2013
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v39i1.a.4
+</div>
+
+#180 source_filepath: v39/v39n1/atalah.html
+destination_path: v39/v39n1/atalah.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 39, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2013
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v39i1.a.2
+</div>
+
+#181 source_filepath: v39/v39n1/badar.html
+destination_path: v39/v39n1/badar.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 39, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2013
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v39i1.a.5
+</div>
+
+#182 source_filepath: v39/v39n1/index.html
+destination_path: v39/v39n1/index.html
+Error: DOI list empty
+#183 source_filepath: v39/v39n1/love.html
+destination_path: v39/v39n1/love.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 39, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2013
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v39i1.a.3
+</div>
+
+#184 source_filepath: v39/v39n1/waldenmeyer.html
+destination_path: v39/v39n1/waldenmeyer.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 39, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2013
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v39i1.a.1
+</div>
+
+#185 source_filepath: v39/v39n2/amstelveen.html
+destination_path: v39/v39n2/amstelveen.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 39, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2013
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v39i2.a.5
+</div>
+
+#186 source_filepath: v39/v39n2/award.html
+destination_path: v39/v39n2/award.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+	Volume 39, Number 2 
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+	Fall 2013 
+</div>
+
+#187 source_filepath: v39/v39n2/bozic.html
+destination_path: v39/v39n2/bozic.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 39, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2013
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v39i2.a.4
+</div>
+
+#188 source_filepath: v39/v39n2/guidelines.html
+destination_path: v39/v39n2/guidelines.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+	Volume 39, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+	Fall 2013
+</div>
+
+#189 source_filepath: v39/v39n2/index.html
+destination_path: v39/v39n2/index.html
+Error: DOI list empty
+#190 source_filepath: v39/v39n2/lammi.html
+destination_path: v39/v39n2/lammi.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 39, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2013
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v39i2.a.3
+</div>
+
+#191 source_filepath: v39/v39n2/pan.html
+destination_path: v39/v39n2/pan.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 39, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2013
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v39i2.a.2
+</div>
+
+#192 source_filepath: v39/v39n2/ritz.html
+destination_path: v39/v39n2/ritz.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 39, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2013
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v39i2.a.1
+</div>
+
+#193 source_filepath: v40/v40n1/dharavath.html
+destination_path: v40/v40n1/dharavath.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 40, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2014
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v40i1.a.2
+</div>
+
+#194 source_filepath: v40/v40n1/index.html
+destination_path: v40/v40n1/index.html
+Error: DOI list empty
+#195 source_filepath: v40/v40n1/mthethwa.html
+destination_path: v40/v40n1/mthethwa.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 40, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2014
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v40i1.a.3
+</div>
+
+#196 source_filepath: v40/v40n1/sherman.html
+destination_path: v40/v40n1/sherman.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 40, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2014
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v40i1.a.1
+</div>
+
+#197 source_filepath: v40/v40n1/ulmer.html
+destination_path: v40/v40n1/ulmer.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 40, Number 1
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Spring 2014
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v40i1.a.4
+</div>
+
+#198 source_filepath: v40/v40n2/antonioli.html
+destination_path: v40/v40n2/antonioli.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 40, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2014
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v40i2.a.4
+</div>
+
+#199 source_filepath: v40/v40n2/downey.html
+destination_path: v40/v40n2/downey.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 40, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2014
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v40i2.a.1
+</div>
+
+#200 source_filepath: v40/v40n2/index.html
+destination_path: v40/v40n2/index.html
+Error: DOI list empty
+#201 source_filepath: v40/v40n2/martin.html
+destination_path: v40/v40n2/martin.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 40, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2014
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v40i2.a.3
+</div>
+
+#202 source_filepath: v40/v40n2/skophammer.html
+destination_path: v40/v40n2/skophammer.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div style="float:right; font-weight:bold; margin-right:1.5em">
+   Volume 40, Number 2
+</div>
+
+<div style="float:left; font-weight:bold; margin-left:1.5em">
+   Fall 2014
+</div>
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v40i2.a.2
+</div>
+
+#203 source_filepath: v41/v41n1/davison.html
+destination_path: v41/v41n1/davison.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v41i1.a.4
+</div>
+
+#204 source_filepath: v41/v41n1/denson.html
+destination_path: v41/v41n1/denson.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v41i1.a.5
+</div>
+
+#205 source_filepath: v41/v41n1/ernst.html
+destination_path: v41/v41n1/ernst.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v41i1.a.6
+</div>
+
+#206 source_filepath: v41/v41n1/glossner.html
+destination_path: v41/v41n1/glossner.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v41i1.a.2
+</div>
+
+#207 source_filepath: v41/v41n1/index.html
+destination_path: v41/v41n1/index.html
+Error: DOI list empty
+#208 source_filepath: v41/v41n1/index1.html
+destination_path: v41/v41n1/index1.html
+Error: DOI list empty
+#209 source_filepath: v41/v41n1/love.html
+destination_path: v41/v41n1/love.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v41i1.a.7
+</div>
+
+#210 source_filepath: v41/v41n1/tate.html
+destination_path: v41/v41n1/tate.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v41i1.a.3
+</div>
+
+#211 source_filepath: v41/v41n1/taylor.html
+destination_path: v41/v41n1/taylor.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v41i1.a.1
+</div>
+
+#212 source_filepath: v41/v41n2/asunda.html
+destination_path: v41/v41n2/asunda.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v41i2.a.3
+</div>
+
+#213 source_filepath: v41/v41n2/asunda1st.html
+destination_path: v41/v41n2/asunda1st.html
+Error: DOI list empty
+#214 source_filepath: v41/v41n2/flowers.html
+destination_path: v41/v41n2/flowers.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v41i2.a.2
+</div>
+
+#215 source_filepath: v41/v41n2/flowers1st.html
+destination_path: v41/v41n2/flowers1st.html
+Error: DOI list empty
+#216 source_filepath: v41/v41n2/hiser.html
+destination_path: v41/v41n2/hiser.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v41i2.a.4
+</div>
+
+#217 source_filepath: v41/v41n2/index.html
+destination_path: v41/v41n2/index.html
+Error: DOI list empty
+#218 source_filepath: v41/v41n2/index1.html
+destination_path: v41/v41n2/index1.html
+Error: DOI list empty
+#219 source_filepath: v41/v41n2/indexJustReplaced.html
+destination_path: v41/v41n2/indexJustReplaced.html
+Error: DOI list empty
+#220 source_filepath: v41/v41n2/indexOld.html
+destination_path: v41/v41n2/indexOld.html
+Error: DOI list empty
+#221 source_filepath: v42/v42n1/al-zahrani.html
+destination_path: v42/v42n1/al-zahrani.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v41i2.a.1
+</div>
+
+#222 source_filepath: v42/v42n1/al-zahrani1ST.html
+destination_path: v42/v42n1/al-zahrani1ST.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   doi:10.21061/jots.v41i2.a.1
+</div>
+
+#223 source_filepath: v42/v42n1/enderson.html
+destination_path: v42/v42n1/enderson.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v42i1.a.3
+</div>
+
+#224 source_filepath: v42/v42n1/enderson1st.html
+destination_path: v42/v42n1/enderson1st.html
+Error: DOI list empty
+#225 source_filepath: v42/v42n1/flanigan.html
+destination_path: v42/v42n1/flanigan.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v42i1.a.2
+</div>
+
+#226 source_filepath: v42/v42n1/index.html
+destination_path: v42/v42n1/index.html
+Error: DOI list empty
+#227 source_filepath: v42/v42n1/minix.html
+destination_path: v42/v42n1/minix.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v42i1.a.5
+</div>
+
+#228 source_filepath: v42/v42n1/rigler.html
+destination_path: v42/v42n1/rigler.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v42i1.a.4
+</div>
+
+#229 source_filepath: v42/v42n1/rigler1st.html
+destination_path: v42/v42n1/rigler1st.html
+Error: DOI list empty
+#230 source_filepath: v42/v42n1/v42n1minix.html
+destination_path: N/A
+Destination file not found
+#231 source_filepath: v42/v42n2/ernst.html
+destination_path: v42/v42n2/ernst.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v42i2.a.1
+</div>
+
+#232 source_filepath: v42/v42n2/index.html
+destination_path: v42/v42n2/index.html
+Error: DOI list empty
+#233 source_filepath: v42/v42n2/love.html
+destination_path: v42/v42n2/love.html
+content_string: 
+
+<<manually edited>>
+
+#234 source_filepath: Winter-Spring-1997/index.html
+destination_path: Winter-Spring-1997/index.html
+Error: DOI list empty
+#235 source_filepath: Winter-Spring-1997/PDF/index.html
+destination_path: Winter-Spring-1997/PDF/index.html
+Error: DOI list empty
+#236 source_filepath: Winter-Spring-1998/angell.html
+destination_path: Winter-Spring-1998/angell.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v24i1.a.13
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#237 source_filepath: Winter-Spring-1998/black.html
+destination_path: Winter-Spring-1998/black.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v24i1.a.5
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#238 source_filepath: Winter-Spring-1998/bookreview.html
+destination_path: Winter-Spring-1998/bookreview.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v24i1.a.15
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#239 source_filepath: Winter-Spring-1998/brauchle.html
+destination_path: Winter-Spring-1998/brauchle.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v24i1.a.1
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#240 source_filepath: Winter-Spring-1998/cardon.html
+destination_path: Winter-Spring-1998/cardon.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v24i1.a.12
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#241 source_filepath: Winter-Spring-1998/dailey.html
+destination_path: Winter-Spring-1998/dailey.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v24i1.a.14
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#242 source_filepath: Winter-Spring-1998/demiranda.html
+destination_path: Winter-Spring-1998/demiranda.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v24i1.a.8
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#243 source_filepath: Winter-Spring-1998/guide.html
+destination_path: Winter-Spring-1998/guide.html
+Error: DOI list empty
+#244 source_filepath: Winter-Spring-1998/hiser.html
+destination_path: Winter-Spring-1998/hiser.html
+Error: DOI list empty
+#245 source_filepath: Winter-Spring-1998/index.html
+destination_path: Winter-Spring-1998/index.html
+Error: DOI list empty
+#246 source_filepath: Winter-Spring-1998/krumholtz.html
+destination_path: Winter-Spring-1998/krumholtz.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v24i1.a.2
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#247 source_filepath: Winter-Spring-1998/mockford.html
+destination_path: Winter-Spring-1998/mockford.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v24i1.a.3
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#248 source_filepath: Winter-Spring-1998/natarajan.html
+destination_path: Winter-Spring-1998/natarajan.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v24i1.a.9
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#249 source_filepath: Winter-Spring-1998/oneill.html
+destination_path: Winter-Spring-1998/oneill.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v24i1.a.11
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#250 source_filepath: Winter-Spring-1998/prime.html
+destination_path: Winter-Spring-1998/prime.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v24i1.a.4
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#251 source_filepath: Winter-Spring-1998/pubeditor.html
+destination_path: Winter-Spring-1998/pubeditor.html
+Error: DOI list empty
+#252 source_filepath: Winter-Spring-1998/schlosser.html
+destination_path: Winter-Spring-1998/schlosser.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v24i1.a.10
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#253 source_filepath: Winter-Spring-1998/sinn.html
+destination_path: Winter-Spring-1998/sinn.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v24i1.a.7
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#254 source_filepath: Winter-Spring-1998/yamazaki.html
+destination_path: Winter-Spring-1998/yamazaki.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v24i1.a.6
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#255 source_filepath: Winter-Spring-1998/PDF/index.html
+destination_path: Winter-Spring-1998/PDF/index.html
+Error: DOI list empty
+#256 source_filepath: Winter-Spring-1999/ast.html
+destination_path: Winter-Spring-1999/ast.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v25i1.a.3
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#257 source_filepath: Winter-Spring-1999/editarticle.html
+destination_path: Winter-Spring-1999/editarticle.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v25i1.a.1
+</div>
+
+#258 source_filepath: Winter-Spring-1999/havice.html
+destination_path: Winter-Spring-1999/havice.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v25i1.a.5
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#259 source_filepath: Winter-Spring-1999/hotek.html
+destination_path: Winter-Spring-1999/hotek.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v25i1.a.4
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#260 source_filepath: Winter-Spring-1999/ideas.html
+destination_path: Winter-Spring-1999/ideas.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v25i1.a.7
+</div>
+
+#261 source_filepath: Winter-Spring-1999/index.html
+destination_path: Winter-Spring-1999/index.html
+Error: DOI list empty
+#262 source_filepath: Winter-Spring-1999/karnes.html
+destination_path: Winter-Spring-1999/karnes.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v25i1.a.2
+</div>
+
+#263 source_filepath: Winter-Spring-1999/wright.html
+destination_path: Winter-Spring-1999/wright.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v25i1.a.6
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#264 source_filepath: Winter-Spring-1999/PDF/index.html
+destination_path: Winter-Spring-1999/PDF/index.html
+Error: DOI list empty
+#265 source_filepath: Winter-Spring-2000/aaron.html
+destination_path: Winter-Spring-2000/aaron.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v26i1.a.5
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#266 source_filepath: Winter-Spring-2000/akabue.html
+destination_path: Winter-Spring-2000/akabue.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v26i1.a.6
+</div>
+
+#267 source_filepath: Winter-Spring-2000/alamaki.html
+destination_path: Winter-Spring-2000/alamaki.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v26i1.a.4
+</div>
+
+#268 source_filepath: Winter-Spring-2000/award.html
+destination_path: Winter-Spring-2000/award.html
+Error: DOI list empty
+#269 source_filepath: Winter-Spring-2000/brauer.html
+destination_path: Winter-Spring-2000/brauer.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v26i1.a.7
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#270 source_filepath: Winter-Spring-2000/cardon.html
+destination_path: Winter-Spring-2000/cardon.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v26i1.a.8
+</div>
+
+#271 source_filepath: Winter-Spring-2000/devries.html
+destination_path: Winter-Spring-2000/devries.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v26i1.a.10
+</div>
+
+#272 source_filepath: Winter-Spring-2000/editor.html
+destination_path: Winter-Spring-2000/editor.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v26i1.a.1
+</div>
+
+#273 source_filepath: Winter-Spring-2000/index.html
+destination_path: Winter-Spring-2000/index.html
+Error: DOI list empty
+#274 source_filepath: Winter-Spring-2000/sanders.html
+destination_path: Winter-Spring-2000/sanders.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v26i1.a.3
+</div>
+
+#275 source_filepath: Winter-Spring-2000/shield.html
+destination_path: Winter-Spring-2000/shield.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v26i1.a.11
+</div>
+
+#276 source_filepath: Winter-Spring-2000/swan.html
+destination_path: Winter-Spring-2000/swan.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v26i1.a.9
+</div>
+
+#277 source_filepath: Winter-Spring-2000/verillon.html
+destination_path: Winter-Spring-2000/verillon.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v26i1.a.2
+</div>
+
+#278 source_filepath: Winter-Spring-2000/pdf/index.html
+destination_path: Winter-Spring-2000/pdf/index.html
+Error: DOI list empty
+#279 source_filepath: Winter-Spring-2001/brown.html
+destination_path: Winter-Spring-2001/brown.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v27i1.a.7
+</div>
+
+#280 source_filepath: Winter-Spring-2001/editor.html
+destination_path: Winter-Spring-2001/editor.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v27i1.a.1
+</div>
+
+#281 source_filepath: Winter-Spring-2001/freeman.html
+destination_path: Winter-Spring-2001/freeman.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v27i1.a.11
+</div>
+
+#282 source_filepath: Winter-Spring-2001/howell.html
+destination_path: Winter-Spring-2001/howell.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v27i1.a.10
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#283 source_filepath: Winter-Spring-2001/index.html
+destination_path: Winter-Spring-2001/index.html
+Error: DOI list empty
+#284 source_filepath: Winter-Spring-2001/linnell.html
+destination_path: Winter-Spring-2001/linnell.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v27i1.a.9
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#285 source_filepath: Winter-Spring-2001/lovedahl.html
+destination_path: Winter-Spring-2001/lovedahl.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v27i1.a.6
+</div>
+
+#286 source_filepath: Winter-Spring-2001/obermier.html
+destination_path: Winter-Spring-2001/obermier.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v27i1.a.8
+</div>
+
+#287 source_filepath: Winter-Spring-2001/sanders.html
+destination_path: Winter-Spring-2001/sanders.html
+Error: DOI list empty
+#288 source_filepath: Winter-Spring-2001/savage.html
+destination_path: Winter-Spring-2001/savage.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v27i1.a.2
+</div>
+
+#289 source_filepath: Winter-Spring-2001/song.html
+destination_path: Winter-Spring-2001/song.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v27i1.a.3
+</div>
+
+*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>
+#290 source_filepath: Winter-Spring-2001/sutliff.html
+destination_path: Winter-Spring-2001/sutliff.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v27i1.a.5
+</div>
+
+#291 source_filepath: Winter-Spring-2001/thompson.html
+destination_path: Winter-Spring-2001/thompson.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v27i1.a.4
+</div>
+
+#292 source_filepath: Winter-Spring-2001/williams.html
+destination_path: Winter-Spring-2001/williams.html
+content_string: 
+
+<!-- @ri missing doi + left/right content added -------------- -->
+
+<div class="doi">
+   https://doi.org/10.21061/jots.v27i1.a.12
+</div>
+
+#293 source_filepath: Winter-Spring-2001/pdf/index.html
+destination_path: Winter-Spring-2001/pdf/index.html
+Error: DOI list empty
+#294 source_filepath: Winter-Spring-2002/index.html
+destination_path: Winter-Spring-2002/index.html
+Error: DOI list empty
+#295 source_filepath: Winter-Spring-2002/pdf/index.html
+destination_path: Winter-Spring-2002/pdf/index.html
+Error: DOI list empty
+[Finished in 1.2s]
