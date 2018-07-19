@@ -150,6 +150,41 @@ def header_content_read(input_filename):
 		# print content_list
 	return content_list
 
+
+
+# This function is for reading the header meta content in a single source file 
+# Special case: for reading head contents in JARS index files 
+def header_content_read_JARS(input_filename):
+	meta_content_pattern = ("DC", "schema")
+	# comment_pattern = ("<!--", "-->") # Excluding commented links might give raise to bugs. As for now, we are including them
+	with open(input_filename) as f_read:
+		file_data = f_read.read()
+		# print file_data
+		content_list = []
+		count = 0
+
+		if "<head>" in file_data:
+			data_text = file_data.split("<head>")
+		else:
+			return content_list
+		if "</head>" in data_text[1]:
+			head_content = data_text[1].split("</head>")[0]
+		else:
+			return content_list
+
+		for line in head_content.split("\n"):
+			count = count + 1
+			# if "http-equiv" or "stylesheet" or "script" in line:
+			# 	print str(count) + " <discard>" + line
+			if any( s in line for s in meta_content_pattern):
+				# print str(count) + " [include]" + line
+				content_list.append(line)
+			# else:
+				# print str(count) + " <discard>" + line
+
+		# print content_list
+	return content_list
+
 # This function is for counting the total number of files in the source location
 def file_count(directory):
 	count = 0
@@ -223,6 +258,53 @@ def automated_header_content_generate(directory1, directory2):
 				# 	break
 
 	pass	
+
+# This function is for automatically copying meta content in the header section of the source files to the destination files
+# Special Case for JARS files: These files have different extensions for the index files. 
+# We consider both `index.htm` and `index.html` files as the same for JARS files
+def automated_header_content_generate_JARS(directory1, directory2):
+	count = 0
+	missing_files_count = 0
+	for root, dirs, files in os.walk(directory1):
+		for filename in files:
+			root_and_filename = os.path.join(root, filename)
+			if ".html" or ".htm" in filename:
+				count = count + 1
+				source_filepath = root_and_filename.split(directory1)[1]
+				print "#" + str(count) + " source_filepath: " + source_filepath
+				if source_filepath.endswith("index.htm"):
+					source_filepath = source_filepath + "l"
+					print "#" + str(count) + " (new) source_filepath: " + source_filepath
+				else:
+					continue
+				output_root_and_filename = filename_match(source_filepath, directory2)
+				destination_path = ""
+				if directory2 in output_root_and_filename:
+					destination_path = output_root_and_filename.split(directory2)[1]
+				else:
+					destination_path = output_root_and_filename
+					missing_files_count = missing_files_count + 1
+				print "destination_path: "+destination_path
+				
+				if output_root_and_filename == "N/A":
+					print "Destination file not found"
+					continue
+				else:
+					print "Output_filename: " + output_root_and_filename
+				print "root_and_filename: " + root_and_filename
+				content_list = header_content_read_JARS(root_and_filename)
+				# print content_list
+				watermark_ri = "<!--@rifatsm -- content insert -->"
+				content_string = list_to_string_with_newline_metadata(watermark_ri, content_list, "Dublin Core")
+				# print content_string
+
+				insert_content(output_root_and_filename, content_string)
+				store_meta_content_in_file(content_list)
+								
+				# if count > 2:	# Regulating condition 
+				# 	break
+
+	pass
 
 # This function is to read the coins_content from a single source file 
 def coins_z3988_content_read(input_filename):
@@ -582,7 +664,7 @@ def automated_coins_z3988_content_missing_doi(directory1, directory2):
 
 # file_count("/Users/rifatsm/scholar-ejournal-meta") # Count 4653 .html files
 # file_count("/Users/rifatsm/ejournals_test_set") # Count 5309 .html files
-# automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta/ALAN/fall94","/Users/rifatsm/ejournals_test_set/ALAN/fall94")
+# automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta/JARS/","/Users/rifatsm/JARS/")
 
 # automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/ALAN/v28n1","/Users/rifatsm/ejournals_test_set/ALAN/v28n1")
 # automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta/JARS","/Users/rifatsm/ejournals_test_set/JARS")
@@ -591,13 +673,16 @@ def automated_coins_z3988_content_missing_doi(directory1, directory2):
 
 # Run the following function on the ALAN and JOTS files 
 # automated_coins_z3988_content_missing_doi("/Users/rifatsm/scholar-ejournal-meta/ALAN/","/Users/rifatsm/ejournals_test_set/ALAN/")
-automated_coins_z3988_content_missing_doi("/Users/rifatsm/scholar-ejournal-meta/JOTS/","/Users/rifatsm/ejournals_test_set/JOTS/")
+# automated_coins_z3988_content_missing_doi("/Users/rifatsm/scholar-ejournal-meta/JOTS/","/Users/rifatsm/ejournals_test_set/JOTS/")
 
 # automated_header_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set") # Main data sample. The source is actual location. The destination is testing location 
 # automated_coins_z3988_content_generate("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set") # Main data sample. The source is actual location. The destination is testing location 
 # automated_coins_z3988_content_total_length_calculation("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set")
 # calculating_missing_files("/Users/rifatsm/scholar-ejournal-meta","/Users/rifatsm/ejournals_test_set")
 # coins_z3988_content_read("/Users/rifatsm/scholar-ejournal-meta/JTE/v22n1/index.html")
+
+# Special case for JARS files: `index.htm` -> `index.html`
+# automated_header_content_generate_JARS("/Users/rifatsm/scholar-ejournal-meta/JARS/","/Users/rifatsm/JARS/")
 
 ##################################
 # Files that require manual edit:
