@@ -392,6 +392,65 @@ def doi_content_read(input_filename):
 
 
 
+# This function is to read the missing volume and season contents from a single source file 
+def volume_and_season_content_read(input_filename):
+	# doi_content_pattern = "<div class=\"doi\">"
+	right_content_pattern = "<div class=\"vol_issue\">"
+	left_content_pattern = "<div class=\"vol_ssn\">"
+	body_pattern_start = "<body>"
+	content_string = ""
+
+	with open(input_filename) as f_read:
+		file_data = f_read.read()
+		doi_content_list = []
+		right_content_list = []
+		left_content_list = []
+
+		div_end = "</div>"
+		# flag_doi = 0
+		flag_left = 0
+		flag_right = 0
+
+		if body_pattern_start in file_data:
+			data_text = file_data.split(body_pattern_start)[1]
+		else:
+			return content_string
+		newline = "\n"
+		for line in data_text.split(newline):
+			# right styling content 
+			if flag_right:
+				right_content_list.append(right_content_pattern)	
+				right_content_list.append(line)
+				flag_right = 0 
+			if right_content_pattern in line:
+				flag_right = 1
+			# left styling content 
+			if flag_left:
+				left_content_list.append(left_content_pattern)	
+				left_content_list.append(line)
+				flag_left = 0 
+			if left_content_pattern in line:
+				flag_left = 1
+
+		if left_content_list:	
+			left_content_list.append(div_end)
+		if right_content_list:	
+			right_content_list.append(div_end)	
+
+		content_string = lists_to_string(left_content_list, right_content_list, doi_content_list)
+		if content_string:		
+			content_string = watermarking_string("<!-- @ri missing volume and season content added -------------- -->",content_string)
+
+
+	if content_string:
+		print "content_string: "
+		print content_string
+	return content_string
+
+
+
+
+
 # This function calculates the total number of COinS content in a single source file 
 def coins_z3988_content_read_total_count(input_filename):
 	meta_content_pattern = "class=\"Z3988\""
@@ -454,6 +513,34 @@ def insert_doi_content(output_root_and_filename, doi_content):
 			else:
 				print "*==> Could not find Paragraph Header h2 & h1. Inserting DOI contents after <body>"
 				modified_text = data_text[0] + "<body>" + "\n" + doi_content +  data_text[1]	
+		else:
+			print "Error: No <body> found!"
+			modified_text = file_data
+	with open(output_root_and_filename, "w+") as f_write:
+		f_write.write(modified_text) 
+	return True
+
+# This function is for inserting missing volume and season content at the start of the body of the destination files
+def insert_volume_and_season_content(output_root_and_filename, vol_n_season_content):
+	data_text = []
+	modified_text = ""
+	with open(output_root_and_filename) as f_read:
+		file_data = f_read.read()
+		if vol_n_season_content in file_data:
+			print "Error: Missing volume and season content already exists!"
+			return False
+		if "<body>" in file_data:
+			data_text = file_data.split("<body>")
+			if "<h2>" in data_text[1]:
+				body_text = data_text[1].split("<h2>")
+				modified_text = data_text[0] + "<body>" + body_text[0]  + "\n" + vol_n_season_content + "<h2>" + body_text[1]
+			elif "</h1>" in data_text[1]:
+				print "*=> Could not find Paragraph Header h2. Inserting DOI contents after <h1>"
+				body_text = data_text[1].split("</h1>")
+				modified_text = data_text[0] + "<body>" + body_text[0] + "</h1>" + "\n" + vol_n_season_content +  body_text[1]
+			else:
+				print "*==> Could not find Paragraph Header h2 & h1. Inserting DOI contents after <body>"
+				modified_text = data_text[0] + "<body>" + "\n" + vol_n_season_content +  data_text[1]	
 		else:
 			print "Error: No <body> found!"
 			modified_text = file_data
@@ -661,6 +748,38 @@ def automated_coins_z3988_content_missing_doi(directory1, directory2):
 	pass	
 
 
+# Special case for JOTS files: insert volume and season name
+def automated_coins_z3988_content_missing_volume_and_season(directory1, directory2):
+	count = 0
+	missing_files_count = 0
+	coins_content_err_msg = ("N/A", "N/B", "File Error")
+	for root, dirs, files in os.walk(directory1):
+		for filename in files:
+			root_and_filename = os.path.join(root, filename)
+			if ".html" or ".htm" in filename:
+				count = count + 1
+				source_filepath = root_and_filename.split(directory1)[1]
+				print "#" + str(count) + " source_filepath: " + source_filepath
+				output_root_and_filename = filename_match(source_filepath, directory2)
+				destination_path = ""
+				if directory2 in output_root_and_filename:
+					destination_path = output_root_and_filename.split(directory2)[1]
+				else:
+					destination_path = output_root_and_filename
+					missing_files_count = missing_files_count + 1
+				print "destination_path: "+destination_path
+				
+				if output_root_and_filename == "N/A":
+					print "Destination file not found"
+					continue
+				vol_n_season_content = volume_and_season_content_read(root_and_filename)
+				if not vol_n_season_content:
+					print "Error: volume and season list empty"
+				else:
+					insert_volume_and_season_content(output_root_and_filename, vol_n_season_content)
+	pass	
+
+
 
 # file_count("/Users/rifatsm/scholar-ejournal-meta") # Count 4653 .html files
 # file_count("/Users/rifatsm/ejournals_test_set") # Count 5309 .html files
@@ -683,6 +802,9 @@ def automated_coins_z3988_content_missing_doi(directory1, directory2):
 
 # Special case for JARS files: `index.htm` -> `index.html`
 # automated_header_content_generate_JARS("/Users/rifatsm/scholar-ejournal-meta/JARS/","/Users/rifatsm/JARS/")
+
+# Special case for JOTS files: insert volume and season name
+automated_coins_z3988_content_missing_volume_and_season("/Users/rifatsm/scholar-ejournal-meta/JOTS/","/Users/rifatsm/JOTS/")
 
 ##################################
 # Files that require manual edit:
